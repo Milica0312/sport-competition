@@ -1,5 +1,7 @@
 @import "reset.scss";
-/*NAVIGATION*/
+@import "variables.scss";
+@import "mixins.scss";
+/*NAVIGATION and content-right*/
 .content-holder{
     width:100%;
     height: auto;
@@ -12,9 +14,24 @@
         height:100vh;
         background-color: blue;
         float:right;
-        background: linear-gradient(45deg, #43cea2 10%, #185a9d 90%);
+        /*background: linear-gradient(45deg, #43cea2 10%, #185a9d 90%);*/
     		color: white;
     		box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.5);
+    }
+    #section1{
+      background-color: #5d5d5d;
+    }
+    #section2{
+      background-color: $contentred;
+    }
+    #section3{
+      background-color: $contentgray;
+    }
+    #section4{
+      background-color: $bluegradient;
+    }
+    #section5{
+      background-color: $contactgray;
     }
 
     .navigation {
@@ -24,7 +41,7 @@
       text-align: center;
       font-size: 18px;
       color: #000;
-      padding: 12% 0 10%;
+      padding: 0 0 10%;
       position: fixed;
       background-color: WHITE;
       color: #5D5D5D;
@@ -41,10 +58,35 @@
     			}
 
     		   &.active {
-    		   	color: red;
+    		   	color: $contentred;
     				 background-color: rgba(0,0,0,0.1);
     		   }
       	}
+
+        .section1bcg{
+          height:200px;
+          background-color: #5d5d5d;
+        }
+        .section2bcg{
+          height:200px;
+          background-color: $contentred;
+        }
+        .section3bcg{
+          height:200px;
+          background-color: $contentgray;
+        }
+        .section4bcg{
+          height:200px;
+          background-color: $bluegradient;
+        }
+        .section5bcg{
+          height:200px;
+          background-color: $contactgray;
+        }
+        .sectionbcg{
+          height:200px;
+          background-color: gray;
+        }
     }
 }
 /**/
@@ -57,6 +99,63 @@
       width:10%;
       height:150px;
       background-color:#efefef;
+  }
+}
+/**/
+/*apply section*/
+
+/**/
+/*sports section*/
+.sports{
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  @include contentholder;
+
+  .sportbox{
+    background-color: yellow;
+    padding:10px;
+    box-sizing: border-box;
+    flex:0 0 33%;
+  }
+  #sport1{
+    background-color: $sport1;
+  }
+  #sport2{
+    background-color: $sport2;
+  }
+  #sport3{
+    background-color: $sport3;
+  }
+  #sport4{
+    background-color: $sport4;
+  }
+  #sport5{
+    background-color: $sport5;
+  }
+  #sport6{
+    background-color: $sport1;
+  }
+}
+/**/
+/*contact section*/
+.contact{
+  width: 80%;
+  display:flex;
+  justify-content: space-around;
+  @include contentholder;
+
+  .singlecontactbox{
+  /*  flex:1 1 0;*/
+    text-align: center;
+
+
+    .imgbox{
+      width: 150px;
+      height: 150px;
+      background-color: #efefef;
+      line-height: 12;
+    }
   }
 }
 /**/

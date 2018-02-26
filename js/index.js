@@ -28,6 +28,24 @@ $(window).scroll(function() {
   // Assign active class to nav links while scolling
   $('.page-section').each(function(i) {
       if ($(this).position().top <= scrollDistance) {
+          if(this.id == "section1"){
+              $('.navigation #changinglogo').removeClass().addClass('section1bcg');
+          }
+          else if(this.id == "section2"){
+                $('.navigation #changinglogo').removeClass().addClass('section2bcg');
+          }
+          else if(this.id == "section3"){
+                $('.navigation #changinglogo').removeClass().addClass('section3bcg');
+          }
+          else if(this.id == "section4"){
+                $('.navigation #changinglogo').removeClass().addClass('section4bcg');
+          }
+          else if(this.id == "section5"){
+                $('.navigation #changinglogo').removeClass().addClass('section5bcg');
+          }
+          else{
+            $('.navigation #changinglogo').addClass('sectionbcg');
+          }
           $('.navigation a.active').removeClass('active');
           $('.navigation a').eq(i).addClass('active');
       }
