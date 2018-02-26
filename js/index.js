@@ -30,21 +30,27 @@ $(window).scroll(function() {
       if ($(this).position().top <= scrollDistance) {
           if(this.id == "section1"){
               $('.navigation #changinglogo').removeClass().addClass('section1bcg');
+              document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else if(this.id == "section2"){
                 $('.navigation #changinglogo').removeClass().addClass('section2bcg');
+                document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else if(this.id == "section3"){
                 $('.navigation #changinglogo').removeClass().addClass('section3bcg');
+                document.getElementById("logo").src = "img/LOGO_BOJA.png";
           }
           else if(this.id == "section4"){
                 $('.navigation #changinglogo').removeClass().addClass('section4bcg');
+                document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else if(this.id == "section5"){
                 $('.navigation #changinglogo').removeClass().addClass('section5bcg');
+                document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else{
             $('.navigation #changinglogo').addClass('sectionbcg');
+            document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           $('.navigation a.active').removeClass('active');
           $('.navigation a').eq(i).addClass('active');

@@ -1,5 +1,5 @@
 body {
-  font-family: arial;
+  font-family: 'Montserrat', sans-serif;
   background: #f8f9fb; }
 
 html, body, ul, ol, li, form, fieldset, legend {
@@ -39,15 +39,22 @@ li {
     -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
     box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5); }
   .content-holder #section1 {
-    background-color: #5d5d5d; }
+    background-image: url(../img/HEADER_BG.png);
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    background-repeat-x: no-repeat; }
   .content-holder #section2 {
-    background-color: red; }
+    background-color: #ee2f30; }
   .content-holder #section3 {
-    background-color: #efefef; }
+    background-color: #e8edfb; }
   .content-holder #section4 {
-    background-color: blue; }
+    background-image: url(../img/ESPORTS_BG.png);
+    background-position: top;
+    background-size: auto 100vh;
+    width: 100%; }
   .content-holder #section5 {
-    background-color: gray; }
+    background-color: #434343; }
   .content-holder .navigation {
     width: 10%;
     float: left;
@@ -68,38 +75,90 @@ li {
       .content-holder .navigation__link:hover {
         background-color: #aaa; }
       .content-holder .navigation__link.active {
-        color: red;
+        color: #ee2f30;
         background-color: rgba(0, 0, 0, 0.1); }
     .content-holder .navigation .section1bcg {
-      height: 200px;
-      background-color: #5d5d5d; }
+      height: 120px;
+      padding: 50px;
+      background-color: #1d234b; }
     .content-holder .navigation .section2bcg {
-      height: 200px;
-      background-color: red; }
+      height: 120px;
+      padding: 50px;
+      background-color: #ee2f30; }
     .content-holder .navigation .section3bcg {
-      height: 200px;
-      background-color: #efefef; }
+      height: 120px;
+      padding: 50px;
+      background-color: #e8edfb; }
     .content-holder .navigation .section4bcg {
-      height: 200px;
-      background-color: blue; }
+      height: 120px;
+      padding: 50px;
+      background-color: #ee2f30; }
     .content-holder .navigation .section5bcg {
-      height: 200px;
-      background-color: gray; }
+      height: 120px;
+      padding: 50px;
+      background-color: #434343; }
     .content-holder .navigation .sectionbcg {
       height: 200px;
       background-color: gray; }
 
 /**/
+/*home*/
+img.bringiton {
+  width: 40%;
+  position: absolute;
+  top: 39%;
+  left: 26%; }
+
+.hometxt {
+  position: absolute;
+  top: 64%;
+  left: 21%; }
+
+.smallborder {
+  width: 100px;
+  border-top: 4px solid white;
+  position: absolute;
+  top: 60%;
+  left: 21%; }
+
+.divbtn a {
+  position: absolute;
+  top: 74%;
+  left: 21%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 70px;
+  border: 1px solid white; }
+  .divbtn a:hover {
+    background-color: #ee2f30;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; }
+
+.divbtn img {
+  position: absolute;
+  top: 74%;
+  left: 34%;
+  width: 150px;
+  padding-top: 7px; }
+
+/***/
 /*timer*/
 .timer {
-  width: 100%;
+  width: 50%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin-left: 25%;
+  -ms-flex-pack: distribute;
+  justify-content: space-around; }
   .timer .timer-part {
-    width: 10%;
-    height: 150px;
-    background-color: #efefef; }
+    width: 21%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #efefef;
+    color: #1d234b; }
 
 /**/
 /*apply section*/
@@ -115,8 +174,6 @@ li {
   margin-left: 10%;
   padding-top: 5%; }
   .sports .sportbox {
-    background-color: yellow;
-    padding: 10px;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-box-flex: 0;
@@ -124,14 +181,6 @@ li {
     flex: 0 0 33%; }
   .sports #sport1 {
     background-color: #d6d6c2; }
-  .sports #sport2 {
-    background-color: #ff3333; }
-  .sports #sport3 {
-    background-color: #8000ff; }
-  .sports #sport4 {
-    background-color: #66ccff; }
-  .sports #sport5 {
-    background-color: #ffbf00; }
   .sports #sport6 {
     background-color: #d6d6c2; }
 
