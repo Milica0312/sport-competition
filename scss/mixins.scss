@@ -14,3 +14,12 @@
    padding:100px 200px;
    box-sizing: border-box;
  }
+
+ @mixin sportbox{
+   box-sizing: border-box;
+   flex:0 1 33%;
+   height:250px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+ }

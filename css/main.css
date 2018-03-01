@@ -25,6 +25,9 @@ li {
 
 /*logo nav bckground*/
 /**/
+/*content sections*/
+/**/
+/*gradients for sports sections*/
 /*NAVIGATION and content-right*/
 .content-holder {
   width: 100%;
@@ -250,8 +253,6 @@ img.bringiton {
         margin-top: 20px; }
 
 /**/
-/*apply section*/
-/**/
 /*sports section*/
 .sports {
   width: 80%;
@@ -263,16 +264,153 @@ img.bringiton {
   margin-left: 10%;
   padding-top: 5%; }
   .sports .sportbox {
+    /*box-sizing: border-box;
+    flex:0 0 33%;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;*/ }
+  .sports #sport1 {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-box-flex: 0;
-    -ms-flex: 0 0 33%;
-    flex: 0 0 33%; }
-  .sports #sport1 {
-    background-color: #d6d6c2; }
+    -ms-flex: 0 1 33%;
+    flex: 0 1 33%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .sports #sport1 .borderforsport1 {
+      padding-left: 20px;
+      border-left: 2px solid #1d234b; }
+      .sports #sport1 .borderforsport1 p {
+        font-size: 25px;
+        color: #1d234b;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1; }
+  .sports #sport2 {
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#ee2f30), color-stop(#f23536), color-stop(#f73a3b), color-stop(#fb4041), to(#ff4546));
+    background-image: -webkit-linear-gradient(left bottom, #ee2f30, #f23536, #f73a3b, #fb4041, #ff4546);
+    background-image: -o-linear-gradient(left bottom, #ee2f30, #f23536, #f73a3b, #fb4041, #ff4546);
+    background-image: linear-gradient(to right top, #ee2f30, #f23536, #f73a3b, #fb4041, #ff4546);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 33%;
+    flex: 0 1 33%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  .sports #sport3 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 33%;
+    flex: 0 1 33%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#7e429a), color-stop(#8643a6), color-stop(#8f44b1), color-stop(#9745bd), to(#a046c9));
+    background-image: -webkit-linear-gradient(left bottom, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9);
+    background-image: -o-linear-gradient(left bottom, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9);
+    background-image: linear-gradient(to right top, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9); }
+  .sports #sport4 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 33%;
+    flex: 0 1 33%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#12b4b3), color-stop(#12bebd), color-stop(#12c7c6), color-stop(#12d1d0), to(#11dbda));
+    background-image: -webkit-linear-gradient(left bottom, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda);
+    background-image: -o-linear-gradient(left bottom, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda);
+    background-image: linear-gradient(to right top, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda); }
+  .sports #sport5 {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 33%;
+    flex: 0 1 33%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-image: -webkit-gradient(linear, left bottom, right top, from(#e09733), color-stop(#e8a132), color-stop(#f0ac31), color-stop(#f8b730), to(#ffc22f));
+    background-image: -webkit-linear-gradient(left bottom, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f);
+    background-image: -o-linear-gradient(left bottom, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f);
+    background-image: linear-gradient(to right top, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f); }
   .sports #sport6 {
-    background-color: #d6d6c2; }
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 33%;
+    flex: 0 1 33%;
+    height: 250px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .sports #sport6 .txtforsport6 {
+      text-align: center; }
+      .sports #sport6 .txtforsport6 p {
+        color: #1d234b;
+        font-size: 25px;
+        text-align: center; }
+      .sports #sport6 .txtforsport6 a {
+        border: 1px solid #1d234b;
+        padding: 10px 20px;
+        text-decoration: none; }
+        .sports #sport6 .txtforsport6 a:hover {
+          color: white;
+          border: white;
+          background-color: #1d234b;
+          -webkit-transition: 1s;
+          -o-transition: 1s;
+          transition: 1s; }
 
+/**/
+/*apply section*/
 /**/
 /*contact section*/
 .contact {

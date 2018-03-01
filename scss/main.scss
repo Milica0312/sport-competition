@@ -220,10 +220,6 @@ img.bringiton {
   /**/
 }
 /**/
-
-/*apply section*/
-
-/**/
 /*sports section*/
 .sports{
   width: 80%;
@@ -232,18 +228,72 @@ img.bringiton {
   @include contentholder;
 
   .sportbox{
-    box-sizing: border-box;
+    /*box-sizing: border-box;
     flex:0 0 33%;
+    height:250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;*/
+
   }
   #sport1{
-    background-color: $sport1;
-  }
+    @include sportbox;
+    .borderforsport1{
+      padding-left:20px;
+      border-left: 2px solid $deeppurple;
 
+      p{
+        font-size: 25px;
+        color:$deeppurple;
+        flex:1;
+      }
+    }
+  }
+  #sport2{
+    background-image: $gradientsport2;
+    @include sportbox;
+  }
+  #sport3{
+    @include sportbox;
+    background-image: $gradientsport3;
+  }
+  #sport4{
+    @include sportbox;
+    background-image: $gradientsport4;
+  }
+  #sport5{
+    @include sportbox;
+    background-image: $gradientsport5;
+  }
   #sport6{
-    background-color: $sport1;
+      @include sportbox;
+      .txtforsport6{
+        text-align: center;
+        p{
+          color:$deeppurple;
+          font-size: 25px;
+          text-align: center;
+        }
+        a{
+          border:1px solid $deeppurple;
+          padding:10px 20px;
+          text-decoration: none;
+
+          &:hover{
+            color:white;
+            border:white;
+            background-color: $deeppurple;
+            transition:1s;
+          }
+        }
+      }
   }
 }
 /**/
+/*apply section*/
+
+/**/
+
 /*contact section*/
 .contact{
   width: 80%;
