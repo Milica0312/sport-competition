@@ -7,40 +7,45 @@
     height: auto;
     display:inline-block;
     height:2000px;
-
-
-    .page-section {
+    .section{
         width:90%;
-        height:100vh;
-        background-color: blue;
         float:right;
-        /*background: linear-gradient(45deg, #43cea2 10%, #185a9d 90%);*/
-    		color: white;
-    		box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.5);
-    }
-    #section1{
-      background-image: url(../img/HEADER_BG.png);
-      background-position: top;
-      background-size: cover;
-      width: 100%;
-      background-repeat-x: no-repeat;
-    }
-    #section2{
-      background-color: $contentred;
-    }
-    #section3{
-      background-color: $contentgray;
-    }
-    #section4{
-      background-image: url(../img/ESPORTS_BG.png);
-      background-position: top;
-      background-size: auto 100vh;
-      width: 100%;
-      }
-    #section5{
-      background-color: $contactgray;
-    }
 
+        #section1{
+          @include sectiondefault;
+          background-image: url(../img/HEADER_BG.png);
+          background-position: top;
+          background-size: cover;
+          width: 100%;
+          background-repeat-x: no-repeat;
+        }
+        #section2{
+          @include sectiondefault;
+          background-color: $contentred;
+        }
+        #section3{
+          @include sectiondefault;
+          background-color: $contentgray;
+        }
+        #section4{
+          @include sectiondefault;
+          background-image: url(../img/ESPORTS_BG.png);
+          background-position: top;
+          background-size: auto 100vh;
+          width: 100%;
+        }
+        #section5{
+          @include sectiondefault;
+          background-color: $applyblue;
+        }
+        #section6{
+          @include sectiondefault;
+          background-color: $contactgray;
+        }
+        #section7{
+          color:$deeppurple;
+        }
+    }
     .navigation {
       width: 10%;
       float: left;
@@ -52,16 +57,21 @@
       position: fixed;
       background-color: WHITE;
       color: #5D5D5D;
+      ul li:last-child a
+      {
+        color:$deeppurple;
+        font-weight: bold;
+      }
 
       	&__link {
     			display: block;
-        	color: #ddd;
+        	color: #a1a6b0;
         	text-decoration: none;
         	padding: 1em;
     			font-weight: 400;
 
     			&:hover {
-    				background-color: #aaa;
+    				color:$contentred;
     			}
 
     		   &.active {
@@ -88,6 +98,10 @@
         }
         .section5bcg{
           @include logoheight;
+          background-color: $applyblue;
+        }
+        .section6bcg{
+          @include logoheight;
           background-color: $contactgray;
         }
         .sectionbcg{
@@ -108,6 +122,11 @@ img.bringiton {
   position: absolute;
   top: 64%;
   left: 21%;
+  p:last-child{
+    color:$contentred;
+    font-weight: bold;
+  }
+
 }
 .smallborder{
   width: 100px;
@@ -123,7 +142,7 @@ img.bringiton {
     color: white;
     text-decoration: none;
     text-align: center;
-    padding: 10px 70px;
+    padding: 10px 50px;
     border: 1px solid white;
     &:hover{
       background-color:#ee2f30;
@@ -138,22 +157,70 @@ img.bringiton {
   padding-top: 7px;
 }
 /***/
-/*timer*/
-.timer{
-  width: 50%;
-  display: flex;
-  margin-left: 25%;
-  justify-content: space-around;
+/*about*/
+.about{
 
-  .timer-part{
-      width:21%;
-      padding:50px 0;
-      text-align: center;
-      background-color:#efefef;
-      color:$deeppurple;
+  .about__uniada{
+    border-left:3px solid white;
+    padding-left:30px;
+      h1{
+        font-size: 40px;
+      }
+      p{
+        font-size: 30px;
+        font-weight: 100;
+
+      }
   }
+  .about_txt{
+    padding-right: 300px;
+  }
+  .countdown_head{
+    width: 50%;
+    margin: 150px auto 50px;
+    text-align: center;
+    padding-top: 20px;
+
+    .topborder{
+      border-top:3px solid white;
+      width:100px;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      padding-bottom: 25px;
+    }
+    h2{
+
+
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+  /*timer*/
+  .timer{
+    width: 50%;
+    display: flex;
+    margin-left: 25%;
+    justify-content: space-around;
+
+    .timer-part{
+        font-size: 22px;
+        width:21%;
+        padding:40px 0;
+        text-align: center;
+        background-color:#efefef;
+        color:$deeppurple;
+        span{
+          font-weight: bold;
+          margin-top: 20px;
+        }
+    }
+  }
+  /**/
 }
 /**/
+
 /*apply section*/
 
 /**/

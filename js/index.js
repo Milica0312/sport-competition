@@ -48,6 +48,10 @@ $(window).scroll(function() {
                 $('.navigation #changinglogo').removeClass().addClass('section5bcg');
                 document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
+          else if(this.id == "section6"){
+                $('.navigation #changinglogo').removeClass().addClass('section6bcg');
+                document.getElementById("logo").src = "img/LOGO_BELI.png";
+          }
           else{
             $('.navigation #changinglogo').addClass('sectionbcg');
             document.getElementById("logo").src = "img/LOGO_BELI.png";
