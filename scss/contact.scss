@@ -3,12 +3,22 @@
   width: 80%;
   @include contentholder;
 
+  @include mQ(768px){
+    width: 100%;
+    margin:0;
+    padding:0;
+  }
+
   .contact_head{
     width: 50%;
     margin: 150px auto 50px;
     text-align: center;
     padding-top: 20px;
 
+    @include mQ(768px){
+      width: 100%;
+      margin: 20px auto;
+    }
     .topborder{
       @include smallcustomborder;
     }
@@ -18,11 +28,16 @@
     display:inline-block;
     text-align: center;
 
+
     .singlecontactbox{
     /*  flex:1 1 0;*/
       margin:25px;
       display:inline-block;
       vertical-align: top;
+      min-width: 160px;
+      @include mQ(768px){
+        margin:5px;
+      }
       a{
         color:white;
         padding:30px 0;

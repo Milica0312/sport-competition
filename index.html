@@ -4,11 +4,13 @@
     <title>UNIADA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
+      <div class="counter"></div>
       <div class="content-holder">
+
           <nav class="navigation">
             <ul>
               <li id="changinglogo">
@@ -49,8 +51,8 @@
                         <p>WHAT IS UNIADA</p>
                     </div>
                     <div class="about_txt">
-                      <p>Envisioned by a few enthusiastic students from Belgrade, Serbia. UNIADA 2018 is  an international university sports tournament taking place in our capital – Belgrade from 22nd to 25th of October.</p>
-                      <p>Envisioned by a few enthusiastic students from Belgrade, Serbia. UNIADA 2018 is  an international university sports tournament taking place in our capital – Belgrade from 22nd to 25th of October.Envisioned by a few enthusiastic students from Belgrade, Serbia. UNIADA 2018 is  an international university sports tournament taking place in our capital – Belgrade from 22nd to 25th of October.Envisioned by a few enthusiastic students from Belgrade, Serbia. UNIADA 2018 is  an international university sports tournament taking place in our capital – Belgrade from 22nd to 25th of October.</p>
+                      <p>Envisioned by a few students from Belgrade, Serbia. UNIADA 2018 is  an international university sports tournament taking place in our capital – Belgrade from 22nd to 25th of October.</p>
+                      <p>Envisioned by a few enIADA 2018 is  an international university sports tournament taking place in our capital – Belgrade from 22nd to 25th of October.Envisioned by a few enthusiastic students from Belgrade, Serbia. UNIADA 2018 is  an international university sports tournament taking place in our capital – Belgrade from 22nd to 25th of October.Envisioned by a few enthusiastic students from Belgrade, Serbia. UNIADA 2018 is  an iital – Belgrade from 22nd to 25th of October.</p>
                     </div>
                     <div class="countdown_head">
                         <div class="topborder"></div>
@@ -149,6 +151,11 @@
     </div>
     <script src="js/index.js"></script>
     <script src="js/timer.js"></script>
+    <script>
+    $(window).scroll(function(){
+      $('.counter').css('width', ($(this).scrollTop() / ($('body').height() - $(window).height()))*100 + "%");
 
+      });
+    </script>
   </body>
 </html>

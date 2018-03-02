@@ -9,17 +9,27 @@
 @import "contact.scss";
 
 /*NAVIGATION and content-right*/
+.counter{
+  height: 5px;
+  background: $gradientsport5;
+  position: fixed;
+  top: 0;
+  z-index:1;
+}
 .content-holder{
     width:100%;
     height: auto;
     display:inline-block;
-    height:2000px;
+
     .section{
         width:90%;
         float:right;
+        @include mQ(1400px){
+          width:85%;
+          float:right;
+        }
         @include mQ(768px){
-          width:100%;
-          float:none;
+          width: 100%;
         }
 
         #section1{
@@ -29,14 +39,34 @@
           background-size: cover;
           width: 100%;
           background-repeat-x: no-repeat;
+          @include mQ(1400px){
+            background-position: left;
+            padding:30px;
+
+          }
         }
         #section2{
           @include sectiondefault;
           background-color: $contentred;
+          @include mQ(1400px){
+            height:auto;
+          }
+          @include mQ(1200px){
+            padding:50px 80px;
+          }
+          @include mQ(768px){
+            padding:15px;
+            height:auto;
+          }
         }
         #section3{
           @include sectiondefault;
           background-color: $contentgray;
+          @include mQ(1300px){
+            padding:100px 15px 150px;
+            height:auto;
+          }
+
         }
         #section4{
           @include sectiondefault;
@@ -44,14 +74,32 @@
           background-position: top;
           background-size: auto 100vh;
           width: 100%;
+          @include mQ(768px){
+            padding:15px;
+            height:auto;
+          }
         }
         #section5{
           @include sectiondefault;
           background-color: $applyblue;
+          @include mQ(1200px){
+            padding:50px 80px;
+          }
+          @include mQ(768px){
+            padding:15px;
+            height:auto;
+          }
         }
         #section6{
           @include sectiondefault;
           background-color: $contactgray;
+          @include mQ(1400px){
+            height:auto;
+          }
+          @include mQ(768px){
+            padding:15px;
+            height:auto;
+          }
         }
         #section7{
           color:$deeppurple;
@@ -68,6 +116,9 @@
       position: fixed;
       background-color: WHITE;
       color: #5D5D5D;
+      @include mQ(1400px){
+        width: 15%;
+      }
       @include mQ(768px){
         display:none;
       }
@@ -84,6 +135,7 @@
         	text-decoration: none;
         	padding: 1em;
     			font-weight: 400;
+          font-size: 15px;
 
     			&:hover {
     				color:$contentred;
