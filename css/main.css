@@ -28,139 +28,6 @@ li {
 /*content sections*/
 /**/
 /*gradients for sports sections*/
-/*NAVIGATION and content-right*/
-.content-holder {
-  width: 100%;
-  height: auto;
-  display: inline-block;
-  height: 2000px; }
-  .content-holder .section {
-    width: 90%;
-    float: right; }
-    .content-holder .section #section1 {
-      width: 100%;
-      height: 100vh;
-      color: white;
-      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      padding: 100px 200px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      background-image: url(../img/HEADER_BG.png);
-      background-position: top;
-      background-size: cover;
-      width: 100%;
-      background-repeat-x: no-repeat; }
-    .content-holder .section #section2 {
-      width: 100%;
-      height: 100vh;
-      color: white;
-      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      padding: 100px 200px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      background-color: #ee2f30; }
-    .content-holder .section #section3 {
-      width: 100%;
-      height: 100vh;
-      color: white;
-      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      padding: 100px 200px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      background-color: #e8edfb; }
-    .content-holder .section #section4 {
-      width: 100%;
-      height: 100vh;
-      color: white;
-      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      padding: 100px 200px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      background-image: url(../img/ESPORTS_BG.png);
-      background-position: top;
-      background-size: auto 100vh;
-      width: 100%; }
-    .content-holder .section #section5 {
-      width: 100%;
-      height: 100vh;
-      color: white;
-      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      padding: 100px 200px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      background-color: #12b4b3; }
-    .content-holder .section #section6 {
-      width: 100%;
-      height: 100vh;
-      color: white;
-      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
-      padding: 100px 200px;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-      background-color: #434343; }
-    .content-holder .section #section7 {
-      color: #1d234b; }
-  .content-holder .navigation {
-    width: 10%;
-    float: left;
-    height: 100vh;
-    text-align: center;
-    font-size: 18px;
-    color: #000;
-    padding: 0 0 10%;
-    position: fixed;
-    background-color: WHITE;
-    color: #5D5D5D; }
-    .content-holder .navigation ul li:last-child a {
-      color: #1d234b;
-      font-weight: bold; }
-    .content-holder .navigation__link {
-      display: block;
-      color: #a1a6b0;
-      text-decoration: none;
-      padding: 1em;
-      font-weight: 400; }
-      .content-holder .navigation__link:hover {
-        color: #ee2f30; }
-      .content-holder .navigation__link.active {
-        color: #ee2f30;
-        background-color: rgba(0, 0, 0, 0.1);
-        font-weight: bold; }
-    .content-holder .navigation .section1bcg {
-      height: 120px;
-      padding: 50px;
-      background-color: #1d234b; }
-    .content-holder .navigation .section2bcg {
-      height: 120px;
-      padding: 50px;
-      background-color: #ee2f30; }
-    .content-holder .navigation .section3bcg {
-      height: 120px;
-      padding: 50px;
-      background-color: #e8edfb; }
-    .content-holder .navigation .section4bcg {
-      height: 120px;
-      padding: 50px;
-      background-color: #ee2f30; }
-    .content-holder .navigation .section5bcg {
-      height: 120px;
-      padding: 50px;
-      background-color: #12b4b3; }
-    .content-holder .navigation .section6bcg {
-      height: 120px;
-      padding: 50px;
-      background-color: #434343; }
-    .content-holder .navigation .sectionbcg {
-      height: 200px;
-      background-color: gray; }
-
-/**/
 /*home*/
 img.bringiton {
   width: 40%;
@@ -472,5 +339,138 @@ img.bringiton {
         height: 150px;
         background-color: #efefef;
         line-height: 12; }
+
+/**/
+/*NAVIGATION and content-right*/
+.content-holder {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  height: 2000px; }
+  .content-holder .section {
+    width: 90%;
+    float: right; }
+    .content-holder .section #section1 {
+      width: 100%;
+      height: 100vh;
+      color: white;
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      padding: 100px 200px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-image: url(../img/HEADER_BG.png);
+      background-position: top;
+      background-size: cover;
+      width: 100%;
+      background-repeat-x: no-repeat; }
+    .content-holder .section #section2 {
+      width: 100%;
+      height: 100vh;
+      color: white;
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      padding: 100px 200px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #ee2f30; }
+    .content-holder .section #section3 {
+      width: 100%;
+      height: 100vh;
+      color: white;
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      padding: 100px 200px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #e8edfb; }
+    .content-holder .section #section4 {
+      width: 100%;
+      height: 100vh;
+      color: white;
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      padding: 100px 200px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-image: url(../img/ESPORTS_BG.png);
+      background-position: top;
+      background-size: auto 100vh;
+      width: 100%; }
+    .content-holder .section #section5 {
+      width: 100%;
+      height: 100vh;
+      color: white;
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      padding: 100px 200px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #12b4b3; }
+    .content-holder .section #section6 {
+      width: 100%;
+      height: 100vh;
+      color: white;
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      padding: 100px 200px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #434343; }
+    .content-holder .section #section7 {
+      color: #1d234b; }
+  .content-holder .navigation {
+    width: 10%;
+    float: left;
+    height: 100vh;
+    text-align: center;
+    font-size: 18px;
+    color: #000;
+    padding: 0 0 10%;
+    position: fixed;
+    background-color: WHITE;
+    color: #5D5D5D; }
+    .content-holder .navigation ul li:last-child a {
+      color: #1d234b;
+      font-weight: bold; }
+    .content-holder .navigation__link {
+      display: block;
+      color: #a1a6b0;
+      text-decoration: none;
+      padding: 1em;
+      font-weight: 400; }
+      .content-holder .navigation__link:hover {
+        color: #ee2f30; }
+      .content-holder .navigation__link.active {
+        color: #ee2f30;
+        background-color: rgba(0, 0, 0, 0.1);
+        font-weight: bold; }
+    .content-holder .navigation .section1bcg {
+      height: 120px;
+      padding: 50px;
+      background-color: #1d234b; }
+    .content-holder .navigation .section2bcg {
+      height: 120px;
+      padding: 50px;
+      background-color: #ee2f30; }
+    .content-holder .navigation .section3bcg {
+      height: 120px;
+      padding: 50px;
+      background-color: #e8edfb; }
+    .content-holder .navigation .section4bcg {
+      height: 120px;
+      padding: 50px;
+      background-color: #ee2f30; }
+    .content-holder .navigation .section5bcg {
+      height: 120px;
+      padding: 50px;
+      background-color: #12b4b3; }
+    .content-holder .navigation .section6bcg {
+      height: 120px;
+      padding: 50px;
+      background-color: #434343; }
+    .content-holder .navigation .sectionbcg {
+      height: 200px;
+      background-color: gray; }
 
 /**/
