@@ -29,6 +29,9 @@
     margin: 150px auto 50px;
     text-align: center;
     padding-top: 20px;
+    @include mQ(1200px){
+      margin: 50px auto;
+    }
     @include mQ(768px){
       margin:30px auto;
       width:100%;

@@ -29,7 +29,7 @@
     border:1px solid white;
     padding:10px 30px;
     margin-right: 30px;
-    @include mQ(1100px){
+    @include mQ(1100px, 768px){
       width: 50%;
       display: block;
       margin-bottom: 20px;

@@ -51,6 +51,9 @@
           @include mQ(1400px){
             height:auto;
           }
+          @include mQ(1200px){
+            padding:50px 80px;
+          }
           @include mQ(768px){
             padding:15px;
             height:auto;
@@ -79,6 +82,9 @@
         #section5{
           @include sectiondefault;
           background-color: $applyblue;
+          @include mQ(1200px){
+            padding:50px 80px;
+          }
           @include mQ(768px){
             padding:15px;
             height:auto;
