@@ -4,17 +4,19 @@
   width: 80%;
   display:flex;
   flex-wrap: wrap;
+  margin-left: 10%;
+  margin-top:5%;
   @include contentholder;
 
   .sportbox{
-    /*box-sizing: border-box;
-    flex:0 0 33%;
-    height:250px;
-    display:flex;
-    justify-content: center;
-    align-items: center;*/
-
-  }
+        /*box-sizing: border-box;
+        flex:0 0 33%;
+        height:250px;
+        display:flex;
+        justify-content: center;
+        align-items: center;*/
+    }
+  
   #sport1{
     @include sportbox;
     .borderforsport1{

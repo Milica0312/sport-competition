@@ -5,12 +5,22 @@
     width:80%;
     margin-left:auto;
     margin-right: auto;
-    font-size: 120px;
+    font-size: 80px;
     text-align: center;
-    line-height: 110px;
+    @include mQ(1400px){
+      font-size: 60px;
+      line-height: 60px;
+    }
+    @include mQ(768px){
+      font-size: 40px;
+      line-height: 40px;
+    }
   }
   .apply_txt{
     padding-right: 300px;
+    @include mQ(1400px){
+      padding-right: 0;
+    }
   }
   .apply_btns{
     a{
@@ -19,6 +29,14 @@
     border:1px solid white;
     padding:10px 30px;
     margin-right: 30px;
+    @include mQ(1100px){
+      width: 50%;
+      display: block;
+      margin-bottom: 20px;
+    }
+    @include mQ(768px){
+      line-height: 60px;
+    }
 
       &:hover{
         background-color:white;

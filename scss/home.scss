@@ -4,6 +4,7 @@ img.bringiton {
     position: absolute;
     top: 39%;
     left: 26%;
+
     @include mQ(768px){
       width: 90%;
       top: 20%;
@@ -58,9 +59,12 @@ img.bringiton {
 .divbtn img{
   position: absolute;
   top: 74%;
-  left: 34%;
+  left: 36%;
   width: 150px;
   padding-top: 7px;
+  @include mQ(1400px){
+    left: 42%;
+  }
   @include mQ(768px){
     top: 50%;
     left: 45%;

@@ -1,4 +1,9 @@
 /*about*/
+/*.pagesection{
+  @include mQ(768px){
+    padding:100px 100px;
+  }
+}*/
 .about{
 
   .about__uniada{
@@ -15,12 +20,19 @@
   }
   .about_txt{
     padding-right: 300px;
+    @include mQ(1400px){
+      padding-right: 0;
+    }
   }
   .countdown_head{
     width: 50%;
     margin: 150px auto 50px;
     text-align: center;
     padding-top: 20px;
+    @include mQ(768px){
+      margin:30px auto;
+      width:100%;
+    }
 
     .topborder{
       @include smallcustomborder;
@@ -39,6 +51,14 @@
     display: flex;
     margin-left: 20%;
     justify-content: space-around;
+    @include mQ(1400px){
+      width:100%;
+      margin:0;
+    }
+    @include mQ(768px){
+      width:96%;
+      margin:auto;
+    }
 
     .timer-part{
         font-size: 20px;
@@ -50,6 +70,10 @@
         span{
           font-weight: bold;
           margin-top: 20px;
+        }
+        @include mQ(768px){
+          font-size: 13px;
+          padding:20px 0;
         }
     }
   }
