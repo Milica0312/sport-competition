@@ -17,6 +17,10 @@
     .section{
         width:90%;
         float:right;
+        @include mQ(768px){
+          width:100%;
+          float:none;
+        }
 
         #section1{
           @include sectiondefault;
@@ -64,6 +68,10 @@
       position: fixed;
       background-color: WHITE;
       color: #5D5D5D;
+      @include mQ(768px){
+        display:none;
+      }
+
       ul li:last-child a
       {
         color:$deeppurple;

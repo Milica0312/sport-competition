@@ -13,6 +13,9 @@
    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.5);
    padding:100px 200px;
    box-sizing: border-box;
+   @include mQ(768px){
+     padding:0;
+   }
  }
 
  @mixin sportbox{
@@ -31,3 +34,16 @@
    margin-right: auto;
    padding-bottom: 25px;
  }
+
+@mixin mQ($arg...){
+  @if length($arg)==1{
+    @media screen and (max-width: nth($arg, 1)){
+      @content;
+    }
+  }
+  @if length($arg)==2{
+    @media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)){
+      @content;
+    }
+  }
+}

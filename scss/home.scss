@@ -4,6 +4,11 @@ img.bringiton {
     position: absolute;
     top: 39%;
     left: 26%;
+    @include mQ(768px){
+      width: 90%;
+      top: 20%;
+      left: 5%;
+    }
 }
 .hometxt{
   position: absolute;
@@ -13,7 +18,10 @@ img.bringiton {
     color:$contentred;
     font-weight: bold;
   }
-
+  @include mQ(768px){
+    top: 38%;
+    left: 5%;
+  }
 }
 .smallborder{
   width: 100px;
@@ -21,6 +29,12 @@ img.bringiton {
   position: absolute;
   top: 60%;
   left: 21%;
+
+  @include mQ(768px){
+    top: 36%;
+    left: 5%;
+  }
+
 }
 .divbtn a {
     position: absolute;
@@ -35,6 +49,11 @@ img.bringiton {
       background-color:#ee2f30;
       transition:1s;
     }
+    @include mQ(768px){
+      top: 50%;
+      left: 4%;
+      padding: 10px 30px;
+    }
 }
 .divbtn img{
   position: absolute;
@@ -42,5 +61,9 @@ img.bringiton {
   left: 34%;
   width: 150px;
   padding-top: 7px;
+  @include mQ(768px){
+    top: 50%;
+    left: 45%;
+  }
 }
 /***/
