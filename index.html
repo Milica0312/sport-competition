@@ -4,13 +4,20 @@
     <title>UNIADA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
   <body>
       <div class="counter"></div>
       <div class="content-holder">
-
+          <div id="burger-container">
+            <div id="burger">
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+              <span>&nbsp;</span>
+            </div>
+          </div>
           <nav class="navigation">
             <ul>
               <li id="changinglogo">
@@ -70,7 +77,7 @@
                 <div class="sports">
                     <div class="sportbox" id="sport1">
                       <div class="borderforsport1">
-                          <p>SPORTS COVERED</p><br />
+                          <p><strong>SPORTS COVERED</strong></p><br />
                           <p>TAKES PART IN THESE SPORTS</p>
                       </div>
 
@@ -97,8 +104,24 @@
                 </div>
             </section>
             <section class="page-section" id="section4">
-                <div class="application">
-
+                <div class="esport">
+                    <div class="esport_head">
+                        <h1>UNIADA E-SPORTS 2018</h1>
+                        <p>
+                          WHAT IS UNIADA E-SPORT?
+                        </p>
+                    </div>
+                    <div class="esport_txt">
+                        <p>
+                          Sesame snaps tiramisu macaroon chocolate cake icing marshmallow powder donut jelly-o. Marshmallow danish halvah brownie toffee oat cake tart. Muffin danish powder pastry tiramisu gummi bears pudding candy. Wafer danish cotton candy sweet roll gummies dragée. Tiramisu ice cream sesame snaps muffin. Halvah cupcake jelly beans candy canes croissant ice cream muffin marzipan. Muffin to<br>ffee candy chocolate cake jelly-o. Brownie marzipan lemon drops tootsie roll pie icing cake fruitcake. Pie lollipop candy caramels gummies cotton candy. Bear claw pie gummi bears cake bear claw liquorice gummies sesame snaps. Soufflé caramels oat cake lemon drops. Chocolate cake cake tootsie roll sugar plum liquorice chocolate.
+                        </p>
+                    </div>
+                    <div class="esport_icons">
+                        <img src="img/CS_IKONICA.png" alt="cs_ikonica"  />
+                        <img src="img/DOTA2_IKONICA.png" alt="dota2_ikonica"  />
+                        <img src="img/LOL_IKONICA.png" alt="lol_ikonica"  />
+                    </div>
+                    <a class="esportbtn" herf="#">APPLY NOW</a>
                 </div>
             </section>
             <section class="page-section" id="section5">
@@ -119,7 +142,7 @@
             <section class="page-section" id="section6">
                 <div class="contact">
                   <div class="contact_head">
-                      <h1>CONTACT US</h1>
+                      <h1><strong>CONTACT US</strong></h1>
                       <p>We would like to hear from You</p>
                       <div class="topborder"></div>
                   </div>
@@ -156,6 +179,14 @@
       $('.counter').css('width', ($(this).scrollTop() / ($('body').height() - $(window).height()))*100 + "%");
 
       });
+    </script>
+    <script>
+    $(document).ready(function(){
+    $("#burger-container").on('click', function(){
+        $(this).toggleClass("open");
+        $(".navigation").toggleClass("respopen");
+    });
+  });
     </script>
   </body>
 </html>

@@ -1,0 +1,36 @@
+.esport{
+  .esport_head{
+    border-left:3px solid black;
+    color:black;
+    @include sectionhead;
+  }
+  .esport_txt{
+      color:black;
+      @include section_txt;
+      @include mQ(1200px){
+        padding-right: 100px;
+      }
+  }
+  .esport_icons{
+    margin:35px 0 30px;
+      img{
+        padding:0 10px;
+        @include mQ(768px){
+          width:60px;
+        }
+      }
+  }
+  .esportbtn{
+    color: black;
+    padding: 10px 30px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+
+    &:hover{
+      color:white;
+      background-color: black;
+      transition: 1s;
+      border:1px solid white;
+    }
+  }
+}

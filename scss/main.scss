@@ -15,12 +15,52 @@
   position: fixed;
   top: 0;
   z-index:1;
+
 }
 .content-holder{
     width:100%;
     height: auto;
     display:inline-block;
+    #burger-container{
+      display:none;
+      @include mQ(768px){
+          display:block;
+          position: fixed;
+          top: 25px;
+          right: 25px;
+          z-index: 100;
+        	width:65px;
+          #burger{
+          	cursor:pointer;
+          	display:block;
 
+            span{
+            	display:block;
+            	width:65px;
+            	height:2px;
+            	margin-bottom: 10px;
+            	background:#eee;
+            	position:relative;
+            	top:0;
+            	transition:all ease-in-out 0.4s;
+            }
+          }
+      }
+    }
+    #burger-container.open span:nth-child(2),
+    #burger-container.open span:nth-child(3){
+      width:0;
+      opacity:0;
+    }
+
+    #burger-container.open span:nth-child(4){
+      transform:rotate(45deg);
+      top:-18px !important;
+    }
+    #burger-container.open span:nth-child(1){
+      transform:rotate(-45deg);
+      top:18px !important;
+    }
     .section{
         width:90%;
         float:right;
@@ -42,6 +82,9 @@
           @include mQ(1400px){
             background-position: left;
             padding:30px;
+          }
+          @include mQ(768px){
+            height: 70vh;
 
           }
         }
@@ -74,9 +117,13 @@
           background-position: top;
           background-size: auto 100vh;
           width: 100%;
+          @include mQ(1200px){
+            padding:50px 80px;
+            height: auto;
+          }
           @include mQ(768px){
             padding:15px;
-            height:auto;
+
           }
         }
         #section5{
@@ -116,11 +163,15 @@
       position: fixed;
       background-color: WHITE;
       color: #5D5D5D;
+      transition: 1s;
       @include mQ(1400px){
         width: 15%;
       }
       @include mQ(768px){
-        display:none;
+        width: 40%;
+        z-index: 1;
+        margin-left: -40%;
+
       }
 
       ul li:last-child a
@@ -151,31 +202,73 @@
         .section1bcg{
           @include logoheight;
           background-color: $deeppurple;
+          @include mQ(768px){
+            height: auto;
+
+          }
         }
         .section2bcg{
           @include logoheight;
           background-color: $contentred;
+          @include mQ(768px){
+            height: auto;
+
+          }
         }
         .section3bcg{
           @include logoheight;
           background-color: $contentgray;
+          @include mQ(768px){
+            height: auto;
+
+          }
         }
         .section4bcg{
           @include logoheight;
           background-color: $esport;
+          @include mQ(768px){
+            height: auto;
+
+          }
         }
         .section5bcg{
           @include logoheight;
           background-color: $applyblue;
+          @include mQ(768px){
+            height: auto;
+
+          }
         }
         .section6bcg{
           @include logoheight;
           background-color: $contactgray;
+          @include mQ(768px){
+            height: auto;
+
+          }
         }
         .sectionbcg{
           height:200px;
           background-color: gray;
+          @include mQ(768px){
+            height: auto;
+
+          }
         }
+        ul #changinglogo{
+          @include mQ(768px){
+            padding:25px;
+          }
+          img{
+            @include mQ(768px){
+              width:60%;
+            }
+          }
+        }
+    }
+    .respopen{
+      margin-left:0;
+      transition: 1s;
     }
 }
 /**/

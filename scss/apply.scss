@@ -2,11 +2,12 @@
 /*apply section*/
 .application{
   h1{
-    width:80%;
-    margin-left:auto;
+    width: 72%;
+    margin-left: auto;
     margin-right: auto;
-    font-size: 80px;
+    font-size: 94px;
     text-align: center;
+    font-weight: 900;
     @include mQ(1400px){
       font-size: 60px;
       line-height: 60px;
@@ -20,6 +21,13 @@
     padding-right: 300px;
     @include mQ(1400px){
       padding-right: 0;
+    }
+    h2 {
+      font-size: 35px;
+      font-weight: 500;
+      @include mQ(768px){
+        font-size: 28px;
+      }
     }
   }
   .apply_btns{
