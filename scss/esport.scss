@@ -6,9 +6,12 @@
   }
   .esport_txt{
       color:black;
-      @include section_txt;
+      padding-right: 500px;
       @include mQ(1200px){
         padding-right: 100px;
+      }
+      @include mQ(768px){
+        padding-right: 50px;
       }
   }
   .esport_icons{

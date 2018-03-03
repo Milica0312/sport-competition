@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>UNIADA</title>
+    <title>UNIADA 2018 | International Student Sports Competition</title>
+    <link rel="shortcut icon" type="image/png" href="img/LOGO_BOJA.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/LOGO_BOJA.png">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"  content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 22-25 October. Supported by the City of Belgrade." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Uniada" />
+    <meta property="og:description" content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 22-25 October. Supported by the City of Belgrade." />
+    <meta property="og:url" content="http://uniada.org/" />
+    <meta property="og:site_name" content="UNIADA 2017" />
+    <meta property="og:image" content="http://milica-pavlovic.com//uniada3.0/img/LOGO_BOJA.png" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:description" content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 22-25 October. Supported by the City of Belgrade." />
+    <meta name="twitter:title" content="Uniada" />
+    <meta name="twitter:image" content="http://milica-pavlovic.com//uniada3.0/img/LOGO_BOJA.png" />
+
+    <link rel="canonical" href="http://uniada.org/" />
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -21,7 +38,7 @@
           <nav class="navigation">
             <ul>
               <li id="changinglogo">
-                  <img id="logo" src="img/LOGO_BELI.png" alt="" />
+                  <img id="logo" src="img/LOGO_BELI.png" alt="white-logo" />
               </li>
               <li><a class="navigation__link" href="#section1">HOME</a></li>
               <li><a class="navigation__link" href="#section2">ABOUT</a></li>
@@ -35,7 +52,7 @@
           <div class="section">
             <section class="page-section" id="section1">
                 <div class="home">
-                    <img class="bringiton" src="img/BRINGITON.png" alt="" />
+                    <img class="bringiton" src="img/BRINGITON.png" alt="bringiton" />
                     <div class="smallborder"></div>
                     <div class="hometxt">
                         <p>
@@ -83,16 +100,16 @@
 
                     </div>
                     <div class="sportbox" id="sport2">
-                        <img src="img/BASKETBALL_ICON.png" alt="" />
+                        <img src="img/BASKETBALL_ICON.png" alt="basketball-icon" />
                     </div>
                     <div class="sportbox" id="sport3">
-                        <img src="img/HANDBALL_IKONICA.png" alt="" />
+                        <img src="img/HANDBALL_IKONICA.png" alt="handball-icon" />
                     </div>
                     <div class="sportbox" id="sport4">
-                        <img src="img/FUTSAL_IKONICA.png" alt="" />
+                        <img src="img/FUTSAL_IKONICA.png" alt="futsal-icon" />
                     </div>
                     <div class="sportbox" id="sport5">
-                        <img src="img/VOLLEYBALL_IKONICA.png" alt="" />
+                        <img src="img/VOLLEYBALL_IKONICA.png" alt="volleyball-icon" />
                     </div>
                     <div class="sportbox" id="sport6">
                       <div class="txtforsport6">
@@ -148,12 +165,13 @@
                   </div>
                   <div class="contact_info">
                     <div class="singlecontactbox">
-                          <img src="img/EMAIL_IKONICA.png" alt="" /><br />
+                      <a href="mailto:office@uniada.org">
+                          <img src="img/EMAIL_IKONICA.png" alt="email-icon" /><br />
                           <br />
-                        <a href="mailto:office@uniada.org">OFFICE@UNIADA.ORG</a>
+                        OFFICE@UNIADA.ORG</a>
                     </div>
                     <div class="singlecontactbox">
-                          <img src="img/LOKACIJA_IKONICA.png" alt="" />
+                          <img src="img/LOKACIJA_IKONICA.png" alt="location-icon" />
                           <br /><br />
                         <p>ZAPLANJSKA 97,<BR />11000 Beogard, Serbia</a>
                     </div>
@@ -161,9 +179,10 @@
                         <!--<div class="imgbox">
                             <img src="img/mail.png" alt="imgicon" />
                         </div>-->
-                        <img src="img/TELEFON_IKONICA.png" alt="" /><br />
+                        <a href="tel:+381 60 864 232">
+                        <img src="img/TELEFON_IKONICA.png" alt="phone-icon" /><br />
                         <br />
-                        <a href="tel:+381 60 864 232">+381 60 864 232</a>
+                        +381 60 864 232</a>
                     </div>
                   </div>
 
@@ -174,19 +193,6 @@
     </div>
     <script src="js/index.js"></script>
     <script src="js/timer.js"></script>
-    <script>
-    $(window).scroll(function(){
-      $('.counter').css('width', ($(this).scrollTop() / ($('body').height() - $(window).height()))*100 + "%");
 
-      });
-    </script>
-    <script>
-    $(document).ready(function(){
-    $("#burger-container").on('click', function(){
-        $(this).toggleClass("open");
-        $(".navigation").toggleClass("respopen");
-    });
-  });
-    </script>
   </body>
 </html>

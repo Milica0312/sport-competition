@@ -1,7 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background: #f8f9fb;
-  font-size: 12px; }
+  background: #f8f9fb; }
 
 html, body, ul, ol, li, form, fieldset, legend {
   margin: 0;
@@ -34,7 +33,11 @@ img.bringiton {
   width: 40%;
   position: absolute;
   top: 39%;
-  left: 26%; }
+  left: 23%; }
+  @media screen and (max-width: 1600px) and (min-width: 768px) {
+    img.bringiton {
+      width: 60%;
+      left: 20%; } }
   @media screen and (max-width: 768px) {
     img.bringiton {
       width: 90%;
@@ -95,7 +98,7 @@ img.bringiton {
       left: 42%; } }
   @media screen and (max-width: 768px) {
     .divbtn img {
-      top: 50%;
+      top: 55%;
       left: 40%; } }
   @media screen and (max-width: 500px) {
     .divbtn img {
@@ -132,7 +135,7 @@ img.bringiton {
           font-size: 25px; } }
   .about .about_txt {
     padding-right: 300px; }
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1500px) {
       .about .about_txt {
         padding-right: 0; } }
   .about .countdown_head {
@@ -159,6 +162,9 @@ img.bringiton {
       width: 50%;
       margin-left: auto;
       margin-right: auto; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .about .countdown_head h2 {
+          width: auto; } }
       .about .countdown_head h2 span {
         font-weight: 600; }
   .about .timer {
@@ -377,13 +383,13 @@ img.bringiton {
 
 .esport .esport_txt {
   color: black;
-  padding-right: 300px; }
-  @media screen and (max-width: 1400px) {
-    .esport .esport_txt {
-      padding-right: 0; } }
+  padding-right: 500px; }
   @media screen and (max-width: 1200px) {
     .esport .esport_txt {
       padding-right: 100px; } }
+  @media screen and (max-width: 768px) {
+    .esport .esport_txt {
+      padding-right: 50px; } }
 
 .esport .esport_icons {
   margin: 35px 0 30px; }
@@ -781,6 +787,9 @@ img.bringiton {
       height: 120px;
       padding: 50px;
       background-color: #1d234b; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content-holder .navigation .section1bcg {
+          padding: 25px; } }
       @media screen and (max-width: 768px) {
         .content-holder .navigation .section1bcg {
           height: auto; } }
@@ -788,6 +797,9 @@ img.bringiton {
       height: 120px;
       padding: 50px;
       background-color: #ee2f30; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content-holder .navigation .section2bcg {
+          padding: 25px; } }
       @media screen and (max-width: 768px) {
         .content-holder .navigation .section2bcg {
           height: auto; } }
@@ -795,6 +807,9 @@ img.bringiton {
       height: 120px;
       padding: 50px;
       background-color: #e8edfb; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content-holder .navigation .section3bcg {
+          padding: 25px; } }
       @media screen and (max-width: 768px) {
         .content-holder .navigation .section3bcg {
           height: auto; } }
@@ -802,6 +817,9 @@ img.bringiton {
       height: 120px;
       padding: 50px;
       background-color: #ee2f30; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content-holder .navigation .section4bcg {
+          padding: 25px; } }
       @media screen and (max-width: 768px) {
         .content-holder .navigation .section4bcg {
           height: auto; } }
@@ -809,6 +827,9 @@ img.bringiton {
       height: 120px;
       padding: 50px;
       background-color: #12b4b3; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content-holder .navigation .section5bcg {
+          padding: 25px; } }
       @media screen and (max-width: 768px) {
         .content-holder .navigation .section5bcg {
           height: auto; } }
@@ -816,6 +837,9 @@ img.bringiton {
       height: 120px;
       padding: 50px;
       background-color: #434343; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content-holder .navigation .section6bcg {
+          padding: 25px; } }
       @media screen and (max-width: 768px) {
         .content-holder .navigation .section6bcg {
           height: auto; } }
@@ -830,7 +854,7 @@ img.bringiton {
         padding: 25px; } }
     @media screen and (max-width: 768px) {
       .content-holder .navigation ul #changinglogo img {
-        width: 60%; } }
+        width: 40%; } }
   .content-holder .respopen {
     margin-left: 0;
     -webkit-transition: 1s;

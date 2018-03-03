@@ -11,6 +11,9 @@
 @mixin logoheight{
   height:120px;
   padding:50px;
+  @include mQ(1200px, 768px){
+   padding:25px;
+  }
 }
  @mixin sectiondefault{
    width:100%;
@@ -49,7 +52,7 @@
  }
  @mixin section_txt{
    padding-right: 300px;
-   @include mQ(1400px){
+   @include mQ(1500px){
      padding-right: 0;
    }
  }
