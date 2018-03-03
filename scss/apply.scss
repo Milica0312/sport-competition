@@ -13,8 +13,9 @@
       line-height: 60px;
     }
     @include mQ(768px){
-      font-size: 40px;
+      font-size: 30px;
       line-height: 40px;
+      width:100%;
     }
   }
   .apply_txt{

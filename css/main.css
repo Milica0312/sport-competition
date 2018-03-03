@@ -418,8 +418,9 @@ img.bringiton {
       line-height: 60px; } }
   @media screen and (max-width: 768px) {
     .application h1 {
-      font-size: 40px;
-      line-height: 40px; } }
+      font-size: 30px;
+      line-height: 40px;
+      width: 100%; } }
 
 .application .apply_txt {
   padding-right: 300px; }
@@ -616,7 +617,7 @@ img.bringiton {
           padding: 30px; } }
       @media screen and (max-width: 768px) {
         .content-holder .section #section1 {
-          height: 100vh; } }
+          height: 70vh; } }
     .content-holder .section #section2 {
       width: 100%;
       height: 100vh;
@@ -642,7 +643,7 @@ img.bringiton {
       @media screen and (max-width: 768px) {
         .content-holder .section #section2 {
           padding: 15px;
-          height: 100vh; } }
+          height: auto; } }
     .content-holder .section #section3 {
       width: 100%;
       height: 100vh;
@@ -662,7 +663,7 @@ img.bringiton {
       @media screen and (max-width: 1300px) {
         .content-holder .section #section3 {
           padding: 100px 15px 150px;
-          height: 200vh; } }
+          height: auto; } }
     .content-holder .section #section4 {
       width: 100%;
       height: 100vh;
@@ -684,7 +685,7 @@ img.bringiton {
       @media screen and (max-width: 1200px) {
         .content-holder .section #section4 {
           padding: 50px 80px;
-          height: 100vh; } }
+          height: auto; } }
       @media screen and (max-width: 768px) {
         .content-holder .section #section4 {
           padding: 15px; } }
@@ -710,7 +711,7 @@ img.bringiton {
       @media screen and (max-width: 768px) {
         .content-holder .section #section5 {
           padding: 15px;
-          height: 100vh; } }
+          height: auto; } }
     .content-holder .section #section6 {
       width: 100%;
       height: 100vh;
@@ -733,7 +734,7 @@ img.bringiton {
       @media screen and (max-width: 768px) {
         .content-holder .section #section6 {
           padding: 15px;
-          height: 100vh; } }
+          height: auto; } }
     .content-holder .section #section7 {
       color: #1d234b; }
   .content-holder .navigation {

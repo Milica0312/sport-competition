@@ -84,7 +84,7 @@
             padding:30px;
           }
           @include mQ(768px){
-            height: 100vh;
+            height: 70vh;
 
           }
         }
@@ -99,7 +99,7 @@
           }
           @include mQ(768px){
             padding:15px;
-            height:100vh;
+            height:auto;
           }
         }
         #section3{
@@ -107,7 +107,7 @@
           background-color: $contentgray;
           @include mQ(1300px){
             padding:100px 15px 150px;
-            height:200vh;
+            height:auto;
           }
 
         }
@@ -118,7 +118,7 @@
           width: 100%;
           @include mQ(1200px){
             padding:50px 80px;
-            height: 100vh;
+            height: auto;
           }
           @include mQ(768px){
             padding:15px;
@@ -133,7 +133,7 @@
           }
           @include mQ(768px){
             padding:15px;
-            height:100vh;
+            height:auto;
           }
         }
         #section6{
@@ -144,7 +144,7 @@
           }
           @include mQ(768px){
             padding:15px;
-            height:100vh;
+            height:auto;
           }
         }
         #section7{
