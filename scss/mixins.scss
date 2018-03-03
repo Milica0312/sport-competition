@@ -11,6 +11,7 @@
 @mixin logoheight{
   height:120px;
   padding:50px;
+  transition: 1s;
   @include mQ(1200px, 768px){
    padding:25px;
   }
@@ -57,8 +58,8 @@
    }
  }
  @mixin sportbox{
-   width:280px;
-   height: 200px;
+   width:330px;
+   height: 270px;
    flex-grow: 1;
    display:flex;
    justify-content: center;
