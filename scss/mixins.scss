@@ -1,10 +1,19 @@
 @mixin contentholder{
+  width:80%;
   margin-left: 10%;
   padding-top: 5%;
+  @include mQ(1200px){
+    width:90%;
+    margin-left: 5%;
+    padding-top: 5%;
+  }
 }
 @mixin logoheight{
   height:120px;
   padding:50px;
+  @include mQ(1200px, 768px){
+   padding:25px;
+  }
 }
  @mixin sectiondefault{
    width:100%;
@@ -13,9 +22,40 @@
    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.5);
    padding:100px 200px;
    box-sizing: border-box;
-
+   @include mQ(1400px){
+    padding:100px 100px;
+   }
+   @include mQ(1200px){
+    padding:100px 60px;
+   }
  }
-
+ @mixin sectionhead{
+   padding-left:30px;
+     h1{
+       font-size: 50px;
+       font-weight: 600;
+       width: 40%;
+       @include mQ(1200px){
+         width: 60%;
+       }
+       @include mQ(768px){
+         font-size: 30px;
+       }
+     }
+     p{
+       font-size: 45px;
+       font-weight: 100;
+       @include mQ(768px){
+         font-size: 25px;
+       }
+     }
+ }
+ @mixin section_txt{
+   padding-right: 300px;
+   @include mQ(1500px){
+     padding-right: 0;
+   }
+ }
  @mixin sportbox{
    width:280px;
    height: 200px;

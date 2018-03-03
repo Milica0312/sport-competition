@@ -3,8 +3,11 @@ img.bringiton {
     width: 40%;
     position: absolute;
     top: 39%;
-    left: 26%;
-
+    left: 23%;
+    @include mQ(1600px, 768px){
+      width: 60%;
+      left: 20%;
+    }
     @include mQ(768px){
       width: 90%;
       top: 20%;
@@ -51,7 +54,7 @@ img.bringiton {
       transition:1s;
     }
     @include mQ(768px){
-      top: 50%;
+      top: 55%;
       left: 4%;
       padding: 10px 30px;
     }
@@ -66,8 +69,11 @@ img.bringiton {
     left: 42%;
   }
   @include mQ(768px){
-    top: 50%;
-    left: 45%;
+    top: 55%;
+    left: 40%;
+  }
+  @include mQ(500px){
+    display:none;
   }
 }
 /***/

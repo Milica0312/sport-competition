@@ -8,25 +8,14 @@
 
   .about__uniada{
     border-left:3px solid white;
-    padding-left:30px;
-      h1{
-        font-size: 40px;
-      }
-      p{
-        font-size: 30px;
-        font-weight: 100;
-
-      }
+    @include sectionhead;
   }
   .about_txt{
-    padding-right: 300px;
-    @include mQ(1400px){
-      padding-right: 0;
-    }
+    @include section_txt;
   }
   .countdown_head{
     width: 50%;
-    margin: 150px auto 50px;
+    margin: 60px auto 50px;
     text-align: center;
     padding-top: 20px;
     @include mQ(1200px){
@@ -41,10 +30,15 @@
       @include smallcustomborder;
     }
     h2{
-
-
+      font-weight: 100;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      @include mQ(1200px, 768px){
+        width:auto;
+      }
       span{
-        font-weight: bold;
+        font-weight: 600;
       }
     }
   }

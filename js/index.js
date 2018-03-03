@@ -73,3 +73,16 @@ $(document).ready(function() {
     }, 1000 );
   });
 });
+/*progress bar*/
+$(window).scroll(function(){
+  $('.counter').css('width', ($(this).scrollTop() / ($('body').height() - $(window).height()))*100 + "%");
+
+  });
+
+  /*responsive navigation*/
+  $(document).ready(function(){
+    $("#burger-container").on('click', function(){
+        $(this).toggleClass("open");
+        $(".navigation").toggleClass("respopen");
+    });
+  });
