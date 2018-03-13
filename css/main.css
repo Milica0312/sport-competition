@@ -208,12 +208,26 @@ img.bringiton {
   flex-wrap: wrap;
   left: 50px; }
   .sports .sportbox {
+    position: relative;
     /*box-sizing: border-box;
         flex:0 0 33%;
         height:250px;
         display:flex;
         justify-content: center;
         align-items: center;*/ }
+    .sports .sportbox .sportname {
+      position: absolute;
+      bottom: 42px;
+      color: white;
+      text-decoration: none;
+      left: 45%; }
+    .sports .sportbox a {
+      width: 100%;
+      height: 100%; }
+    .sports .sportbox img {
+      position: absolute;
+      top: 25%;
+      left: 38%; }
   .sports #sport1 {
     width: 330px;
     height: 270px;
