@@ -34,7 +34,11 @@ img.bringiton {
   position: absolute;
   top: 39%;
   left: 23%; }
-  @media screen and (max-width: 1600px) and (min-width: 768px) {
+  @media screen and (max-width: 1600px) and (min-width: 1200px) {
+    img.bringiton {
+      width: 45%;
+      left: 20%; } }
+  @media screen and (max-width: 1198px) and (min-width: 768px) {
     img.bringiton {
       width: 60%;
       left: 20%; } }
@@ -366,6 +370,112 @@ img.bringiton {
           transition: 1s; }
 
 /**/
+/*control active state in nav without js*/
+.sportact {
+  color: #ee2f30 !important;
+  font-weight: bold !important; }
+
+.inact {
+  color: #a1a6b0 !important;
+  font-weight: normal !important; }
+
+/**/
+.basketball .about .singlesport_btn {
+  width: 50%;
+  margin: auto;
+  text-align: center; }
+  .basketball .about .singlesport_btn a {
+    color: #1d234b;
+    background-color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 70px;
+    border: 1px solid white; }
+
+#basketball {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#ee2f30), color-stop(#f23536), color-stop(#f73a3b), color-stop(#fb4041), to(#ff4546));
+  background-image: -webkit-linear-gradient(left bottom, #ee2f30, #f23536, #f73a3b, #fb4041, #ff4546);
+  background-image: -o-linear-gradient(left bottom, #ee2f30, #f23536, #f73a3b, #fb4041, #ff4546);
+  background-image: linear-gradient(to right top, #ee2f30, #f23536, #f73a3b, #fb4041, #ff4546);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 100px 200px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto; }
+  @media screen and (max-width: 1400px) {
+    #basketball {
+      padding: 100px 100px; } }
+  @media screen and (max-width: 1200px) {
+    #basketball {
+      padding: 100px 60px; } }
+
+#handball {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#7e429a), color-stop(#8643a6), color-stop(#8f44b1), color-stop(#9745bd), to(#a046c9));
+  background-image: -webkit-linear-gradient(left bottom, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9);
+  background-image: -o-linear-gradient(left bottom, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9);
+  background-image: linear-gradient(to right top, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 100px 200px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto; }
+  @media screen and (max-width: 1400px) {
+    #handball {
+      padding: 100px 100px; } }
+  @media screen and (max-width: 1200px) {
+    #handball {
+      padding: 100px 60px; } }
+
+#futsal {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#12b4b3), color-stop(#12bebd), color-stop(#12c7c6), color-stop(#12d1d0), to(#11dbda));
+  background-image: -webkit-linear-gradient(left bottom, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda);
+  background-image: -o-linear-gradient(left bottom, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda);
+  background-image: linear-gradient(to right top, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda);
+  width: 100%;
+  height: 100vh;
+  color: white;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 100px 200px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: auto; }
+  @media screen and (max-width: 1400px) {
+    #futsal {
+      padding: 100px 100px; } }
+  @media screen and (max-width: 1200px) {
+    #futsal {
+      padding: 100px 60px; } }
+
+#volleyball {
+  background-image: -webkit-gradient(linear, left bottom, right top, from(#e09733), color-stop(#e8a132), color-stop(#f0ac31), color-stop(#f8b730), to(#ffc22f));
+  background-image: -webkit-linear-gradient(left bottom, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f);
+  background-image: -o-linear-gradient(left bottom, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f);
+  background-image: linear-gradient(to right top, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f);
+  height: auto;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 100px 200px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+  @media screen and (max-width: 1400px) {
+    #volleyball {
+      padding: 100px 100px; } }
+  @media screen and (max-width: 1200px) {
+    #volleyball {
+      padding: 100px 60px; } }
+
 .esport .esport_head {
   border-left: 3px solid black;
   color: black;
@@ -580,7 +690,11 @@ img.bringiton {
             top: 0;
             -webkit-transition: all ease-in-out 0.4s;
             -o-transition: all ease-in-out 0.4s;
-            transition: all ease-in-out 0.4s; } }
+            transition: all ease-in-out 0.4s; }
+          .content-holder #burger-container #burger .sectiondefspan {
+            background: #eee; }
+          .content-holder #burger-container #burger .sectionspancol {
+            background: #1d234b !important; } }
   .content-holder #burger-container.open span:nth-child(2),
   .content-holder #burger-container.open span:nth-child(3) {
     width: 0;
@@ -650,7 +764,7 @@ img.bringiton {
           padding: 100px 60px; } }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section2 {
-          height: 100vh; } }
+          height: auto; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section2 {
           padding: 50px 80px; } }
@@ -674,6 +788,9 @@ img.bringiton {
       @media screen and (max-width: 1200px) {
         .content-holder .section #section3 {
           padding: 100px 60px; } }
+      @media screen and (max-width: 1400px) {
+        .content-holder .section #section3 {
+          height: auto; } }
       @media screen and (max-width: 1300px) {
         .content-holder .section #section3 {
           padding: 100px 15px 150px;
@@ -696,6 +813,9 @@ img.bringiton {
       @media screen and (max-width: 1200px) {
         .content-holder .section #section4 {
           padding: 100px 60px; } }
+      @media screen and (max-width: 1400px) {
+        .content-holder .section #section4 {
+          height: auto; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section4 {
           padding: 50px 80px;
@@ -744,7 +864,7 @@ img.bringiton {
           padding: 100px 60px; } }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section6 {
-          height: 100vh; } }
+          height: auto; } }
       @media screen and (max-width: 768px) {
         .content-holder .section #section6 {
           padding: 15px;
@@ -867,8 +987,14 @@ img.bringiton {
         .content-holder .navigation .section6bcg {
           height: auto; } }
     .content-holder .navigation .sectionbcg {
-      height: 200px;
-      background-color: gray; }
+      height: 120px;
+      padding: 50px;
+      -webkit-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content-holder .navigation .sectionbcg {
+          padding: 25px; } }
       @media screen and (max-width: 768px) {
         .content-holder .navigation .sectionbcg {
           height: auto; } }

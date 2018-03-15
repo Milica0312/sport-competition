@@ -1,0 +1,47 @@
+/*control active state in nav without js*/
+.sportact{
+    color: $contentred !important;
+    font-weight: bold !important;
+}
+.inact{
+  color:#a1a6b0 !important;
+  font-weight: normal !important;
+}
+/**/
+.basketball{
+    .about{
+      .singlesport_btn{
+        width: 50%;
+        margin:auto;
+        text-align: center;
+        a{
+          color:$deeppurple;
+          background-color: white;
+          text-decoration: none;
+          text-align: center;
+          padding:10px 70px;
+          border:1px solid white;
+        }
+      }
+    }
+}
+#basketball{
+  background-image: $gradientsport2;
+  @include sectiondefault;
+  height: auto;
+}
+#handball{
+  background-image: $gradientsport3;
+  @include sectiondefault;
+  height: auto;
+}
+#futsal{
+  background-image: $gradientsport4;
+  @include sectiondefault;
+  height: auto;
+}
+#volleyball{
+  background-image: $gradientsport5;
+  height: auto;
+  @include sectiondefault;
+}
