@@ -54,7 +54,10 @@ $(window).scroll(function() {
                 $('.navigation #changinglogo').removeClass().addClass('section6bcg');
                 document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
-
+          else if(this.id == "section7"){
+                $('.navigation #changinglogo').removeClass().addClass('section7bcg');
+                document.getElementById("logo").src = "img/LOGO_BELI.png";
+          }
           else{
           $('.navigation #changinglogo').addClass('sectionbcg');
             document.getElementById("logo").src = "img/LOGO_BOJA.png";
@@ -89,3 +92,4 @@ $(window).scroll(function(){
         $(".navigation").toggleClass("respopen");
     });
   });
+/**/

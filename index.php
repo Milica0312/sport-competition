@@ -22,8 +22,10 @@
 
     <link rel="canonical" href="http://uniada.org/" />
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/forma.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=hr'></script>
   </head>
   <body>
       <div class="counter"></div>
@@ -46,8 +48,14 @@
               <li><a class="navigation__link" href="#section3">SPORTS</a></li>
               <li><a class="navigation__link" href="#section4">E-SPORT</a></li>
               <li><a class="navigation__link" href="#section5">APPLY</a></li>
-              <li><a class="navigation__link" href="#section6">CONTACT</a></li>
-              <li><a class="navigation__link" href="#section7">VOLUNTEER</a></li>
+              <li><a class="navigation__link" href="#section6">GALLERY</a></li>
+              <li><a class="navigation__link" href="#section7">CONTACT</a></li>
+              <li><a class="navigation__link" href="volunteer.php">VOLUNTEER</a></li>
+            </ul>
+            <ul class="socialicons">
+              <li><a href="https://www.facebook.com/UNIADAOFFICIAL/" target="_blank"><img src="img/if_06-facebook_104498.png" alt="fb" /></a></li>
+              <li><a href="https://www.instagram.com/explore/locations/1025400249/uniada/" target="_blank"><img src="img/if_38-instagram_1161953.png" alt="instagram" /></a></li>
+              <li><a href="https://www.youtube.com/channel/UCpx8Jz5rFhHx3GG0hYZI7lQ" target="_blank"><img src="img/if_18-youtube_104482.png" alt="youtube" /></a></li>
             </ul>
           </nav>
           <div class="section">
@@ -156,6 +164,19 @@
             </section>
             <section class="page-section" id="section5">
                 <div class="application">
+                    <div class="uniadaexperience">
+                          <p class="experienceh">UNIADA EXPERIENCE</p>
+                          <div class="dividerexperience">
+                          </div>
+                          <div class="experiencetxt">
+                              <p class="experiencetxtp">
+                      tart marzipan chocolate cake. Caie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tira
+                              </p>
+                              <p class="experiencesignature">
+                                Milica Pavlovic
+                              </p>
+                          </div>
+                    </div>
                     <h1><strong>APPLICATION OPENING SOON</strong></h1>
                     <div class="apply_txt">
                         <h2>IN THE MEANWHILE, SEE HOW IT WAS LAST YEAR</h2>
@@ -170,21 +191,52 @@
                 </div>
             </section>
             <section class="page-section" id="section6">
+              <p>
+                TEST
+              </p>
+            </section>
+            <section class="page-section" id="section7">
                 <div class="contact">
                   <div class="contact_head">
                       <h1><strong>CONTACT US</strong></h1>
                       <p>We would like to hear from You</p>
                       <div class="topborder"></div>
                   </div>
+                  <div id="form">
+              				<div class="form-item">
+              					<p class="formLabel">Ime</p>
+              					<input type="text" name="ime" id="ime" class="form-style" />
+              					<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
+              				</div>
+              				<div class="form-item">
+              					<p class="formLabel">Email</p>
+              					<input type="email" name="email" id="email" class="form-style" autocomplete="off"/>
+              				</div>
+              				<div class="form-item">
+              					<p class="formLabel">Pitanje</p>
+              					<textarea name="pitanje" id="pitanje" class="form-style"></textarea>
+              					<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
+              				</div>
+              				<div class="form-item">
+              					<div class="g-recaptcha" data-sitekey="6LdAJ00UAAAAAElof1s8xKLC5YCgR2ICHupC-ymf" data-callback="recaptchaCallback"></div>
+              				</div>
+              				<div class="form-item">
+
+              					<button onclick="return upis();" class="login pull-right btncontform">Pošalji</button>
+              					<div class="clear-fix"></div>
+              				</div>
+              				<div id="placefortable">
+                                  </div><br><br>
+              			</div>
                   <div class="contact_info">
                     <div class="singlecontactbox">
                       <a href="mailto:office@uniada.org">
-                          <img src="img/EMAIL_IKONICA.png" alt="email-icon" /><br />
+                          <img src="img/email.png" alt="email-icon" /><br />
                           <br />
                         OFFICE@UNIADA.ORG</a>
                     </div>
                     <div class="singlecontactbox">
-                          <img src="img/LOKACIJA_IKONICA.png" alt="location-icon" />
+                          <img src="img/adresa.png" alt="location-icon" />
                           <br /><br />
                         <p>11000 Beogard, Serbia</a>
                     </div>
@@ -193,7 +245,7 @@
                             <img src="img/mail.png" alt="imgicon" />
                         </div>-->
                         <a href="tel:+381 60 864 232">
-                        <img src="img/TELEFON_IKONICA.png" alt="phone-icon" /><br />
+                        <img src="img/telefon.png" alt="phone-icon" /><br />
                         <br />
                         +381 60 0 864 232</a>
                     </div>
@@ -206,6 +258,101 @@
     </div>
     <script src="js/index.js"></script>
     <script src="js/timer.js"></script>
+    <script>
+		$(document).ready(function(){
+	var formInputs = $('input[type="text"], input[type="email"],textarea');
+	formInputs.focus(function() {
+       $(this).parent().children('p.formLabel').addClass('formTop');
+       $('div#formWrapper').addClass('darken-bg');
+       $('div.logo').addClass('logo-active');
+	});
+	formInputs.focusout(function() {
+		if ($.trim($(this).val()).length == 0){
+		$(this).parent().children('p.formLabel').removeClass('formTop');
+		}
+		$('div#formWrapper').removeClass('darken-bg');
+		$('div.logo').removeClass('logo-active');
+	});
+	$('p.formLabel').click(function(){
+		 $(this).parent().children('.form-style').focus();
+	});
+});
 
+		</script>
+		<script>
+	function upis(){
+				var ime = document.getElementById("ime").value;
+				//var ime_slavljenik = document.getElementById("ime_slavljenik").value;
+				var email =  document.getElementById("email").value;
+				//var datum = $(".datum:checked").val();
+				var pitanje =  document.getElementById("pitanje").value;
+
+
+
+              /* var ind=0;
+				if (ime===null || ime===''){
+					document.getElementById("email_error").innerHTML = "Molimo vas popunite polje.";
+					ind=1;
+				}
+                if (email===null || email===''){
+					document.getElementById("telefon_error").innerHTML = "Molimo vas popunite polje.";
+					ind=1;
+				}
+                if(pitanje===null || pitanje===''){
+					document.getElementById("datum_ostavljanja_error").innerHTML = "Molimo vas popunite polje.";
+					ind=1;
+				}
+
+                if(ind===1){
+					return false;
+					/*document.getElementById("email_error").innerHTML = email;
+					document.getElementById("telefon_error").innerHTML = telefon;
+					//var ime_slavljenik =  $("#ime_slavljenik:selected").val();
+					document.getElementById("datum_ostavljanja_error").innerHTML = datum_ostavljanja;
+					document.getElementById("vreme_dolaska_error").innerHTML = vreme_dolaska;
+					document.getElementById("datum_preuzimanja_error").innerHTML = datum_preuzimanja;*/
+					//window.location="./#potvrda";
+			/*	}
+				else{*/
+					var ime = document.getElementById("ime").value;
+					//var ime_slavljenik = document.getElementById("ime_slavljenik").value;
+					var email =  document.getElementById("email").value;
+					//var datum = $(".datum:checked").val();
+					var pitanje =  document.getElementById("pitanje").value;
+
+					$.ajax({
+
+					  type:"post",
+					  url: "upis.php",
+					  cashe: false,
+					  //data: dataString,
+					  data: {ime:ime,email:email,pitanje:pitanje,captcha:grecaptcha.getResponse()},
+
+					  success: function(data){
+							document.getElementById("placefortable").innerHTML = data;
+						 //window.location.href = "thankyou.php";
+						 /* window.alert(data);*/
+						  /*
+						  if(data == "Hvala na postavljenom pitanju. Očekujte odgovor u roku od 24h."){
+							 document.getElementById("kontaktfrmanone").style.display = "none";
+							 document.getElementById("placefortable").innerHTML = data;
+							 document.getElementById("placefortable").style.color = "#000000";
+						  }
+						  else{
+							  document.getElementById("placefortable").innerHTML = data;
+							  document.getElementById("placefortable").style.color = "#ed1a3b";
+						  }*/
+					  },
+					  error: function (req, status, err) {
+						  //alert(data),
+					console.log('Something went wrong', status, err);
+					}
+				  })
+				  return false;
+			/*	}*/
+
+		}
+
+	</script>
   </body>
 </html>

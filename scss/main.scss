@@ -8,7 +8,7 @@
 @import "esport.scss";
 @import "apply.scss";
 @import "contact.scss";
-
+@import "volunteer.scss";
 /*NAVIGATION and content-right*/
 .counter{
   height: 5px;
@@ -150,7 +150,7 @@
             height:auto;
           }
         }
-        #section6{
+        #section7{
           @include sectiondefault;
           background-color: $contactgray;
           @include mQ(1400px){
@@ -161,8 +161,16 @@
             height:auto;
           }
         }
-        #section7{
-          color:$deeppurple;
+        #section6{
+          @include sectiondefault;
+          background-color: $applyblue;
+          @include mQ(1400px){
+            height:auto;
+          }
+          @include mQ(768px){
+            padding:15px;
+            height:auto;
+          }
         }
     }
     .navigation {
@@ -186,7 +194,19 @@
         margin-left: -40%;
 
       }
-
+      .socialicons{
+        margin-top: 34vh;
+        width: 100%;
+        text-align: center;
+        li {
+          float: left;
+          img {
+            width: 29px;
+            height: auto;
+            padding: 13px;
+          }
+        }
+      }
       ul li:last-child a
       {
         color:$deeppurple;
@@ -253,6 +273,14 @@
           }
         }
         .section6bcg{
+          @include logoheight;
+          background-color: $applyblue;
+          @include mQ(768px){
+            height: auto;
+
+          }
+        }
+        .section7bcg{
           @include logoheight;
           background-color: $contactgray;
           @include mQ(768px){

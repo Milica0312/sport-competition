@@ -529,11 +529,35 @@ img.bringiton {
     border: 1px solid white; }
 
 /*apply section*/
+.application .uniadaexperience {
+  overflow: hidden;
+  margin-bottom: 50px; }
+  .application .uniadaexperience .experienceh {
+    width: 80%;
+    margin-left: 15%;
+    letter-spacing: 10px;
+    font-weight: bold; }
+  .application .uniadaexperience .experiencetxt {
+    width: 70%;
+    float: right; }
+    .application .uniadaexperience .experiencetxt .experiencetxtp {
+      font-style: italic; }
+    .application .uniadaexperience .experiencetxt .experiencesignature {
+      text-align: right;
+      font-style: italic;
+      font-size: 12px; }
+  .application .uniadaexperience .dividerexperience {
+    width: 10%;
+    margin-left: 49%;
+    border-top: 2px solid white;
+    text-align: center;
+    padding-top: 28px; }
+
 .application h1 {
   width: 72%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 94px;
+  font-size: 80px;
   text-align: center;
   font-weight: 900; }
   @media screen and (max-width: 1400px) {
@@ -583,13 +607,7 @@ img.bringiton {
 /*contact section*/
 .contact {
   width: 80%;
-  margin-left: 10%;
-  padding-top: 5%; }
-  @media screen and (max-width: 1200px) {
-    .contact {
-      width: 90%;
-      margin-left: 5%;
-      padding-top: 5%; } }
+  margin-left: 10%; }
   @media screen and (max-width: 768px) {
     .contact {
       width: 100%;
@@ -597,7 +615,7 @@ img.bringiton {
       padding: 0; } }
   .contact .contact_head {
     width: 50%;
-    margin: 50px auto;
+    margin: 0 auto;
     text-align: center;
     padding-top: 20px; }
     @media screen and (max-width: 1400px) {
@@ -647,11 +665,70 @@ img.bringiton {
         padding: 30px 0;
         margin-top: 50px;
         text-decoration: none; }
+        @media screen and (max-width: 768px) {
+          .contact .contact_info .singlecontactbox a {
+            font-size: 12px; } }
       @media screen and (max-width: 1400px) {
         .contact .contact_info .singlecontactbox img {
           width: 50%; } }
+      @media screen and (max-width: 768px) {
+        .contact .contact_info .singlecontactbox img {
+          width: 15%; } }
+      @media screen and (max-width: 768px) {
+        .contact .contact_info .singlecontactbox p {
+          font-size: 12px; } }
 
 /**/
+#volunteer {
+  background-color: #1d234b;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 100px 200px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  min-height: 100vh;
+  height: auto; }
+  @media screen and (max-width: 1400px) {
+    #volunteer {
+      padding: 100px 100px; } }
+  @media screen and (max-width: 1200px) {
+    #volunteer {
+      padding: 100px 60px; } }
+
+.volunteer .about form {
+  text-align: center; }
+  .volunteer .about form input {
+    display: block;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    margin-bottom: 30px;
+    color: #1d234b; }
+  .volunteer .about form button {
+    padding: 10px 50px;
+    border-radius: 15px;
+    border: 0;
+    color: #1d234b; }
+    .volunteer .about form button:hover {
+      background-color: #1d234b;
+      border: 1px solid white;
+      -webkit-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s;
+      color: white; }
+
+.volunteer .about .volunteerimg {
+  position: absolute;
+  bottom: 2%;
+  right: 2%; }
+
 /*NAVIGATION and content-right*/
 .counter {
   height: 5px;
@@ -846,7 +923,7 @@ img.bringiton {
         .content-holder .section #section5 {
           padding: 15px;
           height: auto; } }
-    .content-holder .section #section6 {
+    .content-holder .section #section7 {
       width: 100%;
       height: 100vh;
       color: white;
@@ -856,6 +933,29 @@ img.bringiton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-color: #434343; }
+      @media screen and (max-width: 1400px) {
+        .content-holder .section #section7 {
+          padding: 100px 100px; } }
+      @media screen and (max-width: 1200px) {
+        .content-holder .section #section7 {
+          padding: 100px 60px; } }
+      @media screen and (max-width: 1400px) {
+        .content-holder .section #section7 {
+          height: auto; } }
+      @media screen and (max-width: 768px) {
+        .content-holder .section #section7 {
+          padding: 15px;
+          height: auto; } }
+    .content-holder .section #section6 {
+      width: 100%;
+      height: 100vh;
+      color: white;
+      -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.5);
+      padding: 100px 200px;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      background-color: #12b4b3; }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section6 {
           padding: 100px 100px; } }
@@ -869,8 +969,6 @@ img.bringiton {
         .content-holder .section #section6 {
           padding: 15px;
           height: auto; } }
-    .content-holder .section #section7 {
-      color: #1d234b; }
   .content-holder .navigation {
     width: 10%;
     float: left;
@@ -893,6 +991,16 @@ img.bringiton {
         width: 40%;
         z-index: 1;
         margin-left: -40%; } }
+    .content-holder .navigation .socialicons {
+      margin-top: 34vh;
+      width: 100%;
+      text-align: center; }
+      .content-holder .navigation .socialicons li {
+        float: left; }
+        .content-holder .navigation .socialicons li img {
+          width: 29px;
+          height: auto;
+          padding: 13px; }
     .content-holder .navigation ul li:last-child a {
       color: #1d234b;
       font-weight: bold; }
@@ -979,12 +1087,25 @@ img.bringiton {
       -webkit-transition: 1s;
       -o-transition: 1s;
       transition: 1s;
-      background-color: #434343; }
+      background-color: #12b4b3; }
       @media screen and (max-width: 1200px) and (min-width: 768px) {
         .content-holder .navigation .section6bcg {
           padding: 25px; } }
       @media screen and (max-width: 768px) {
         .content-holder .navigation .section6bcg {
+          height: auto; } }
+    .content-holder .navigation .section7bcg {
+      height: 120px;
+      padding: 50px;
+      -webkit-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s;
+      background-color: #434343; }
+      @media screen and (max-width: 1200px) and (min-width: 768px) {
+        .content-holder .navigation .section7bcg {
+          padding: 25px; } }
+      @media screen and (max-width: 768px) {
+        .content-holder .navigation .section7bcg {
           height: auto; } }
     .content-holder .navigation .sectionbcg {
       height: 120px;
