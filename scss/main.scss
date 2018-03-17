@@ -164,7 +164,7 @@
         }
         #section6{
           @include sectiondefault;
-          background-color: white;
+          background-color: $contentgray;
           @include mQ(1400px){
             height:auto;
           }
@@ -212,6 +212,10 @@
       {
         color:$deeppurple;
         font-weight: bold;
+        text-decoration: none;
+        padding: 1em;
+        font-weight: bold;
+        font-size: 15px;
       }
 
       	&__link {
@@ -275,7 +279,7 @@
         }
         .section6bcg{
           @include logoheight;
-          background-color: white;
+          background-color: $contentgray;
           @include mQ(768px){
             height: auto;
 

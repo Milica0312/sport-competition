@@ -670,7 +670,8 @@ img.bringiton {
             font-size: 12px; } }
       @media screen and (max-width: 1400px) {
         .contact .contact_info .singlecontactbox img {
-          width: 50%; } }
+          width: 21%;
+          height: 30px; } }
       @media screen and (max-width: 768px) {
         .contact .contact_info .singlecontactbox img {
           width: 15%; } }
@@ -800,7 +801,7 @@ img.bringiton {
       .gallery .sponsors .window .fixedcontrols span {
         width: 15px;
         height: 15px;
-        background: #efefef;
+        background: #434343;
         border: 2px solid transparent;
         border-radius: 50%;
         display: inline-block;
@@ -1049,7 +1050,7 @@ img.bringiton {
       padding: 100px 200px;
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
-      background-color: white; }
+      background-color: #e8edfb; }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section6 {
           padding: 100px 100px; } }
@@ -1097,7 +1098,11 @@ img.bringiton {
           padding: 13px; }
     .content-holder .navigation ul li:last-child a {
       color: #1d234b;
-      font-weight: bold; }
+      font-weight: bold;
+      text-decoration: none;
+      padding: 1em;
+      font-weight: bold;
+      font-size: 15px; }
     .content-holder .navigation__link {
       display: block;
       color: #a1a6b0;
@@ -1181,7 +1186,7 @@ img.bringiton {
       -webkit-transition: 1s;
       -o-transition: 1s;
       transition: 1s;
-      background-color: white; }
+      background-color: #e8edfb; }
       @media screen and (max-width: 1200px) and (min-width: 768px) {
         .content-holder .navigation .section6bcg {
           padding: 25px; } }

@@ -50,7 +50,7 @@
               <li><a class="navigation__link" href="#section5">APPLY</a></li>
               <li><a class="navigation__link" href="#section6">GALLERY</a></li>
               <li><a class="navigation__link" href="#section7">CONTACT</a></li>
-              <li><a class="navigation__link" href="volunteer.php">VOLUNTEER</a></li>
+              <li><a class="volunteer" href="volunteer.php">VOLUNTEER</a></li>
             </ul>
             <ul class="socialicons">
               <li><a href="https://www.facebook.com/UNIADAOFFICIAL/" target="_blank"><img src="img/if_06-facebook_104498.png" alt="fb" /></a></li>
@@ -264,9 +264,9 @@
               					<textarea name="pitanje" id="pitanje" class="form-style"></textarea>
               					<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
               				</div>
-              				<!--<div class="form-item">
+              				<div class="form-item">
               					<div class="g-recaptcha" data-sitekey="6LdAJ00UAAAAAElof1s8xKLC5YCgR2ICHupC-ymf" data-callback="recaptchaCallback"></div>
-              				</div>-->
+              				</div>
               				<div class="form-item">
 
               					<button onclick="return upis();" class="login pull-right btncontform">Pošalji</button>

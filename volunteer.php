@@ -49,7 +49,7 @@
               <li><a class="navigation__link" href="index.php#section4">E-SPORT</a></li>
               <li><a class="navigation__link" href="index.php#section5">APPLY</a></li>
               <li><a class="navigation__link" href="index.php#section6">CONTACT</a></li>
-              <li><a class="navigation__link" href="index.php#section7">VOLUNTEER</a></li>
+              <li><a class="volunteer" href="volunteer.php">VOLUNTEER</a></li>
             </ul>
           </nav>
           <div class="section">

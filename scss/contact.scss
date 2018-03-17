@@ -62,7 +62,8 @@
       }
       img{
         @include mQ(1400px){
-            width:50%;
+          width: 21%;
+          height: 30px;
         }
         @include mQ(768px){
             width:15%;
