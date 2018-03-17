@@ -1091,7 +1091,8 @@ img.bringiton {
       width: 100%;
       text-align: center; }
       .content-holder .navigation .socialicons li {
-        float: left; }
+        float: left;
+        width: 30%; }
         .content-holder .navigation .socialicons li img {
           width: 29px;
           height: auto;
