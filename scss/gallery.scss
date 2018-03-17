@@ -1,0 +1,110 @@
+.gallery{
+    .gallery_btns{
+      width: 50%;
+      margin-left: 25%;
+      margin-right: 25%;
+      display: inline-block;
+      text-align: center;
+      p{
+          color:$applyblue;
+          border:1px solid $applyblue;
+          display: inline-block;
+          padding: 10px 30px;
+          &:hover{
+            background-color: $applyblue;
+            color:white;
+            transition:1s;
+          }
+      }
+
+    }
+    .gallery_content{
+      p:first-child {
+        color: $applyblue;
+        font-weight: 600;
+        font-size: 25px;
+        margin-top: 40px;
+        margin-bottom: 0;
+      }
+      p:nth-child(2) {
+        color: $applyblue;
+        margin-bottom: 60px;
+        margin-top: 0;
+      }
+    }
+    #images{
+      display:none;
+    }
+    #video {
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+      text-align: center;
+    }
+
+    .sponsors{
+      width: 90%;
+      .window{
+        overflow: hidden;
+        text-align: center;
+        .drzac{
+      		width: 300%;
+      		overflow: hidden;
+          .biggerw {
+        	   width: 31%;
+        		float: left;
+        		display:block;
+        		padding: 25px 0 0px 2%;
+            img{
+          		display:inline-block;
+              padding:10px;
+              filter: gray;
+             /* IE6-9 */
+             -webkit-filter: grayscale(100%);
+             /* Chrome 19+ & Safari 6+ */
+             -webkit-transition: all .6s ease;
+             /* Fade to color for Chrome and Safari */
+             -webkit-backface-visibility: hidden;
+             /* Fix for transition flickering */
+             &:hover{
+               filter: none;
+                -webkit-filter: grayscale(0%);
+             }
+          	}
+        	}
+
+      	}
+        .fixedcontrols{
+          text-align:center;
+          span{
+            width: 15px;
+            height: 15px;
+            background: #efefef;
+            border: 2px solid transparent;
+            border-radius: 50%;
+            display: inline-block;
+            cursor: pointer;
+            transition: all 0.3s;
+
+          }
+          img{
+            width:50px;
+
+          }
+        }
+      }
+    }
+}
+
+	/*
+	.biggerw_volonteri {
+		float: left;
+		width: 50%;
+		/*display: none;*/
+		/*padding: 25px 5% 25px 0;
+		text-align:left;
+	}*/
+/*
+	.prikaz{
+		display:block;
+	}*/

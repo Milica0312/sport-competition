@@ -52,7 +52,7 @@ $(window).scroll(function() {
           }
           else if(this.id == "section6"){
                 $('.navigation #changinglogo').removeClass().addClass('section6bcg');
-                document.getElementById("logo").src = "img/LOGO_BELI.png";
+                document.getElementById("logo").src = "img/LOGO_BOJA.png";
           }
           else if(this.id == "section7"){
                 $('.navigation #changinglogo').removeClass().addClass('section7bcg');
