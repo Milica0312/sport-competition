@@ -50,7 +50,7 @@
               <li><a class="navigation__link" href="#section5">APPLY</a></li>
               <li><a class="navigation__link" href="#section6">GALLERY</a></li>
               <li><a class="navigation__link" href="#section7">CONTACT</a></li>
-              <li><a class="navigation__link" href="volunteer.php">VOLUNTEER</a></li>
+              <li><a class="volunteer" href="volunteer.php">VOLUNTEER</a></li>
             </ul>
             <ul class="socialicons">
               <li><a href="https://www.facebook.com/UNIADAOFFICIAL/" target="_blank"><img src="img/if_06-facebook_104498.png" alt="fb" /></a></li>
@@ -191,9 +191,56 @@
                 </div>
             </section>
             <section class="page-section" id="section6">
-              <p>
-                TEST
-              </p>
+              <div class="gallery">
+                <div class="gallery_btns">
+                    <p id="video_btn">VIDEO GALERIJA</p>
+                    <p id="foto_btn">FOTO GALERIJA</p>
+                </div>
+                <div class="gallery_content" id="video">
+                    <p>
+                      UNIADA AFTERMOVIE
+                    </p>
+                    <p>
+                      POGLEDAJTE KAKO JE BILO - UNIADA 2017
+                    </p>
+                    <iframe width="700" height="350" src="https://www.youtube.com/embed/02aVjhOBX4E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="gallery_content" id="images">
+                  <p>
+                    GALERIJA
+                  </p>
+                </div>
+                <div class="sponsors">
+                  <div class="window">
+                      <div class="drzac">
+                        <div class="biggerw" id="dva">
+                          <img src="img/ATLANTIC.png" alt="slide1" />
+                          <img src="img/ATLANTIC.png" alt="slider1.1" />
+                          <img src="img/ATLANTIC.png" alt="slider1.2" />
+                          <img src="img/ATLANTIC.png" alt="slider1.3" />
+                        </div>
+                        <div class="biggerw" id="tri">
+                          <img src="img/slider4.jpg" alt="slider2" />
+                          <img src="img/slider4.jpg" alt="slider2.1" />
+                          <img src="img/slider4.jpg" alt="slider2.2" />
+                          <img src="img/slider4.jpg" alt="slider2.3" />
+                        </div>
+                        <div class="biggerw" id="cetiri">
+                          <img src="img/slider3.jpg" alt="slider3" />
+                          <img src="img/slider3.jpg" alt="slider3.1" />
+                          <img src="img/slider3.jpg" alt="slider3.2" />
+                          <img src="img/slider3.jpg" alt="slider3.3" />
+                        </div>
+                      </div>
+                      <div class="fixedcontrols">
+                          <span class="bullet one"></span>
+                    			<span class="bullet two"></span>
+                    			<span class="bullet three"></span>
+
+                      </div>
+                    </div>
+                </div>
+              </div>
             </section>
             <section class="page-section" id="section7">
                 <div class="contact">
@@ -258,6 +305,32 @@
     </div>
     <script src="js/index.js"></script>
     <script src="js/timer.js"></script>
+    <script>
+       $(document).ready(function(){
+       	$("#video_btn").click(function(){
+       		$("#video").show();
+          $("#images").hide();
+       	});
+        $("#foto_btn").click(function(){
+       		$("#images").show();
+          $("#video").hide();
+
+       	});
+       });
+    </script>
+    <script>
+      /*slider controls*/
+      $(".one").click(function(){
+              $('.drzac').animate({ marginLeft: '0'}, 1000);
+          });
+      $(".two").click(function(){
+              $('.drzac').animate({ marginLeft: '-100%'}, 1000);
+          });
+
+      $(".three").click(function(){
+              $('.drzac').animate({ marginLeft: '-200%'}, 1000);
+          });
+      </script>
     <script>
 		$(document).ready(function(){
 	var formInputs = $('input[type="text"], input[type="email"],textarea');

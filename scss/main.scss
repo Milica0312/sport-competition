@@ -9,6 +9,7 @@
 @import "apply.scss";
 @import "contact.scss";
 @import "volunteer.scss";
+@import "gallery.scss";
 /*NAVIGATION and content-right*/
 .counter{
   height: 5px;
@@ -163,7 +164,7 @@
         }
         #section6{
           @include sectiondefault;
-          background-color: $applyblue;
+          background-color: $contentgray;
           @include mQ(1400px){
             height:auto;
           }
@@ -195,11 +196,12 @@
 
       }
       .socialicons{
-        margin-top: 34vh;
+        margin-top: 31vh;
         width: 100%;
         text-align: center;
         li {
           float: left;
+          width: 30%;
           img {
             width: 29px;
             height: auto;
@@ -211,6 +213,10 @@
       {
         color:$deeppurple;
         font-weight: bold;
+        text-decoration: none;
+        padding: 1em;
+        font-weight: bold;
+        font-size: 15px;
       }
 
       	&__link {
@@ -274,7 +280,7 @@
         }
         .section6bcg{
           @include logoheight;
-          background-color: $applyblue;
+          background-color: $contentgray;
           @include mQ(768px){
             height: auto;
 
