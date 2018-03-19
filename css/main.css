@@ -529,29 +529,57 @@ img.bringiton {
     border: 1px solid white; }
 
 /*apply section*/
-.application .uniadaexperience {
+.application .window {
   overflow: hidden;
-  margin-bottom: 50px; }
-  .application .uniadaexperience .experienceh {
-    width: 80%;
-    margin-left: 15%;
-    letter-spacing: 10px;
-    font-weight: bold; }
-  .application .uniadaexperience .experiencetxt {
-    width: 70%;
-    float: right; }
-    .application .uniadaexperience .experiencetxt .experiencetxtp {
-      font-style: italic; }
-    .application .uniadaexperience .experiencetxt .experiencesignature {
-      text-align: right;
-      font-style: italic;
-      font-size: 12px; }
-  .application .uniadaexperience .dividerexperience {
-    width: 10%;
-    margin-left: 49%;
-    border-top: 2px solid white;
-    text-align: center;
-    padding-top: 28px; }
+  text-align: center; }
+  .application .window .drzac {
+    width: 300%;
+    overflow: hidden; }
+    .application .window .drzac .biggerw {
+      width: 31%;
+      float: left;
+      display: block;
+      padding: 0px 0 0px 2%;
+      /* margin-top: 50px; */
+      height: 174px; }
+      .application .window .drzac .biggerw .uniadaexperience {
+        overflow: hidden;
+        margin-bottom: 50px; }
+        .application .window .drzac .biggerw .uniadaexperience .experienceh {
+          width: 80%;
+          margin-left: 15%;
+          letter-spacing: 10px;
+          font-weight: bold; }
+        .application .window .drzac .biggerw .uniadaexperience .experiencetxt {
+          width: 70%;
+          float: right; }
+          .application .window .drzac .biggerw .uniadaexperience .experiencetxt .experiencetxtp {
+            font-style: italic; }
+          .application .window .drzac .biggerw .uniadaexperience .experiencetxt .experiencesignature {
+            text-align: right;
+            font-style: italic;
+            font-size: 12px; }
+        .application .window .drzac .biggerw .uniadaexperience .dividerexperience {
+          width: 10%;
+          margin-left: 49%;
+          border-top: 2px solid white;
+          text-align: center;
+          padding-top: 28px; }
+  .application .window .fixedcontrols {
+    text-align: center; }
+    .application .window .fixedcontrols span {
+      width: 12px;
+      height: 12px;
+      background: white;
+      border: 2px solid transparent;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s; }
+    .application .window .fixedcontrols img {
+      width: 50px; }
 
 .application h1 {
   width: 72%;
@@ -559,7 +587,8 @@ img.bringiton {
   margin-right: auto;
   font-size: 80px;
   text-align: center;
-  font-weight: 900; }
+  font-weight: 900;
+  margin-top: 50px; }
   @media screen and (max-width: 1400px) {
     .application h1 {
       font-size: 60px;
@@ -770,7 +799,9 @@ img.bringiton {
   text-align: center; }
 
 .gallery .sponsors {
-  width: 90%; }
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
   .gallery .sponsors .window {
     overflow: hidden;
     text-align: center; }
@@ -781,7 +812,9 @@ img.bringiton {
         width: 31%;
         float: left;
         display: block;
-        padding: 25px 0 0px 2%; }
+        padding: 25px 0 0px 2%;
+        margin-top: 50px;
+        height: 113px; }
         .gallery .sponsors .window .drzac .biggerw img {
           display: inline-block;
           padding: 10px;
@@ -825,6 +858,36 @@ img.bringiton {
 		display:block;
 	}*/
 /*NAVIGATION and content-right*/
+.back-to-top {
+  position: fixed;
+  right: 2%;
+  bottom: -7.5%;
+  height: 15px;
+  width: 40px;
+  padding: 3px 5px;
+  font-size: 10px;
+  font-weight: bold;
+  color: transparent;
+  opacity: 0.5;
+  z-index: 3;
+  visibility: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  .back-to-top:hover, .back-to-top:focus {
+    opacity: 1;
+    text-decoration: none; }
+  .back-to-top:focus {
+    outline: thin dotted; }
+
+.show-back-to-top {
+  display: block;
+  bottom: 5.25%;
+  visibility: visible; }
+
 .counter {
   height: 5px;
   background: -webkit-gradient(linear, left bottom, right top, from(#e09733), color-stop(#e8a132), color-stop(#f0ac31), color-stop(#f8b730), to(#ffc22f));
@@ -1099,10 +1162,9 @@ img.bringiton {
           padding: 13px; }
     .content-holder .navigation ul li:last-child a {
       color: #1d234b;
-      font-weight: bold;
+      font-weight: 500;
       text-decoration: none;
       padding: 1em;
-      font-weight: bold;
       font-size: 15px; }
     .content-holder .navigation__link {
       display: block;

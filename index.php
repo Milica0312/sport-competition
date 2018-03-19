@@ -23,11 +23,15 @@
     <link rel="canonical" href="http://uniada.org/" />
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/forma.css">
+<!--  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>-->
+
+      <link rel="stylesheet" href="css/style-foto.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js?hl=hr'></script>
   </head>
   <body>
+    <a href="#content" class="back-to-top"><img src="img/topbottom.png" alt=" top-bottom-button" /></a>
       <div class="counter"></div>
       <div class="content-holder">
           <div id="burger-container">
@@ -136,7 +140,7 @@
                       <div class="txtforsport6">
                           <p>You are not an athlete?</p>
                           <p><strong>Help us organize UNIADA 2018</strong><br /></p>
-                          <a href="#"><strong>VOLUNTEER</strong></a>
+                          <a href="volunteer.php"><strong>VOLUNTEER</strong></a>
                       </div>
                     </div>
                 </div>
@@ -164,29 +168,70 @@
             </section>
             <section class="page-section" id="section5">
                 <div class="application">
-                    <div class="uniadaexperience">
-                          <p class="experienceh">UNIADA EXPERIENCE</p>
-                          <div class="dividerexperience">
+
+                    <div class="window">
+                        <div class="drzac">
+                          <div class="biggerw" id="dva">
+                            <div class="uniadaexperience">
+                                  <p class="experienceh">UNIADA EXPERIENCE</p>
+                                  <div class="dividerexperience">
+                                  </div>
+                                  <div class="experiencetxt">
+                                      <p class="experiencetxtp">
+                              tart marzipan chocolate cake. Caie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tira
+                                      </p>
+                                      <p class="experiencesignature">
+                                        Milica Pavlovic
+                                      </p>
+                                  </div>
+                            </div>
                           </div>
-                          <div class="experiencetxt">
-                              <p class="experiencetxtp">
-                      tart marzipan chocolate cake. Caie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tira
-                              </p>
-                              <p class="experiencesignature">
-                                Milica Pavlovic
-                              </p>
+                          <div class="biggerw" id="tri">
+                            <div class="uniadaexperience">
+                                  <p class="experienceh">UNIADA EXPERIENCE</p>
+                                  <div class="dividerexperience">
+                                  </div>
+                                  <div class="experiencetxt">
+                                      <p class="experiencetxtp">
+                              tart marzipan chocolate cake. Caie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tira
+                                      </p>
+                                      <p class="experiencesignature">
+                                        Milica Pavlovic
+                                      </p>
+                                  </div>
+                            </div>
                           </div>
-                    </div>
-                    <h1><strong>APPLICATION OPENING SOON</strong></h1>
+                          <div class="biggerw" id="cetiri">
+                            <div class="uniadaexperience">
+                                  <p class="experienceh">UNIADA EXPERIENCE</p>
+                                  <div class="dividerexperience">
+                                  </div>
+                                  <div class="experiencetxt">
+                                      <p class="experiencetxtp">
+                              tart marzipan chocolate cake. Caie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tira
+                                      </p>
+                                      <p class="experiencesignature">
+                                        Milica Pavlovic
+                                      </p>
+                                  </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="fixedcontrols">
+                            <span class="bullet one"></span>
+                      			<span class="bullet two"></span>
+                      			<span class="bullet three"></span>
+
+                        </div>
+                      </div>
+                    <h1><strong>APPLICATIONS ARE OPEN</strong></h1>
                     <div class="apply_txt">
-                        <h2>IN THE MEANWHILE, SEE HOW IT WAS LAST YEAR</h2>
-                        <p>
-                          Cupcake ipsum dolor sit amet muffin halvah topping pudding. Macaroon macaroon toffee. Pastry chocolate cake halvah halvah. Toffee sesame snaps sweet. Candy tart marzipan chocolate cake liquorice chocolate brownie topping. Candy canes caramels<br /><br /> brownie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tiramisu.
-                        </p><br>
+                        <h2>WHILE YOU ARE CONSIDERING COMPETING IN UNIADA 2018, CHECK OUT HOW IT WAS LAST YEAR</h2>
+
                     </div>
                     <div class="apply_btns">
                       <a href="https://www.youtube.com/watch?v=02aVjhOBX4E" target="_blank"><strong>UNIADA AFTER MOVIE</strong></a>
-                      <a href="https://www.instagram.com/explore/locations/1025400249/uniada/?hl=en" target="_blank"><strong>INSTAGRAM PROFILE</strong></a>
+                      <a href="https://www.instagram.com/explore/locations/1025400249/uniada/?hl=en" target="_blank"><strong>HOW TO APPLY</strong></a>
                     </div>
                 </div>
             </section>
@@ -206,9 +251,7 @@
                     <iframe width="700" height="350" src="https://www.youtube.com/embed/02aVjhOBX4E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div class="gallery_content" id="images">
-                  <p>
-                    GALERIJA
-                  </p>
+
                 </div>
                 <div class="sponsors">
                   <div class="window">
@@ -303,55 +346,14 @@
         </div>
 
     </div>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
     <script src="js/index.js"></script>
     <script src="js/timer.js"></script>
-    <script>
-       $(document).ready(function(){
-       	$("#video_btn").click(function(){
-       		$("#video").show();
-          $("#images").hide();
-       	});
-        $("#foto_btn").click(function(){
-       		$("#images").show();
-          $("#video").hide();
-
-       	});
-       });
-    </script>
-    <script>
-      /*slider controls*/
-      $(".one").click(function(){
-              $('.drzac').animate({ marginLeft: '0'}, 1000);
-          });
-      $(".two").click(function(){
-              $('.drzac').animate({ marginLeft: '-100%'}, 1000);
-          });
-
-      $(".three").click(function(){
-              $('.drzac').animate({ marginLeft: '-200%'}, 1000);
-          });
-      </script>
-    <script>
-		$(document).ready(function(){
-	var formInputs = $('input[type="text"], input[type="email"],textarea');
-	formInputs.focus(function() {
-       $(this).parent().children('p.formLabel').addClass('formTop');
-       $('div#formWrapper').addClass('darken-bg');
-       $('div.logo').addClass('logo-active');
-	});
-	formInputs.focusout(function() {
-		if ($.trim($(this).val()).length == 0){
-		$(this).parent().children('p.formLabel').removeClass('formTop');
-		}
-		$('div#formWrapper').removeClass('darken-bg');
-		$('div.logo').removeClass('logo-active');
-	});
-	$('p.formLabel').click(function(){
-		 $(this).parent().children('.form-style').focus();
-	});
-});
-
-		</script>
+    <script src="js/top-bottom.js"></script>
+    <script src="js/foto-video.js"></script>
+    <script src="js/custom-slider.js"></script>
+    <script src="js/form-animation.js"></script>
 		<script>
 	function upis(){
 				var ime = document.getElementById("ime").value;
@@ -427,5 +429,6 @@
 		}
 
 	</script>
+
   </body>
 </html>

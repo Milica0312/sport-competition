@@ -58,13 +58,27 @@
                       <form>
                           <input type="text" id="ime" name="ime" placeholder="Ime">
                           <input type="text" id="prezime" name="prezime" placeholder="Prezime">
-                          <input type="text" id="zanimanje" name="zanimanje" placeholder="Zanimanje">
+                          <select id="zanimanje">
+                            <option value="student">Student</option>
+                            <option value="srednjoskolac">Srednjoskolac</option>
+                            <option value="zaposlen">Zaposlen</option>
+                          </select>
 
                           <input type="text" id="email" name="email" placeholder="Email">
                           <input type="tel" id="telefon" name="telefon" placeholder="Telefon">
+                          <select id="sektor">
+                            <option value="osnovni">media</option>
+                            <option value="srednji">general</option>
+                          </select>
+                          <select id="engleski">
+                            <option value="osnovni">Osnovni</option>
+                            <option value="srednji">Srednji</option>
+                            <option value="napredni">Napredni</option>
+                          </select>
+                          <textarea rows="4" cols="50" id="cv">
+                          At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+                          </textarea>
 
-                          <input type="checkbox" id="eng" name="eng" value="Engleski"> Poznavanje engleskog<br>
-                          <input name="myFile" id="myFiel" type="file">
 
                           <button class="" onclick="return upis();">Pošalji</button><br><br>
                 				   <div id="placefortable">
@@ -80,15 +94,24 @@
     <script src="js\index-singlesport.js"></script>
     <script>
     function upis(){
+
         var ime = document.getElementById("ime").value;
-        //var ime_slavljenik = document.getElementById("ime_slavljenik").value;
+        var prezime = document.getElementById("prezime").value;
+        var zanimanje = document.getElementById("zanimanje");
+        var zan = zanimanje.options[zanimanje.selectedIndex].value;
         var email =  document.getElementById("email").value;
-        //var datum = $(".datum:checked").val();
-        var pitanje =  document.getElementById("pitanje").value;
+        var telefon =  document.getElementById("telefon").value;
+
+        var sektor = document.getElementById("sektor");
+        var sek = sektor.options[sektor.selectedIndex].value;
+        var engleski = document.getElementById("engleski");
+        var eng = engleski.options[engleski.selectedIndex].value;
+
+        var cv =  document.getElementById("cv").value;
 
 
 
-               var ind=0;
+            /*   var ind=0;
         if (ime===null || ime===''){
           document.getElementById("email_error").innerHTML = "Molimo vas popunite polje.";
           ind=1;
@@ -111,24 +134,28 @@
           document.getElementById("vreme_dolaska_error").innerHTML = vreme_dolaska;
           document.getElementById("datum_preuzimanja_error").innerHTML = datum_preuzimanja;*/
           //window.location="./#potvrda";
-        }
-        else{
-          var ime = document.getElementById("ime").value;
+    /*    }
+        else{*/
+        /*  var ime = document.getElementById("ime").value;
           //var ime_slavljenik = document.getElementById("ime_slavljenik").value;
           var email =  document.getElementById("email").value;
           //var datum = $(".datum:checked").val();
           var pitanje =  document.getElementById("pitanje").value;
-
+*/
           $.ajax({
 
             type:"post",
-            url: "upis.php",
+            url: "upis-voluteer.php",
             cashe: false,
             //data: dataString,
-            data: {ime:ime,email:email,pitanje:pitanje,captcha:grecaptcha.getResponse()},
+
+            data: {ime:ime,prezime:prezime,zan:zan,email:email,telefon:telefon,sek:sek,eng:eng,cv:cv},
 
             success: function(data){
+              
               document.getElementById("placefortable").innerHTML = data;
+
+
              //window.location.href = "thankyou.php";
              /* window.alert(data);*/
               /*
@@ -147,9 +174,9 @@
           console.log('Something went wrong', status, err);
           }
           })
-          return false;
-        }
 
+        /*}*/
+        return false;
     }
 
 

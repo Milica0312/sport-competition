@@ -1,35 +1,71 @@
 
 /*apply section*/
 .application{
-  .uniadaexperience{
+  .window{
     overflow: hidden;
-    margin-bottom: 50px;
-    .experienceh{
-      width: 80%;
-      margin-left: 15%;
-      letter-spacing: 10px;
-      font-weight: bold;
-    }
-    .experiencetxt {
-        width: 70%;
-        float: right;
-        .experiencetxtp{
-          font-style: italic;
+    text-align: center;
+    .drzac{
+      width: 300%;
+      overflow: hidden;
+      .biggerw {
+        width: 31%;
+        float: left;
+        display: block;
+        padding: 0px 0 0px 2%;
+        /* margin-top: 50px; */
+        height: 174px;
+        .uniadaexperience{
+          overflow: hidden;
+          margin-bottom: 50px;
+          .experienceh{
+            width: 80%;
+            margin-left: 15%;
+            letter-spacing: 10px;
+            font-weight: bold;
+          }
+          .experiencetxt {
+              width: 70%;
+              float: right;
+              .experiencetxtp{
+                font-style: italic;
+              }
+              .experiencesignature {
+                  text-align: right;
+                  font-style: italic;
+                  font-size: 12px;
+              }
+          }
+          .dividerexperience {
+            width: 10%;
+            margin-left: 49%;
+            border-top: 2px solid white;
+            text-align: center;
+            padding-top: 28px;
+          }
         }
-        .experiencesignature {
-            text-align: right;
-            font-style: italic;
-            font-size: 12px;
-        }
+      }
+
     }
-    .dividerexperience {
-      width: 10%;
-      margin-left: 49%;
-      border-top: 2px solid white;
-      text-align: center;
-      padding-top: 28px;
+    .fixedcontrols{
+      text-align:center;
+      span{
+        width: 12px;
+        height: 12px;
+        background: white;
+        border: 2px solid transparent;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+        transition: all 0.3s;
+
+      }
+      img{
+        width:50px;
+
+      }
     }
   }
+
   h1{
     width: 72%;
     margin-left: auto;
@@ -37,6 +73,7 @@
     font-size: 80px;
     text-align: center;
     font-weight: 900;
+    margin-top: 50px;
     @include mQ(1400px){
       font-size: 60px;
       line-height: 60px;

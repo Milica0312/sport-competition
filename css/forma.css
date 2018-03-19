@@ -38,9 +38,7 @@ div.form-item{position: relative; display: block; margin-bottom: 20px;}
 	height: 40px;
 	padding: 5px 5%;
 	border:0;
-	-moz-border-radius: 27px;
-	-webkit-border-radius: 27px;
-	border-radius: 27px;
+
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
@@ -56,9 +54,7 @@ textarea.form-style{
 	width: 90%;
 	height: 110px;
 	padding: 5px 5%;
-	-moz-border-radius: 27px;
-	-webkit-border-radius: 27px;
-	border-radius: 27px;
+
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
@@ -98,9 +94,6 @@ input[type="submit"].login:focus{outline: none;}
 .btncontform{
 	width: 141px;
     height: 54px;
-    -moz-border-radius: 19px;
-    -webkit-border-radius: 19px;
-    border-radius: 19px;
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
