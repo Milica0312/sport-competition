@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>UNIADA 2018 | International Student Sports Competition</title>
     <link rel="shortcut icon" type="image/png" href="img/LOGO_BOJA.png"/>
     <link rel="apple-touch-icon" sizes="76x76" href="img/LOGO_BOJA.png">
@@ -25,7 +26,7 @@
     <link rel="stylesheet" href="css/forma.css">
 <!--  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>-->
 
-      <link rel="stylesheet" href="css/style-foto.css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src='https://www.google.com/recaptcha/api.js?hl=hr'></script>
@@ -155,13 +156,16 @@
                     </div>
                     <div class="esport_txt">
                         <p>
-                          Sesame snaps tiramisu macaroon chocolate cake icing marshmallow powder donut jelly-o. Marshmallow danish halvah brownie toffee oat cake tart. Muffin danish powder pastry tiramisu gummi bears pudding candy. Wafer danish cotton candy sweet roll gummies dragée. Tiramisu ice cream sesame snaps muffin. Halvah cupcake jelly beans candy canes croissant ice cream muffin marzipan. Muffin to<br>ffee candy chocolate cake jelly-o. Brownie marzipan lemon drops tootsie roll pie icing cake fruitcake. Pie lollipop candy caramels gummies cotton candy. Bear claw pie gummi bears cake bear claw liquorice gummies sesame snaps. Soufflé caramels oat cake lemon drops. Chocolate cake cake tootsie roll sugar plum liquorice chocolate.
+                          Uniada e-sports is a one-of-a-kind international event, with participants coming from various universities all over the Balkans.
+                          Seeing how much the competitive gaming culture has grown, we have decided to include three separate e-sports titles for our contestants,
+                          including tournaments in League of Legends, Dota 2 and Counter Strike - Global Offensive. This 2-day event gives all players the opportunity to test their skills,
+                          have fun and meet their fellow students from the entire region.
                         </p>
                     </div>
                     <div class="esport_icons">
-                        <img src="img/CS_IKONICA.png" alt="cs_ikonica"  />
-                        <img src="img/DOTA2_IKONICA.png" alt="dota2_ikonica"  />
-                        <img src="img/LOL_IKONICA.png" alt="lol_ikonica"  />
+                        <a href="cs.html"><img src="img/CS_IKONICA.png" alt="cs_ikonica"  /></a>
+                        <a href="dota2.html"><img src="img/DOTA2_IKONICA.png" alt="dota2_ikonica"  /></a>
+                        <a href="lol.html"><img src="img/LOL_IKONICA.png" alt="lol_ikonica"  /></a>
                     </div>
                     <a class="esportbtn" herf="#">APPLY NOW</a>
                 </div>
@@ -178,10 +182,16 @@
                                   </div>
                                   <div class="experiencetxt">
                                       <p class="experiencetxtp">
-                              tart marzipan chocolate cake. Caie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tira
+                                        I think that Uniada team did a great job. Starting from organizers to the coordinators and volunteers.
+                                        The tenis courts we played on were really great.
+                                        I am very glad that we had referees on every court.
+                                        Which doesn t happen very often in student tournaments.
+                                        Which just goes to show that Uniada is a sports event that, aside from bringing students together, also does an exellent job
+                                        organizing the compentition itself.
+                                        I m glad I got to participate in this sports event and i hope to take part next year as well.
                                       </p>
                                       <p class="experiencesignature">
-                                        Milica Pavlovic
+                                        Aleksandar Pavlicevc, predstavnik fakulteta za sport i vizicko vaspitanje-DIF
                                       </p>
                                   </div>
                             </div>
@@ -193,10 +203,16 @@
                                   </div>
                                   <div class="experiencetxt">
                                       <p class="experiencetxtp">
-                              tart marzipan chocolate cake. Caie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tira
+                                        I think that Uniada team did a great job. Starting from organizers to the coordinators and volunteers.
+                                        The tenis courts we played on were really great.
+                                        I am very glad that we had referees on every court.
+                                        Which doesn t happen very often in student tournaments.
+                                        Which just goes to show that Uniada is a sports event that, aside from bringing students together, also does an exellent job
+                                        organizing the compentition itself.
+                                        I m glad I got to participate in this sports event and i hope to take part next year as well.
                                       </p>
                                       <p class="experiencesignature">
-                                        Milica Pavlovic
+                                        Aleksandar Pavlicevc, predstavnik fakulteta za sport i vizicko vaspitanje-DIF
                                       </p>
                                   </div>
                             </div>
@@ -208,10 +224,16 @@
                                   </div>
                                   <div class="experiencetxt">
                                       <p class="experiencetxtp">
-                              tart marzipan chocolate cake. Caie halvah. Gummi bears tart tootsie roll lemon drops cake jelly-o brownie. Gummies cake donut. Cotton candy powder danish. Pie fruitcake icing brownie cupcake bonbon. Powder pie lollipop cake. Topping jujubes cupcake tira
+                                        I think that Uniada team did a great job. Starting from organizers to the coordinators and volunteers.
+                                        The tenis courts we played on were really great.
+                                        I am very glad that we had referees on every court.
+                                        Which doesn t happen very often in student tournaments.
+                                        Which just goes to show that Uniada is a sports event that, aside from bringing students together, also does an exellent job
+                                        organizing the compentition itself.
+                                        I m glad I got to participate in this sports event and i hope to take part next year as well.
                                       </p>
                                       <p class="experiencesignature">
-                                        Milica Pavlovic
+                                        Aleksandar Pavlicevc, predstavnik fakulteta za sport i vizicko vaspitanje-DIF
                                       </p>
                                   </div>
                             </div>
@@ -238,20 +260,297 @@
             <section class="page-section" id="section6">
               <div class="gallery">
                 <div class="gallery_btns">
-                    <p id="video_btn">VIDEO GALERIJA</p>
                     <p id="foto_btn">FOTO GALERIJA</p>
-                </div>
-                <div class="gallery_content" id="video">
-                    <p>
-                      UNIADA AFTERMOVIE
-                    </p>
-                    <p>
-                      POGLEDAJTE KAKO JE BILO - UNIADA 2017
-                    </p>
-                    <iframe width="700" height="350" src="https://www.youtube.com/embed/02aVjhOBX4E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <p id="video_btn">VIDEO GALERIJA</p>
                 </div>
                 <div class="gallery_content" id="images">
+                  <div class="container">
 
+                  <!-- .gallery-slider -->
+                  <div class="gallery-slider">
+
+                    <!-- __images -->
+                    <div class="gallery-slider__images">
+                      <div>
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23032808_1713908705309334_4452561849959246190_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23130590_1713913815308823_1673111576338473479_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23131001_1713910751975796_5399459521228217939_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23131673_1713914885308716_8393522891805038480_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23131794_1713915178642020_7124537216069883413_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23131987_1713912671975604_5152257039236182729_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23132019_1713910525309152_3999356457394257875_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23167916_1713907375309467_7341627901079705370_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23167950_1713907141976157_4993602195208453414_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23168010_1713913938642144_5323306788604945290_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23172685_1713910785309126_5699762099092109952_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23172761_1713915481975323_2756362925844711760_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23172816_1713910778642460_7638220347710752470_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23231387_1713906331976238_5726369322121361201_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23621283_1728798720486999_766004926623718997_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23621533_1728808683819336_4323711165409825760_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23622211_1727911337242404_6339139424968762661_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23658565_1728132573886947_787611369074164183_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23658634_1728133227220215_4031886862728333322_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\27591533_1555108937872202_644013242_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23722769_1728797097153828_7055738018834896805_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23722399_1727914380575433_4280588862088268210_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23722260_1728138003886404_3550473202617132006_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23659486_1728808867152651_5842595661528943834_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23659224_1728137143886490_6833650154488270992_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                      </div>
+                      <button class="prev-arrow slick-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792">
+                          <path fill="#fff" d="M1171 301L640 832l531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19L173 877q-19-19-19-45t19-45L915 45q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z" />
+                        </svg>
+                      </button>
+                      <button class="next-arrow slick-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792">
+                          <path fill="#fff" d="M1107 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L275 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z" />
+                        </svg>
+                      </button>
+                      <span class="caption">&nbsp;</span>
+                    </div>
+                    <!-- /__images -->
+
+
+                    <!-- __thumbnails -->
+                    <div class="gallery-slider__thumbnails">
+                      <div>
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23032808_1713908705309334_4452561849959246190_n.jpg" alt="Kitten 1"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23130590_1713913815308823_1673111576338473479_n.jpg" alt="Kitten 2"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23131001_1713910751975796_5399459521228217939_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23131673_1713914885308716_8393522891805038480_n.jpg" alt="Kitten 4"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23131794_1713915178642020_7124537216069883413_n.jpg" alt="Kitten 5"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23131987_1713912671975604_5152257039236182729_n.jpg" alt="Kitten 6"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23132019_1713910525309152_3999356457394257875_n.jpg" alt="Kitten 7"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23167916_1713907375309467_7341627901079705370_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23167950_1713907141976157_4993602195208453414_n.jpg" alt="Kitten 1"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23168010_1713913938642144_5323306788604945290_n.jpg" alt="Kitten 2"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23172685_1713910785309126_5699762099092109952_n.jpg" alt=""></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23172761_1713915481975323_2756362925844711760_n.jpg" alt="Kitten 4"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23172816_1713910778642460_7638220347710752470_n.jpg" alt="Kitten 5"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23231387_1713906331976238_5726369322121361201_n.jpg" alt="Kitten 6"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23621283_1728798720486999_766004926623718997_n.jpg" alt="Kitten 7"></div>
+                        </div>
+                        <!-- /.item -->
+                        <!-- .item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23621533_1728808683819336_4323711165409825760_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23622211_1727911337242404_6339139424968762661_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23658565_1728132573886947_787611369074164183_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23658634_1728133227220215_4031886862728333322_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\img\lastyear\27591533_1555108937872202_644013242_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23722769_1728797097153828_7055738018834896805_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23722399_1727914380575433_4280588862088268210_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23722260_1728138003886404_3550473202617132006_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23659486_1728808867152651_5842595661528943834_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                        <div class="item">
+                          <div class="img-fill"><img src="img\lastyear\23659224_1728137143886490_6833650154488270992_n.jpg" alt="Kitten 8"></div>
+                        </div>
+                        <!-- /.item -->
+                      </div>
+
+                      <button class="prev-arrow slick-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792">
+                          <path fill="#fff" d="M1171 301L640 832l531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19L173 877q-19-19-19-45t19-45L915 45q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z" />
+                        </svg>
+                      </button>
+                      <button class="next-arrow slick-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792">
+                          <path fill="#fff" d="M1107 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L275 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z" />
+                        </svg>
+                      </button>
+                    </div>
+                    <!-- /__thumbnails -->
+
+                  </div>
+                  <!-- /.gallery-slider -->
+
+                </div>
+                </div>
+                <div class="gallery_content" id="video">
+                  <p>
+                    UNIADA AFTERMOVIE
+                  </p>
+                  <p>
+                    POGLEDAJTE KAKO JE BILO - UNIADA 2017
+                  </p>
+                  <iframe width="700" height="350" src="https://www.youtube.com/embed/02aVjhOBX4E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <div class="sponsors">
                   <div class="window">
@@ -354,6 +653,11 @@
     <script src="js/foto-video.js"></script>
     <script src="js/custom-slider.js"></script>
     <script src="js/form-animation.js"></script>
+
+     <script src="js/gallery-slider.js"></script>
+    <script src="js/gallery.js"></script>
+
+
 		<script>
 	function upis(){
 				var ime = document.getElementById("ime").value;
@@ -429,6 +733,7 @@
 		}
 
 	</script>
+
 
   </body>
 </html>

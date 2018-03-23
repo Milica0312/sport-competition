@@ -45,11 +45,12 @@
               </li>
               <li><a class="navigation__link inact" href="index.php#section1">HOME</a></li>
               <li><a class="navigation__link" href="index.php#section2">ABOUT</a></li>
-              <li><a class="navigation__link sportact" href="index.php#section3">SPORTS</a></li>
+              <li><a class="navigation__link " href="index.php#section3">SPORTS</a></li>
               <li><a class="navigation__link" href="index.php#section4">E-SPORT</a></li>
               <li><a class="navigation__link" href="index.php#section5">APPLY</a></li>
-              <li><a class="navigation__link" href="index.php#section6">CONTACT</a></li>
-              <li><a class="volunteer" href="volunteer.php">VOLUNTEER</a></li>
+              <li><a class="navigation__link" href="index.php#section6">GALLERY</a></li>
+              <li><a class="navigation__link" href="index.php#section7">CONTACT</a></li>
+              <li><a class="volunteer sportact" href="volunteer.php">VOLUNTEER</a></li>
             </ul>
           </nav>
           <div class="section">
@@ -152,7 +153,7 @@
             data: {ime:ime,prezime:prezime,zan:zan,email:email,telefon:telefon,sek:sek,eng:eng,cv:cv},
 
             success: function(data){
-              
+
               document.getElementById("placefortable").innerHTML = data;
 
 

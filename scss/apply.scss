@@ -13,7 +13,7 @@
         display: block;
         padding: 0px 0 0px 2%;
         /* margin-top: 50px; */
-        height: 174px;
+        height: 200px;
         .uniadaexperience{
           overflow: hidden;
           margin-bottom: 50px;
@@ -24,7 +24,7 @@
             font-weight: bold;
           }
           .experiencetxt {
-              width: 70%;
+              width: 90%;
               float: right;
               .experiencetxtp{
                 font-style: italic;
@@ -40,7 +40,7 @@
             margin-left: 49%;
             border-top: 2px solid white;
             text-align: center;
-            padding-top: 28px;
+            padding-top: 15px;
           }
         }
       }
@@ -85,12 +85,12 @@
     }
   }
   .apply_txt{
-    padding-right: 300px;
+    padding-right: 200px;
     @include mQ(1400px){
       padding-right: 0;
     }
     h2 {
-      font-size: 35px;
+      font-size: 30px;
       font-weight: 500;
       @include mQ(768px){
         font-size: 28px;

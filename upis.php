@@ -59,8 +59,8 @@ require_once 'include/functions.php';
 		if ($rez) {
 
 			$emailod = "$email";
-			$email_to = 'office@doublemp-solutions.com'; // treba da bude  'milicapavlovic0312@gmail.com';
-			$subject = "DoubleMP - Kontakt forma";
+			$email_to = 'milicapavlovic0312@gmail.com'; // treba da bude  'milicapavlovic0312@gmail.com';
+			$subject = "UNIADA - Kontakt forma";
 			$headers = "From: $emailod\r\n";
 			$headers .= "Content-type: text/html; charset=utf-8\r\n";
 			$email_message = "Pitanje " . "<br><br>";

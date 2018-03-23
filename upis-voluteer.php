@@ -78,7 +78,7 @@ require_once 'include/functions.php';
 			$subject = "Forma za volontere";
 			$headers = "From: $emailod\r\n";
 			$headers .= "Content-type: text/html; charset=utf-8\r\n";
-			$email_message = "Pitanje " . "<br><br>";
+			$email_message = "Prijava za volontiranje " . "<br><br>";
 /*			$email_message .= "Ime: $ime " . "<br>";
 			$email_message .= "Pitanje: $pitanje " . "<br>";
 */
