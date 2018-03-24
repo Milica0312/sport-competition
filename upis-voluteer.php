@@ -75,19 +75,35 @@ require_once 'include/functions.php';
 
 			$emailod = "$email";
 			$email_to = 'milicapavlovic0312@gmail.com'; // treba da bude  'milicapavlovic0312@gmail.com';
+			$email_to_v = "$email"; // treba da bude  'milicapavlovic0312@gmail.com';
 			$subject = "Forma za volontere";
+			$subject_v = "UNIADA - volunteer form";
 			$headers = "From: $emailod\r\n";
 			$headers .= "Content-type: text/html; charset=utf-8\r\n";
 			$email_message = "Prijava za volontiranje " . "<br><br>";
-/*			$email_message .= "Ime: $ime " . "<br>";
-			$email_message .= "Pitanje: $pitanje " . "<br>";
-*/
+			$email_message .= "Ime: $ime " . "<br>";
+			$email_message .= "Prezime: $prezime " . "<br>";
+			$email_message .= "Zanimanje: $zan " . "<br>";
+			$email_message .= "Email: $email " . "<br>";
+			$email_message .= "Telefon: $telefon " . "<br>";
+			$email_message .= "Sektor: $sek " . "<br>";
+			$email_message .= "Engleski: $eng " . "<br>";
+			$email_message .= "CV: $cv " . "<br>";
 
+
+			$email_message_v = "Hvala na prijavi. Naš tim će Vas kontaktirati u što kraćem roku. " . "<br><br>";
 
 			if (mail($email_to, $subject, $email_message, $headers)) {
 				//header('Location: index.php');
         $htmltable = "Hvala na prijavi. Bićete kontaktirani u roku od 24h.";
                 echo $htmltable;
+			} else {
+				echo 'greska kod slanja mail f';
+			die();
+			}
+			if (mail($email_to_v, $subject_v, $email_message_v, $headers)) {
+				//header('Location: index.php');
+        
 			} else {
 				echo 'greska kod slanja mail f';
 			die();

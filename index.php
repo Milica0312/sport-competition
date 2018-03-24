@@ -559,19 +559,17 @@
                           <img src="img/ATLANTIC.png" alt="slide1" />
                           <img src="img/ATLANTIC.png" alt="slider1.1" />
                           <img src="img/ATLANTIC.png" alt="slider1.2" />
-                          <img src="img/ATLANTIC.png" alt="slider1.3" />
+
                         </div>
                         <div class="biggerw" id="tri">
-                          <img src="img/slider4.jpg" alt="slider2" />
-                          <img src="img/slider4.jpg" alt="slider2.1" />
-                          <img src="img/slider4.jpg" alt="slider2.2" />
-                          <img src="img/slider4.jpg" alt="slider2.3" />
+                          <img src="img/ATLANTIC.png" alt="slide1" />
+                          <img src="img/ATLANTIC.png" alt="slider1.1" />
+                          <img src="img/ATLANTIC.png" alt="slider1.2" />
                         </div>
                         <div class="biggerw" id="cetiri">
-                          <img src="img/slider3.jpg" alt="slider3" />
-                          <img src="img/slider3.jpg" alt="slider3.1" />
-                          <img src="img/slider3.jpg" alt="slider3.2" />
-                          <img src="img/slider3.jpg" alt="slider3.3" />
+                          <img src="img/ATLANTIC.png" alt="slide1" />
+                          <img src="img/ATLANTIC.png" alt="slider1.1" />
+                          <img src="img/ATLANTIC.png" alt="slider1.2" />
                         </div>
                       </div>
                       <div class="fixedcontrols">
