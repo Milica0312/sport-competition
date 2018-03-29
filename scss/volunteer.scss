@@ -15,14 +15,35 @@
             margin-left: auto;
             margin-right: auto;
             padding: 10px;
-            border-radius: 15px;
             border: 0;
             margin-bottom: 30px;
             color:$deeppurple;
           }
+          select{
+            display: block;
+            text-align: center;
+            width: 52%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            border: 0;
+            margin-bottom: 30px;
+            color:$deeppurple;
+          }
+          textarea{
+            display: block;
+            text-align: center;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            border: 0;
+            margin-bottom: 30px;
+            color:$deeppurple;
+
+          }
           button {
               padding: 10px 50px;
-              border-radius: 15px;
               border: 0;
               color:$deeppurple;
               &:hover{

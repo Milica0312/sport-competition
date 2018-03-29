@@ -30,11 +30,12 @@ $(window).scroll(function() {
       if ($(this).position().top <= scrollDistance) {
           if(this.id == "section1"){
               $('.navigation #changinglogo').removeClass().addClass('section1bcg');
+              $('#burger span').removeClass().addClass('sectiondefspan');
               document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else if(this.id == "section2"){
                 $('.navigation #changinglogo').removeClass().addClass('section2bcg');
-                $('#burger span').removeClass().addClass('section2span');
+                $('#burger span').removeClass().addClass('sectiondefspan');
                 document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else if(this.id == "section3"){
@@ -44,41 +45,31 @@ $(window).scroll(function() {
           }
           else if(this.id == "section4"){
                 $('.navigation #changinglogo').removeClass().addClass('section4bcg');
+                $('#burger span').removeClass().addClass('sectiondefspan');
                 document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else if(this.id == "section5"){
                 $('.navigation #changinglogo').removeClass().addClass('section5bcg');
+                $('#burger span').removeClass().addClass('sectiondefspan');
                 document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else if(this.id == "section6"){
                 $('.navigation #changinglogo').removeClass().addClass('section6bcg');
-                document.getElementById("logo").src = "img/LOGO_BOJA.png";
-          }
-          else if(this.id == "section7"){
-                $('.navigation #changinglogo').removeClass().addClass('section7bcg');
+                $('#burger span').removeClass().addClass('sectiondefspan');
                 document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
-          else{
-            $('.navigation #changinglogo').addClass('sectionbcg');
+
+          else{/*
+          $('.navigation #changinglogo').addClass('sectionbcg');
+          $('#burger span').removeClass().addClass('sectiondefspan');
             document.getElementById("logo").src = "img/LOGO_BOJA.png";
-            }
-            $('.navigation a.active').removeClass('active');
-            $('.navigation a').eq(i).addClass('active');
+          }
+          $('.navigation a.active').removeClass('active');
+          $('.navigation a').eq(i).addClass('active');*/
       }
   });
 }).scroll();
-$(document).ready(function() {
 
-  var scrollLink = $('.navigation__link');
-
-  // Smooth scrolling
-  scrollLink.click(function(e) {
-    e.preventDefault();
-    $('body,html').animate({
-      scrollTop: $(this.hash).offset().top
-    }, 1000 );
-  });
-});
 /*progress bar*/
 $(window).scroll(function(){
   $('.counter').css('width', ($(this).scrollTop() / ($('body').height() - $(window).height()))*100 + "%");
@@ -92,4 +83,3 @@ $(window).scroll(function(){
         $(".navigation").toggleClass("respopen");
     });
   });
-/**/

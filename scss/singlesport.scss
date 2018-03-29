@@ -49,17 +49,25 @@
 }
 /*E SPORTS*/
 #dota2{
-  background-color: green;
+  background-image: url('../img/DOTA2.jpg');
+  background-size: cover;
   @include sectiondefault;
-  height: auto;
+  height: 100vh;
 }
 #cs{
-  background-color: green;
+  background-image: url('../img/CSGO.jpg');
+  background-size: cover;
   @include sectiondefault;
-  height: auto;
+  height: 100vh;
 }
 #lol{
-  background-color: green;
+  background-image: url('../img/LOL.jpg');
+  background-size: cover;
   @include sectiondefault;
-  height: auto;
+  height: 100vh;
+}
+#how-to-apply{
+  background-color: $contentgray;
+  @include sectiondefault;
+  height: 100vh;
 }

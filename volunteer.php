@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
     <title>UNIADA 2018 | International Student Sports Competition</title>
-    <link rel="shortcut icon" type="image/png" href="img/LOGO_BOJA.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="img/LOGO_BOJA.png">
+    <link rel="shortcut icon" type="image/png" href="img/FAVICON.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/FAVICON.png">
 
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,16 +58,16 @@
             <section class="page-section volunteer" id="volunteer">
                 <div class="about">
                       <form>
-                          <input type="text" id="ime" name="ime" placeholder="Ime">
-                          <input type="text" id="prezime" name="prezime" placeholder="Prezime">
+                          <input type="text" id="ime" name="ime" placeholder="Ime" onfocus="this.placeholder = ''">
+                          <input type="text" id="prezime" name="prezime" placeholder="Prezime" onfocus="this.placeholder = ''">
                           <select id="zanimanje">
                             <option value="student">Student</option>
                             <option value="srednjoskolac">Srednjoskolac</option>
                             <option value="zaposlen">Zaposlen</option>
                           </select>
 
-                          <input type="text" id="email" name="email" placeholder="Email">
-                          <input type="tel" id="telefon" name="telefon" placeholder="Telefon">
+                          <input type="text" id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''">
+                          <input type="tel" id="telefon" name="telefon" placeholder="Telefon" onfocus="this.placeholder = ''">
                           <select id="sektor">
                             <option value="osnovni">media</option>
                             <option value="srednji">general</option>
@@ -76,9 +77,7 @@
                             <option value="srednji">Srednji</option>
                             <option value="napredni">Napredni</option>
                           </select>
-                          <textarea rows="4" cols="50" id="cv">
-                          At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
-                          </textarea>
+                          <textarea rows="4" cols="50" placeholder="Describe yourself here..." id="cv" onfocus="this.placeholder = ''"></textarea>
 
 
                           <button class="" onclick="return upis();">Pošalji</button><br><br>

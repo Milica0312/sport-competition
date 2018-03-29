@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8">
     <title>UNIADA 2018 | International Student Sports Competition</title>
-    <link rel="shortcut icon" type="image/png" href="img/LOGO_BOJA.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="img/LOGO_BOJA.png">
+    <link rel="shortcut icon" type="image/png" href="img/FAVICON.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="img/FAVICON.png">
 
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +77,7 @@
                         </p>
                     </div>
                     <div class="divbtn">
-                        <a href="#">APPLY NOW</a>
+                        <a href="UNIADA 2017 - Application Form.docx" download>APPLY NOW</a>
                         <img src="img/STRELICE.png" alt="arrows"  />
                     </div>
                 </div>
@@ -167,7 +167,7 @@
                         <a href="dota2.html"><img src="img/DOTA2_IKONICA.png" alt="dota2_ikonica"  /></a>
                         <a href="lol.html"><img src="img/LOL_IKONICA.png" alt="lol_ikonica"  /></a>
                     </div>
-                    <a class="esportbtn" herf="#">APPLY NOW</a>
+                    <a class="esportbtn" href="UNIADA 2017 - Application Form.docx" download>APPLY NOW</a>
                 </div>
             </section>
             <section class="page-section" id="section5">
@@ -253,7 +253,7 @@
                     </div>
                     <div class="apply_btns">
                       <a href="https://www.youtube.com/watch?v=02aVjhOBX4E" target="_blank"><strong>UNIADA AFTER MOVIE</strong></a>
-                      <a href="https://www.instagram.com/explore/locations/1025400249/uniada/?hl=en" target="_blank"><strong>HOW TO APPLY</strong></a>
+                      <a href="how-to-apply.html" target="_blank"><strong>HOW TO APPLY</strong></a>
                     </div>
                 </div>
             </section>
