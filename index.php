@@ -182,16 +182,10 @@
                                   </div>
                                   <div class="experiencetxt">
                                       <p class="experiencetxtp">
-                                        I think that Uniada team did a great job. Starting from organizers to the coordinators and volunteers.
-                                        The tenis courts we played on were really great.
-                                        I am very glad that we had referees on every court.
-                                        Which doesn t happen very often in student tournaments.
-                                        Which just goes to show that Uniada is a sports event that, aside from bringing students together, also does an exellent job
-                                        organizing the compentition itself.
-                                        I m glad I got to participate in this sports event and i hope to take part next year as well.
+                                      They asked us if we are interested in going to Belgrade? Who is not interested in going to Belgrade, enjoying a little bit, playing soccer so we were really excited.
                                       </p>
                                       <p class="experiencesignature">
-                                        Aleksandar Pavlicevc, predstavnik fakulteta za sport i vizicko vaspitanje-DIF
+                                        Luka Suton - Ekonomski fakultet Mostar
                                       </p>
                                   </div>
                             </div>
@@ -203,16 +197,10 @@
                                   </div>
                                   <div class="experiencetxt">
                                       <p class="experiencetxtp">
-                                        I think that Uniada team did a great job. Starting from organizers to the coordinators and volunteers.
-                                        The tenis courts we played on were really great.
-                                        I am very glad that we had referees on every court.
-                                        Which doesn t happen very often in student tournaments.
-                                        Which just goes to show that Uniada is a sports event that, aside from bringing students together, also does an exellent job
-                                        organizing the compentition itself.
-                                        I m glad I got to participate in this sports event and i hope to take part next year as well.
+                                        I support the idea of organizing something that is unworkable for the profession, allowing all faculties to participate together in this competition.
                                       </p>
                                       <p class="experiencesignature">
-                                        Aleksandar Pavlicevc, predstavnik fakulteta za sport i vizicko vaspitanje-DIF
+                                        Denis Mijolovic - Ekonomski fakultet Rijeka
                                       </p>
                                   </div>
                             </div>
@@ -593,15 +581,18 @@
               				<div class="form-item">
               					<p class="formLabel">Ime</p>
               					<input type="text" name="ime" id="ime" class="form-style" />
+                        <p id="ime_error"></p>
               					<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
               				</div>
               				<div class="form-item">
               					<p class="formLabel">Email</p>
               					<input type="email" name="email" id="email" class="form-style" autocomplete="off"/>
+                        <p id="email_error"></p>
               				</div>
               				<div class="form-item">
               					<p class="formLabel">Pitanje</p>
               					<textarea name="pitanje" id="pitanje" class="form-style"></textarea>
+                        <p id="pitanje_error"></p>
               					<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
               				</div>
               				<div class="form-item">
@@ -666,17 +657,17 @@
 
 
 
-              /* var ind=0;
+           var ind=0;
 				if (ime===null || ime===''){
-					document.getElementById("email_error").innerHTML = "Molimo vas popunite polje.";
+					document.getElementById("ime_error").innerHTML = "Molimo vas popunite polje.";
 					ind=1;
 				}
                 if (email===null || email===''){
-					document.getElementById("telefon_error").innerHTML = "Molimo vas popunite polje.";
+					document.getElementById("email_error").innerHTML = "Molimo vas popunite polje.";
 					ind=1;
 				}
                 if(pitanje===null || pitanje===''){
-					document.getElementById("datum_ostavljanja_error").innerHTML = "Molimo vas popunite polje.";
+					document.getElementById("pitanje_error").innerHTML = "Molimo vas popunite polje.";
 					ind=1;
 				}
 
@@ -689,8 +680,8 @@
 					document.getElementById("vreme_dolaska_error").innerHTML = vreme_dolaska;
 					document.getElementById("datum_preuzimanja_error").innerHTML = datum_preuzimanja;*/
 					//window.location="./#potvrda";
-			/*	}
-				else{*/
+				}
+				else{
 					var ime = document.getElementById("ime").value;
 					//var ime_slavljenik = document.getElementById("ime_slavljenik").value;
 					var email =  document.getElementById("email").value;
@@ -726,7 +717,7 @@
 					}
 				  })
 				  return false;
-			/*	}*/
+				}
 
 		}
 

@@ -3,16 +3,16 @@
 require_once 'include/db.php';
 require_once 'include/functions.php';
 
-/*$captcha = $_POST['g-recaptcha-response'];*/
+$captcha = $_POST['g-recaptcha-response'];
 // Provera ispravnosti CAPTCHA koda
- /*if(isset($_POST['captcha']) && !empty($_POST['captcha'])){
+ if(isset($_POST['captcha']) && !empty($_POST['captcha'])){
 	$secret = "6LdAJ00UAAAAAERgVF8zZIcNmAv1eRnk2l0Yr4I4";
 	//$response = $_POST['g-recaptcha-response'];
 	$captcha=$_POST['captcha'];
 	/*$captcha=$_POST['g-recaptcha'];*/
-/*	$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $captcha);
+	$verifyResponse = file_get_contents('https://www.google.com/recaptcha/api/siteverify?secret=' . $secret . '&response=' . $captcha);
 	$responseData = json_decode($verifyResponse);
-*/
+
 	/*if ($responseData->success) {*/
 
 
@@ -103,7 +103,7 @@ require_once 'include/functions.php';
 			}
 			if (mail($email_to_v, $subject_v, $email_message_v, $headers)) {
 				//header('Location: index.php');
-        
+
 			} else {
 				echo 'greska kod slanja mail f';
 			die();
@@ -114,11 +114,11 @@ require_once 'include/functions.php';
 		}
 
 
-/*
+
 }else{
 	echo 'Molimo Vas popunite captcha kod.';
     die();
-}*/
+}
 
 
 ?>

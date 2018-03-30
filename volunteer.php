@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=hr'></script>
   </head>
   <body>
       <div class="counter"></div>
@@ -58,28 +59,34 @@
             <section class="page-section volunteer" id="volunteer">
                 <div class="about">
                       <form>
-                          <input type="text" id="ime" name="ime" placeholder="Ime" onfocus="this.placeholder = ''">
-                          <input type="text" id="prezime" name="prezime" placeholder="Prezime" onfocus="this.placeholder = ''">
-                          <select id="zanimanje">
+                          <input type="text" id="ime" name="ime" placeholder="Ime" required onfocus="this.placeholder = ''">
+                          <p id="volunteer_name_error"></p>
+                          <input type="text" id="prezime" name="prezime" placeholder="Prezime" required onfocus="this.placeholder = ''">
+                          <p id="volunteer_lastname_error"></p>
+                          <select id="zanimanje" required>
                             <option value="student">Student</option>
                             <option value="srednjoskolac">Srednjoskolac</option>
                             <option value="zaposlen">Zaposlen</option>
                           </select>
-
-                          <input type="text" id="email" name="email" placeholder="Email" onfocus="this.placeholder = ''">
-                          <input type="tel" id="telefon" name="telefon" placeholder="Telefon" onfocus="this.placeholder = ''">
-                          <select id="sektor">
-                            <option value="osnovni">media</option>
-                            <option value="srednji">general</option>
+                          <p id="volunteer_profession_error"></p>
+                          <input type="text" id="email" name="email" placeholder="Email" required onfocus="this.placeholder = ''">
+                          <p id="volunteer_email_error"></p>
+                          <input type="tel" id="telefon" name="telefon" placeholder="Telefon" required onfocus="this.placeholder = ''">
+                          <p id="volunteer_tel_error"></p>
+                          <select id="sektor" required>
+                            <option value="media">media</option>
+                            <option value="general">general</option>
                           </select>
-                          <select id="engleski">
+                          <p id="volunteer_sector_error"></p>
+                          <select id="engleski" required>
                             <option value="osnovni">Osnovni</option>
                             <option value="srednji">Srednji</option>
                             <option value="napredni">Napredni</option>
                           </select>
-                          <textarea rows="4" cols="50" placeholder="Describe yourself here..." id="cv" onfocus="this.placeholder = ''"></textarea>
-
-
+                          <p id="volunteer_eng_error"></p>
+                          <textarea rows="4" cols="50" placeholder="Describe yourself here..." id="cv" required onfocus="this.placeholder = ''"></textarea>
+                          <p id="volunteer_cv_error"></p>
+                          <div class="g-recaptcha" data-sitekey="6LdAJ00UAAAAAElof1s8xKLC5YCgR2ICHupC-ymf" data-callback="recaptchaCallback"></div>
                           <button class="" onclick="return upis();">Pošalji</button><br><br>
                 				   <div id="placefortable">
                 					</div><br><br>
@@ -111,19 +118,40 @@
 
 
 
-            /*   var ind=0;
+               var ind=0;
         if (ime===null || ime===''){
-          document.getElementById("email_error").innerHTML = "Molimo vas popunite polje.";
+          document.getElementById("volunteer_name_error").innerHTML = "Molimo vas popunite polje.";
           ind=1;
         }
-                if (email===null || email===''){
-          document.getElementById("telefon_error").innerHTML = "Molimo vas popunite polje.";
+                if (prezime===null || prezime===''){
+          document.getElementById("volunteer_lastname_error").innerHTML = "Molimo vas popunite polje.";
           ind=1;
         }
-                if(pitanje===null || pitanje===''){
-          document.getElementById("datum_ostavljanja_error").innerHTML = "Molimo vas popunite polje.";
+                if(zan===null || zan===''){
+          document.getElementById("volunteer_profession_error").innerHTML = "Molimo vas popunite polje.";
           ind=1;
         }
+
+if(email===null || email===''){
+document.getElementById("volunteer_email_error").innerHTML = "Molimo vas popunite polje.";
+ind=1;
+}
+if(telefon===null || telefon===''){
+document.getElementById("volunteer_tel_error").innerHTML = "Molimo vas popunite polje.";
+ind=1;
+}
+if(sek===null || sek===''){
+document.getElementById("volunteer_profession_error").innerHTML = "Molimo vas popunite polje.";
+ind=1;
+}
+if(eng===null || eng===''){
+document.getElementById("volunteer_eng_error").innerHTML = "Molimo vas popunite polje.";
+ind=1;
+}
+if(cv===null || cv===''){
+document.getElementById("volunteer_cv_error").innerHTML = "Molimo vas popunite polje.";
+ind=1;
+}
 
                 if(ind===1){
           return false;
@@ -134,8 +162,8 @@
           document.getElementById("vreme_dolaska_error").innerHTML = vreme_dolaska;
           document.getElementById("datum_preuzimanja_error").innerHTML = datum_preuzimanja;*/
           //window.location="./#potvrda";
-    /*    }
-        else{*/
+        }
+        else{
         /*  var ime = document.getElementById("ime").value;
           //var ime_slavljenik = document.getElementById("ime_slavljenik").value;
           var email =  document.getElementById("email").value;
@@ -149,7 +177,7 @@
             cashe: false,
             //data: dataString,
 
-            data: {ime:ime,prezime:prezime,zan:zan,email:email,telefon:telefon,sek:sek,eng:eng,cv:cv},
+            data: {ime:ime,prezime:prezime,zan:zan,email:email,telefon:telefon,sek:sek,eng:eng,cv:cv,captcha:grecaptcha.getResponse()},
 
             success: function(data){
 
@@ -175,7 +203,7 @@
           }
           })
 
-        /*}*/
+        }
         return false;
     }
 
