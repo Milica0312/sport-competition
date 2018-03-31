@@ -2,7 +2,7 @@ $light-grey: #e6e6e6;
 
 
 .container {
-  max-width: 770px;
+  max-width: 100%;
 }
 
 .gallery-slider {
@@ -11,7 +11,7 @@ $light-grey: #e6e6e6;
 
 	// __images
 	&__images {
-		
+
 		position: relative;
 		.item {
 			padding: 0;

@@ -54,6 +54,14 @@
             }
 
           }
+          .g-recaptcha {
+              width: 52%;
+              margin-left: auto;
+              margin-right: auto;
+              @include mQ(408px){
+                width:100%;
+              }
+          }
           button {
               padding: 10px 50px;
               border: 0;

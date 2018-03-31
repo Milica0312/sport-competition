@@ -69,7 +69,7 @@
                             <option value="zaposlen">Zaposlen</option>
                           </select>
                           <p id="volunteer_profession_error"></p>
-                          <input type="text" id="email" name="email" placeholder="Email" required onfocus="this.placeholder = ''">
+                          <input type="email" id="email" name="email" placeholder="Email" required onfocus="this.placeholder = ''">
                           <p id="volunteer_email_error"></p>
                           <input type="tel" id="telefon" name="telefon" placeholder="Telefon" required onfocus="this.placeholder = ''">
                           <p id="volunteer_tel_error"></p>

@@ -840,6 +840,13 @@ img.bringiton {
     @media screen and (max-width: 768px) {
       .volunteer .about form textarea {
         width: 70%; } }
+  .volunteer .about form .g-recaptcha {
+    width: 52%;
+    margin-left: auto;
+    margin-right: auto; }
+    @media screen and (max-width: 408px) {
+      .volunteer .about form .g-recaptcha {
+        width: 100%; } }
   .volunteer .about form button {
     padding: 10px 50px;
     border: 0;
@@ -889,6 +896,10 @@ img.bringiton {
   color: #12b4b3;
   margin-bottom: 60px;
   margin-top: 0; }
+
+.gallery .gallery_content iframe {
+  width: 100%;
+  height: 400px; }
 
 .gallery #images {
   width: 80%;
@@ -965,8 +976,55 @@ img.bringiton {
 	.prikaz{
 		display:block;
 	}*/
+#how-to-apply .about .howtoapply_logo {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px; }
+  #how-to-apply .about .howtoapply_logo img {
+    text-align: center; }
+
+#how-to-apply .about .howtoapply_holder {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  overflow: hidden; }
+  #how-to-apply .about .howtoapply_holder .onehowtoapply {
+    float: left;
+    width: 20%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: right;
+    color: black; }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply h2 {
+      font-weight: bold;
+      font-size: 16px; }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply p {
+      font-size: 12px; }
+
+#how-to-apply .about .countdown_head .topborder {
+  border-top: 3px solid #1d234b;
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px; }
+
+#how-to-apply .about .countdown_head h2 {
+  color: #1d234b; }
+
+#how-to-apply .about .singlesport_btn a {
+  color: white;
+  background-color: #1d234b;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 70px;
+  border: 1px solid white; }
+
 .container {
-  max-width: 770px; }
+  max-width: 100%; }
 
 .gallery-slider {
   position: relative;
@@ -1308,7 +1366,7 @@ img.bringiton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-image: url(../img/ESPORTS_BG.png);
-      background-position: top;
+      background-position: bottom;
       width: 100%; }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section4 {

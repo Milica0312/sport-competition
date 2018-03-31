@@ -1,0 +1,58 @@
+#how-to-apply{
+  .about{
+    .howtoapply_logo{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-bottom: 100px;
+      img{
+        text-align: center;
+      }
+    }
+    .howtoapply_holder{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      overflow: hidden;
+      .onehowtoapply{
+        float: left;
+        width:20%;
+        box-sizing: border-box;
+        text-align: right;
+        color:black;
+        h2{
+          font-weight: bold;
+          font-size: 16px;
+        }
+        p{
+          font-size: 12px;
+        }
+      }
+    }
+    .countdown_head{
+        .topborder{
+          border-top: 3px solid $deeppurple;
+          width: 100px;
+          text-align: center;
+          margin-left: auto;
+          margin-right: auto;
+          padding-bottom: 25px;
+        }
+        h2{
+          color: $deeppurple;
+        }
+    }
+    .singlesport_btn{
+      a{
+        color: white;
+        background-color: $deeppurple;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 70px;
+        border: 1px solid white;
+      }
+    }
+  }
+}

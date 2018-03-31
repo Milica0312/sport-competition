@@ -376,7 +376,7 @@
                           <div class="img-fill"><img src="img\lastyear\23659224_1728137143886490_6833650154488270992_n.jpg" alt=""></div>
                         </div>
                         <!-- /.item -->
-                      </div>
+                      </div><!--
                       <button class="prev-arrow slick-arrow">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792">
                           <path fill="#fff" d="M1171 301L640 832l531 531q19 19 19 45t-19 45l-166 166q-19 19-45 19t-45-19L173 877q-19-19-19-45t19-45L915 45q19-19 45-19t45 19l166 166q19 19 19 45t-19 45z" />
@@ -386,7 +386,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 1792">
                           <path fill="#fff" d="M1107 877l-742 742q-19 19-45 19t-45-19l-166-166q-19-19-19-45t19-45l531-531-531-531q-19-19-19-45t19-45L275 45q19-19 45-19t45 19l742 742q19 19 19 45t-19 45z" />
                         </svg>
-                      </button>
+                      </button>-->
                       <span class="caption">&nbsp;</span>
                     </div>
                     <!-- /__images -->

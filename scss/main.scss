@@ -10,6 +10,7 @@
 @import "contact.scss";
 @import "volunteer.scss";
 @import "gallery.scss";
+@import "howtoapply.scss";
 @import "gallery-slider.scss";
 /*NAVIGATION and content-right*/
 .back-to-top {
@@ -160,7 +161,7 @@
         #section4{
           @include sectiondefault;
           background-image: url(../img/ESPORTS_BG.png);
-          background-position: top;
+          background-position: bottom;
           width: 100%;
           @include mQ(1400px){
             height:auto;
