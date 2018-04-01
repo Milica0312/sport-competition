@@ -2,6 +2,10 @@
 .contact{
   width:80%;
   margin-left: 10%;
+  @include mQ(1400px){
+    width:90%;
+    margin-left: 5%;
+  }
 
   @include mQ(768px){
     width: 100%;
@@ -41,7 +45,7 @@
 
     .singlecontactbox{
     /*  flex:1 1 0;*/
-      margin:25px 29px;
+      margin:25px 50px;
       display:inline-block;
       vertical-align: top;
       min-width: 160px;

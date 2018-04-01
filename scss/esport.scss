@@ -3,12 +3,16 @@
     border-left:3px solid black;
     color:black;
     @include sectionhead;
+
+    p{
+      width:68%;
+    }
   }
   .esport_txt{
       color:black;
       padding-right: 500px;
       @include mQ(1200px){
-        padding-right: 100px;
+        padding-right: 230px;
       }
       @include mQ(768px){
         padding-right: 50px;
@@ -17,9 +21,10 @@
   .esport_icons{
     margin:35px 0 30px;
       img{
-        padding:0 10px;
+        padding:0 25px;
         @include mQ(768px){
           width:60px;
+          padding:0 5px;
         }
       }
   }
@@ -28,12 +33,14 @@
     padding: 10px 30px;
     border: 1px solid black;
     margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: bold;
 
     &:hover{
-      color:white;
-      background-color: black;
+      color:black;
+      background-color: white;
       transition: 1s;
-      border:1px solid white;
+      border:1px solid black;
     }
   }
 }

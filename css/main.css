@@ -52,9 +52,12 @@ img.bringiton {
   position: absolute;
   top: 64%;
   left: 21%; }
+  .hometxt p {
+    font-size: 17px; }
   .hometxt p:last-child {
     color: #ee2f30;
-    font-weight: bold; }
+    font-weight: bold;
+    font-size: 18px; }
   @media screen and (max-width: 768px) {
     .hometxt {
       top: 38%;
@@ -73,7 +76,7 @@ img.bringiton {
 
 .divbtn a {
   position: absolute;
-  top: 74%;
+  top: 78%;
   left: 21%;
   color: white;
   text-decoration: none;
@@ -93,7 +96,7 @@ img.bringiton {
 
 .divbtn img {
   position: absolute;
-  top: 74%;
+  top: 78%;
   left: 36%;
   width: 150px;
   padding-top: 7px; }
@@ -124,10 +127,15 @@ img.bringiton {
     .about .about__uniada h1 {
       font-size: 50px;
       font-weight: 600;
-      width: 40%; }
-      @media screen and (max-width: 1200px) {
+      width: 40%;
+      /*
+       @include mQ(1200px){
+         width: 60%;
+       }*/ }
+      @media screen and (max-width: 1600px) {
         .about .about__uniada h1 {
-          width: 60%; } }
+          width: 70%;
+          margin-bottom: 10px; } }
       @media screen and (max-width: 768px) {
         .about .about__uniada h1 {
           font-size: 30px; } }
@@ -138,13 +146,13 @@ img.bringiton {
         .about .about__uniada p {
           font-size: 25px; } }
   .about .about_txt {
-    padding-right: 300px; }
+    padding-right: 200px; }
     @media screen and (max-width: 1500px) {
       .about .about_txt {
         padding-right: 0; } }
   .about .countdown_head {
     width: 50%;
-    margin: 60px auto 50px;
+    margin: 0 auto 50px;
     text-align: center;
     padding-top: 20px; }
     @media screen and (max-width: 1200px) {
@@ -227,6 +235,9 @@ img.bringiton {
       color: white;
       text-decoration: none;
       left: 45%; }
+      @media screen and (max-width: 1600px) {
+        .sports .sportbox .sportname {
+          bottom: 22px; } }
     .sports .sportbox a {
       width: 100%;
       height: 100%; }
@@ -249,6 +260,10 @@ img.bringiton {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    @media screen and (max-width: 1400px) {
+      .sports #sport1 {
+        width: 260px;
+        height: 250px; } }
     .sports #sport1 .borderforsport1 {
       padding-left: 20px;
       border-left: 2px solid #1d234b; }
@@ -278,6 +293,10 @@ img.bringiton {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    @media screen and (max-width: 1400px) {
+      .sports #sport2 {
+        width: 260px;
+        height: 250px; } }
   .sports #sport3 {
     width: 330px;
     height: 270px;
@@ -297,6 +316,10 @@ img.bringiton {
     background-image: -webkit-linear-gradient(left bottom, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9);
     background-image: -o-linear-gradient(left bottom, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9);
     background-image: linear-gradient(to right top, #7e429a, #8643a6, #8f44b1, #9745bd, #a046c9); }
+    @media screen and (max-width: 1400px) {
+      .sports #sport3 {
+        width: 260px;
+        height: 250px; } }
   .sports #sport4 {
     width: 330px;
     height: 270px;
@@ -316,6 +339,10 @@ img.bringiton {
     background-image: -webkit-linear-gradient(left bottom, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda);
     background-image: -o-linear-gradient(left bottom, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda);
     background-image: linear-gradient(to right top, #12b4b3, #12bebd, #12c7c6, #12d1d0, #11dbda); }
+    @media screen and (max-width: 1400px) {
+      .sports #sport4 {
+        width: 260px;
+        height: 250px; } }
   .sports #sport5 {
     width: 330px;
     height: 270px;
@@ -335,6 +362,10 @@ img.bringiton {
     background-image: -webkit-linear-gradient(left bottom, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f);
     background-image: -o-linear-gradient(left bottom, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f);
     background-image: linear-gradient(to right top, #e09733, #e8a132, #f0ac31, #f8b730, #ffc22f); }
+    @media screen and (max-width: 1400px) {
+      .sports #sport5 {
+        width: 260px;
+        height: 250px; } }
   .sports #sport6 {
     width: 330px;
     height: 270px;
@@ -350,6 +381,10 @@ img.bringiton {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
+    @media screen and (max-width: 1400px) {
+      .sports #sport6 {
+        width: 260px;
+        height: 250px; } }
     .sports #sport6 .txtforsport6 {
       text-align: center; }
       .sports #sport6 .txtforsport6 p {
@@ -408,12 +443,12 @@ img.bringiton {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: auto; }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1600px) {
     #basketball {
-      padding: 100px 100px; } }
+      padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #basketball {
-      padding: 100px 60px; } }
+      padding: 50px 30px; } }
 
 #handball {
   background-image: -webkit-gradient(linear, left bottom, right top, from(#7e429a), color-stop(#8643a6), color-stop(#8f44b1), color-stop(#9745bd), to(#a046c9));
@@ -429,12 +464,12 @@ img.bringiton {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: auto; }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1600px) {
     #handball {
-      padding: 100px 100px; } }
+      padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #handball {
-      padding: 100px 60px; } }
+      padding: 50px 30px; } }
 
 #futsal {
   background-image: -webkit-gradient(linear, left bottom, right top, from(#12b4b3), color-stop(#12bebd), color-stop(#12c7c6), color-stop(#12d1d0), to(#11dbda));
@@ -450,12 +485,12 @@ img.bringiton {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: auto; }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1600px) {
     #futsal {
-      padding: 100px 100px; } }
+      padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #futsal {
-      padding: 100px 60px; } }
+      padding: 50px 30px; } }
 
 #volleyball {
   background-image: -webkit-gradient(linear, left bottom, right top, from(#e09733), color-stop(#e8a132), color-stop(#f0ac31), color-stop(#f8b730), to(#ffc22f));
@@ -481,12 +516,12 @@ img.bringiton {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 100vh; }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1600px) {
     #dota2 {
-      padding: 100px 100px; } }
+      padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #dota2 {
-      padding: 100px 60px; } }
+      padding: 50px 30px; } }
 
 #cs {
   background-image: url("../img/CSGO.jpg");
@@ -500,12 +535,12 @@ img.bringiton {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 100vh; }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1600px) {
     #cs {
-      padding: 100px 100px; } }
+      padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #cs {
-      padding: 100px 60px; } }
+      padding: 50px 30px; } }
 
 #lol {
   background-image: url("../img/LOL.jpg");
@@ -519,12 +554,12 @@ img.bringiton {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   height: 100vh; }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1600px) {
     #lol {
-      padding: 100px 100px; } }
+      padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #lol {
-      padding: 100px 60px; } }
+      padding: 50px 30px; } }
 
 #how-to-apply {
   background-color: #e8edfb;
@@ -536,13 +571,13 @@ img.bringiton {
   padding: 100px 200px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  height: 100vh; }
-  @media screen and (max-width: 1400px) {
+  height: auto; }
+  @media screen and (max-width: 1600px) {
     #how-to-apply {
-      padding: 100px 100px; } }
+      padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #how-to-apply {
-      padding: 100px 60px; } }
+      padding: 50px 30px; } }
 
 .esport .esport_head {
   border-left: 3px solid black;
@@ -551,10 +586,15 @@ img.bringiton {
   .esport .esport_head h1 {
     font-size: 50px;
     font-weight: 600;
-    width: 40%; }
-    @media screen and (max-width: 1200px) {
+    width: 40%;
+    /*
+       @include mQ(1200px){
+         width: 60%;
+       }*/ }
+    @media screen and (max-width: 1600px) {
       .esport .esport_head h1 {
-        width: 60%; } }
+        width: 70%;
+        margin-bottom: 10px; } }
     @media screen and (max-width: 768px) {
       .esport .esport_head h1 {
         font-size: 30px; } }
@@ -564,13 +604,15 @@ img.bringiton {
     @media screen and (max-width: 768px) {
       .esport .esport_head p {
         font-size: 25px; } }
+  .esport .esport_head p {
+    width: 68%; }
 
 .esport .esport_txt {
   color: black;
   padding-right: 500px; }
   @media screen and (max-width: 1200px) {
     .esport .esport_txt {
-      padding-right: 100px; } }
+      padding-right: 230px; } }
   @media screen and (max-width: 768px) {
     .esport .esport_txt {
       padding-right: 50px; } }
@@ -578,23 +620,26 @@ img.bringiton {
 .esport .esport_icons {
   margin: 35px 0 30px; }
   .esport .esport_icons img {
-    padding: 0 10px; }
+    padding: 0 25px; }
     @media screen and (max-width: 768px) {
       .esport .esport_icons img {
-        width: 60px; } }
+        width: 60px;
+        padding: 0 5px; } }
 
 .esport .esportbtn {
   color: black;
   padding: 10px 30px;
   border: 1px solid black;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  text-decoration: none;
+  font-weight: bold; }
   .esport .esportbtn:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-    border: 1px solid white; }
+    border: 1px solid black; }
 
 /*apply section*/
 .application .window {
@@ -636,8 +681,8 @@ img.bringiton {
   .application .window .fixedcontrols {
     text-align: center; }
     .application .window .fixedcontrols span {
-      width: 12px;
-      height: 12px;
+      width: 9px;
+      height: 9px;
       background: white;
       border: 2px solid transparent;
       border-radius: 50%;
@@ -668,7 +713,8 @@ img.bringiton {
       width: 100%; } }
 
 .application .apply_txt {
-  padding-right: 200px; }
+  /*padding-right: 200px;*/
+  text-align: center; }
   @media screen and (max-width: 1400px) {
     .application .apply_txt {
       padding-right: 0; } }
@@ -679,32 +725,39 @@ img.bringiton {
       .application .apply_txt h2 {
         font-size: 28px; } }
 
-.application .apply_btns a {
-  color: white;
-  text-decoration: none;
-  border: 1px solid white;
-  padding: 10px 30px;
-  margin-right: 30px; }
-  @media screen and (max-width: 1100px) and (min-width: 768px) {
-    .application .apply_btns a {
-      width: 50%;
-      display: block;
-      margin-bottom: 20px; } }
-  @media screen and (max-width: 768px) {
-    .application .apply_btns a {
-      line-height: 60px; } }
-  .application .apply_btns a:hover {
-    background-color: white;
-    color: #12b4b3;
-    -webkit-transition: 1s;
-    -o-transition: 1s;
-    transition: 1s; }
+.application .apply_btns {
+  text-align: center;
+  margin-top: 51px; }
+  .application .apply_btns a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 30px;
+    margin-right: 30px; }
+    @media screen and (max-width: 1100px) and (min-width: 768px) {
+      .application .apply_btns a {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px; } }
+    @media screen and (max-width: 768px) {
+      .application .apply_btns a {
+        line-height: 60px; } }
+    .application .apply_btns a:hover {
+      background-color: white;
+      color: #12b4b3;
+      -webkit-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s; }
 
 /**/
 /*contact section*/
 .contact {
   width: 80%;
   margin-left: 10%; }
+  @media screen and (max-width: 1400px) {
+    .contact {
+      width: 90%;
+      margin-left: 5%; } }
   @media screen and (max-width: 768px) {
     .contact {
       width: 100%;
@@ -741,7 +794,7 @@ img.bringiton {
     text-align: center; }
     .contact .contact_info .singlecontactbox {
       /*  flex:1 1 0;*/
-      margin: 25px 29px;
+      margin: 25px 50px;
       display: inline-block;
       vertical-align: top;
       min-width: 160px;
@@ -789,83 +842,85 @@ img.bringiton {
   box-sizing: border-box;
   min-height: 100vh;
   height: auto; }
-  @media screen and (max-width: 1400px) {
+  @media screen and (max-width: 1600px) {
     #volunteer {
-      padding: 100px 100px; } }
+      padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #volunteer {
-      padding: 100px 60px; } }
+      padding: 50px 30px; } }
   @media screen and (max-width: 768px) {
     #volunteer {
       padding: 100px 0; } }
 
-.volunteer .about form {
-  text-align: center; }
-  .volunteer .about form input {
-    display: block;
-    text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border: 0;
-    margin-bottom: 30px;
-    color: #1d234b; }
+.volunteer .about {
+  overflow: hidden; }
+  .volunteer .about form {
+    text-align: center; }
+    .volunteer .about form input {
+      display: block;
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      border: 0;
+      margin-bottom: 30px;
+      color: #1d234b; }
+      @media screen and (max-width: 768px) {
+        .volunteer .about form input {
+          width: 70%; } }
+      .volunteer .about form input:-moz-placeholder {
+        text-align: left; }
+    .volunteer .about form select {
+      display: block;
+      text-align: center;
+      width: 52%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      border: 0;
+      margin-bottom: 30px;
+      color: #1d234b; }
+      @media screen and (max-width: 768px) {
+        .volunteer .about form select {
+          width: 78%; } }
+    .volunteer .about form textarea {
+      display: block;
+      text-align: center;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
+      border: 0;
+      margin-bottom: 30px;
+      color: #1d234b; }
+      @media screen and (max-width: 768px) {
+        .volunteer .about form textarea {
+          width: 70%; } }
+    .volunteer .about form .g-recaptcha {
+      width: 52%;
+      margin-left: auto;
+      margin-right: auto; }
+      @media screen and (max-width: 408px) {
+        .volunteer .about form .g-recaptcha {
+          width: 100%; } }
+    .volunteer .about form button {
+      margin-top: 10px;
+      padding: 10px 50px;
+      border: 0;
+      color: #1d234b; }
+      .volunteer .about form button:hover {
+        background-color: #1d234b;
+        border: 1px solid white;
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s;
+        color: white; }
+  .volunteer .about .volunteerimg {
+    float: right; }
     @media screen and (max-width: 768px) {
-      .volunteer .about form input {
-        width: 70%; } }
-  .volunteer .about form select {
-    display: block;
-    text-align: center;
-    width: 52%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border: 0;
-    margin-bottom: 30px;
-    color: #1d234b; }
-    @media screen and (max-width: 768px) {
-      .volunteer .about form select {
-        width: 78%; } }
-  .volunteer .about form textarea {
-    display: block;
-    text-align: center;
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    border: 0;
-    margin-bottom: 30px;
-    color: #1d234b; }
-    @media screen and (max-width: 768px) {
-      .volunteer .about form textarea {
-        width: 70%; } }
-  .volunteer .about form .g-recaptcha {
-    width: 52%;
-    margin-left: auto;
-    margin-right: auto; }
-    @media screen and (max-width: 408px) {
-      .volunteer .about form .g-recaptcha {
-        width: 100%; } }
-  .volunteer .about form button {
-    padding: 10px 50px;
-    border: 0;
-    color: #1d234b; }
-    .volunteer .about form button:hover {
-      background-color: #1d234b;
-      border: 1px solid white;
-      -webkit-transition: 1s;
-      -o-transition: 1s;
-      transition: 1s;
-      color: white; }
-
-.volunteer .about .volunteerimg {
-  position: absolute;
-  bottom: 2%;
-  right: 2%; }
-  @media screen and (max-width: 768px) {
-    .volunteer .about .volunteerimg {
-      width: 80%; } }
+      .volunteer .about .volunteerimg {
+        width: 80%; } }
 
 .gallery .gallery_btns {
   width: 50%;
@@ -916,6 +971,7 @@ img.bringiton {
 
 .gallery .sponsors {
   width: 90%;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto; }
   .gallery .sponsors .window {
@@ -929,7 +985,6 @@ img.bringiton {
         float: left;
         display: block;
         padding: 25px 0 0px 2%;
-        margin-top: 50px;
         height: 113px; }
         @media screen and (max-width: 1024px) {
           .gallery .sponsors .window .drzac .biggerw {
@@ -951,11 +1006,10 @@ img.bringiton {
     .gallery .sponsors .window .fixedcontrols {
       text-align: center; }
       .gallery .sponsors .window .fixedcontrols span {
-        width: 15px;
-        height: 15px;
+        width: 9px;
+        height: 9px;
         background: #434343;
         border: 2px solid transparent;
-        border-radius: 50%;
         display: inline-block;
         cursor: pointer;
         -webkit-transition: all 0.3s;
@@ -976,53 +1030,6 @@ img.bringiton {
 	.prikaz{
 		display:block;
 	}*/
-#how-to-apply .about .howtoapply_logo {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  margin-bottom: 100px; }
-  #how-to-apply .about .howtoapply_logo img {
-    text-align: center; }
-
-#how-to-apply .about .howtoapply_holder {
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  overflow: hidden; }
-  #how-to-apply .about .howtoapply_holder .onehowtoapply {
-    float: left;
-    width: 20%;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    text-align: right;
-    color: black; }
-    #how-to-apply .about .howtoapply_holder .onehowtoapply h2 {
-      font-weight: bold;
-      font-size: 16px; }
-    #how-to-apply .about .howtoapply_holder .onehowtoapply p {
-      font-size: 12px; }
-
-#how-to-apply .about .countdown_head .topborder {
-  border-top: 3px solid #1d234b;
-  width: 100px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 25px; }
-
-#how-to-apply .about .countdown_head h2 {
-  color: #1d234b; }
-
-#how-to-apply .about .singlesport_btn a {
-  color: white;
-  background-color: #1d234b;
-  text-decoration: none;
-  text-align: center;
-  padding: 10px 70px;
-  border: 1px solid white; }
-
 .container {
   max-width: 100%; }
 
@@ -1042,7 +1049,7 @@ img.bringiton {
             height: 300px; } }
         @media screen and (min-width: 720px) {
           .gallery-slider__images .item .img-fill {
-            height: 450px; } }
+            height: 350px; } }
         .gallery-slider__images .item .img-fill img {
           display: inline-block;
           position: relative;
@@ -1183,6 +1190,92 @@ img.bringiton {
     padding: 0 7.5px;
     outline: none; }
 
+#how-to-apply .about .howtoapply_logo {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 100px; }
+  @media screen and (max-width: 500px) {
+    #how-to-apply .about .howtoapply_logo {
+      width: 100%;
+      margin-bottom: 30px; } }
+  #how-to-apply .about .howtoapply_logo img {
+    text-align: center; }
+    @media screen and (max-width: 500px) {
+      #how-to-apply .about .howtoapply_logo img {
+        width: 100%; } }
+
+#how-to-apply .about .howtoapply_holder {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  overflow: hidden; }
+  @media screen and (max-width: 1600px) {
+    #how-to-apply .about .howtoapply_holder {
+      width: 100%; } }
+  #how-to-apply .about .howtoapply_holder .onehowtoapply {
+    float: left;
+    width: 20%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: right;
+    color: black; }
+    @media screen and (max-width: 1600px) {
+      #how-to-apply .about .howtoapply_holder .onehowtoapply img {
+        width: 70%;
+        text-align: right;
+        float: right; } }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply h2 {
+      font-weight: bold;
+      font-size: 16px;
+      margin: 10px 0; }
+      @media screen and (max-width: 1000px) {
+        #how-to-apply .about .howtoapply_holder .onehowtoapply h2 {
+          float: right;
+          width: 100%;
+          font-size: 13px; } }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply p {
+      font-size: 12px; }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply .confirmborder {
+      border-right: 2px solid #f0ac31;
+      padding-right: 10px; }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply .paymentborder {
+      border-right: 2px solid #8000ff;
+      padding-right: 10px; }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply .applyborder {
+      border-right: 2px solid #ff3333;
+      padding-right: 10px; }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply .applicationborder {
+      border-right: 2px solid #12b4b3;
+      padding-right: 10px; }
+    #how-to-apply .about .howtoapply_holder .onehowtoapply .welcomeborder {
+      border-right: 2px solid #1d234b;
+      padding-right: 10px; }
+  @media screen and (max-width: 500px) {
+    #how-to-apply .about .howtoapply_holder .textw {
+      width: 100%; } }
+
+#how-to-apply .about .countdown_head .topborder {
+  border-top: 3px solid #1d234b;
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25px; }
+
+#how-to-apply .about .countdown_head h2 {
+  color: #1d234b; }
+
+#how-to-apply .about .singlesport_btn a {
+  color: white;
+  background-color: #1d234b;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 70px;
+  border: 1px solid white; }
+
 /*NAVIGATION and content-right*/
 .back-to-top {
   position: fixed;
@@ -1294,12 +1387,12 @@ img.bringiton {
       background-size: cover;
       width: 100%;
       background-repeat-x: no-repeat; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1600px) {
         .content-holder .section #section1 {
-          padding: 100px 100px; } }
+          padding: 50px 100px; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section1 {
-          padding: 100px 60px; } }
+          padding: 50px 30px; } }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section1 {
           background-position: left;
@@ -1317,12 +1410,15 @@ img.bringiton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-color: #ee2f30; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1600px) {
         .content-holder .section #section2 {
-          padding: 100px 100px; } }
+          padding: 50px 100px; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section2 {
-          padding: 100px 60px; } }
+          padding: 50px 30px; } }
+      @media screen and (max-width: 1600px) {
+        .content-holder .section #section2 {
+          /*  height:auto;*/ } }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section2 {
           height: auto; } }
@@ -1343,15 +1439,18 @@ img.bringiton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-color: #e8edfb; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1600px) {
         .content-holder .section #section3 {
-          padding: 100px 100px; } }
+          padding: 50px 100px; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section3 {
-          padding: 100px 60px; } }
+          padding: 50px 30px; } }
+      @media screen and (max-width: 1600px) {
+        .content-holder .section #section3 {
+          height: 100vh; } }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section3 {
-          height: auto; } }
+          height: 100vh; } }
       @media screen and (max-width: 1300px) {
         .content-holder .section #section3 {
           padding: 100px 15px 150px;
@@ -1366,17 +1465,24 @@ img.bringiton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-image: url(../img/ESPORTS_BG.png);
+      background-size: cover;
       background-position: bottom;
       width: 100%; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1600px) {
         .content-holder .section #section4 {
-          padding: 100px 100px; } }
+          padding: 50px 100px; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section4 {
-          padding: 100px 60px; } }
+          padding: 50px 30px; } }
+      @media screen and (max-width: 1600px) {
+        .content-holder .section #section4 {
+          /*height:auto;*/ } }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section4 {
           height: auto; } }
+      @media screen and (max-height: 800px) {
+        .content-holder .section #section4 {
+          /*height:auto;*/ } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section4 {
           padding: 50px 80px;
@@ -1394,12 +1500,18 @@ img.bringiton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-color: #12b4b3; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1600px) {
         .content-holder .section #section5 {
-          padding: 100px 100px; } }
+          padding: 50px 100px; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section5 {
-          padding: 100px 60px; } }
+          padding: 50px 30px; } }
+      @media screen and (max-width: 1600px) {
+        .content-holder .section #section5 {
+          /*    height:auto;*/ } }
+      @media screen and (max-height: 800px) {
+        .content-holder .section #section5 {
+          height: auto; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section5 {
           padding: 50px 80px; } }
@@ -1417,12 +1529,18 @@ img.bringiton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-color: #434343; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1600px) {
         .content-holder .section #section7 {
-          padding: 100px 100px; } }
+          padding: 50px 100px; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section7 {
-          padding: 100px 60px; } }
+          padding: 50px 30px; } }
+      @media screen and (max-width: 1600px) {
+        .content-holder .section #section7 {
+          /*height:auto;*/ } }
+      @media screen and (max-height: 800px) {
+        .content-holder .section #section7 {
+          height: auto; } }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section7 {
           height: auto; } }
@@ -1440,12 +1558,18 @@ img.bringiton {
       -webkit-box-sizing: border-box;
       box-sizing: border-box;
       background-color: #e8edfb; }
-      @media screen and (max-width: 1400px) {
+      @media screen and (max-width: 1600px) {
         .content-holder .section #section6 {
-          padding: 100px 100px; } }
+          padding: 50px 100px; } }
       @media screen and (max-width: 1200px) {
         .content-holder .section #section6 {
-          padding: 100px 60px; } }
+          padding: 50px 30px; } }
+      @media screen and (max-width: 1600px) {
+        .content-holder .section #section6 {
+          /*height:auto;*/ } }
+      @media screen and (max-height: 800px) {
+        .content-holder .section #section6 {
+          height: auto; } }
       @media screen and (max-width: 1400px) {
         .content-holder .section #section6 {
           height: auto; } }

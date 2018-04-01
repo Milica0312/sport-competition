@@ -6,8 +6,15 @@
       margin-right: auto;
       text-align: center;
       margin-bottom: 100px;
+      @include mQ(500px){
+          width:100%;
+          margin-bottom: 30px;
+      }
       img{
         text-align: center;
+        @include mQ(500px){
+            width:100%;
+        }
       }
     }
     .howtoapply_holder{
@@ -16,19 +23,64 @@
       margin-right: auto;
       text-align: center;
       overflow: hidden;
+      @include mQ(1600px){
+        width:100%;
+      }
       .onehowtoapply{
         float: left;
         width:20%;
         box-sizing: border-box;
         text-align: right;
         color:black;
+
+        img{
+
+          @include mQ(1600px){
+            width: 70%;
+            text-align: right;
+            float: right;
+          }
+        }
         h2{
           font-weight: bold;
           font-size: 16px;
+          margin:10px 0;
+          @include mQ(1000px){
+              float: right;
+              width:100%;
+              font-size: 13px;
+            }
         }
         p{
           font-size: 12px;
         }
+        .confirmborder{
+          border-right: 2px solid #f0ac31;
+          padding-right: 10px;
+        }
+        .paymentborder{
+          border-right: 2px solid $sport3;
+          padding-right: 10px;
+        }
+        .applyborder{
+          border-right: 2px solid $sport2;
+          padding-right: 10px;
+        }
+        .applicationborder{
+          border-right: 2px solid $applyblue;
+          padding-right: 10px;
+        }
+        .welcomeborder{
+          border-right: 2px solid $deeppurple;
+          padding-right: 10px;
+        }
+
+      }
+      .textw{
+        @include mQ(500px){
+
+            width:100%;
+          }
       }
     }
     .countdown_head{

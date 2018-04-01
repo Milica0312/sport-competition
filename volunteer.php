@@ -65,7 +65,7 @@
                           <p id="volunteer_lastname_error"></p>
                           <select id="zanimanje" required>
                             <option value="student">Student</option>
-                            <option value="srednjoskolac">Srednjoskolac</option>
+                            <option value="srednjoskolac">Srednjoškolac</option>
                             <option value="zaposlen">Zaposlen</option>
                           </select>
                           <p id="volunteer_profession_error"></p>
@@ -74,8 +74,9 @@
                           <input type="tel" id="telefon" name="telefon" placeholder="Telefon" required onfocus="this.placeholder = ''">
                           <p id="volunteer_tel_error"></p>
                           <select id="sektor" required>
-                            <option value="media">media</option>
-                            <option value="general">general</option>
+                            <option value="media">Media - foto, video, izveštavanje</option>
+                            <option value="general">General - koordinacija i organizacija događaja</option>
+                            <option value="esport">E-sport - administracija i koordinacija učesnika</option>
                           </select>
                           <p id="volunteer_sector_error"></p>
                           <select id="engleski" required>

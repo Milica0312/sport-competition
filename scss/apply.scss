@@ -49,8 +49,8 @@
     .fixedcontrols{
       text-align:center;
       span{
-        width: 12px;
-        height: 12px;
+        width: 9px;
+        height: 9px;
         background: white;
         border: 2px solid transparent;
         border-radius: 50%;
@@ -85,7 +85,8 @@
     }
   }
   .apply_txt{
-    padding-right: 200px;
+    /*padding-right: 200px;*/
+    text-align: center;
     @include mQ(1400px){
       padding-right: 0;
     }
@@ -98,6 +99,9 @@
     }
   }
   .apply_btns{
+      text-align: center;
+      margin-top: 51px;
+
     a{
     color:white;
     text-decoration: none;

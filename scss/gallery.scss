@@ -52,6 +52,7 @@
 
     .sponsors{
       width: 90%;
+      margin-top: 50px;
       margin-left: auto;
       margin-right: auto;
       .window{
@@ -65,7 +66,7 @@
             float: left;
             display: block;
             padding: 25px 0 0px 2%;
-            margin-top: 50px;
+
             height: 113px;
               @include mQ(1024px){
                 height:auto;
@@ -91,12 +92,12 @@
       	}
         .fixedcontrols{
           text-align:center;
+
           span{
-            width: 15px;
-            height: 15px;
+            width: 9px;
+            height: 9px;
             background: #434343;
             border: 2px solid transparent;
-            border-radius: 50%;
             display: inline-block;
             cursor: pointer;
             transition: all 0.3s;

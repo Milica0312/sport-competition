@@ -19,6 +19,9 @@
           color: white;
           text-decoration: none;
           left:45%;
+          @include mQ(1600px){
+            bottom: 22px;
+          }
         }
         a{
           width: 100%;

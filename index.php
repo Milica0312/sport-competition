@@ -29,7 +29,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js?hl=hr'></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
     <a href="#content" class="back-to-top"><img src="img/topbottom.png" alt=" top-bottom-button" /></a>
@@ -70,14 +70,15 @@
                     <div class="smallborder"></div>
                     <div class="hometxt">
                         <p>
-                          Student sports Event taking place in Belgrade, captial of Serbia. 4 days, 7 disciplines, infinite joy.
+                          Students sports event taking place in Belgrade, capital of Serbia. Four days, seven sport
+disciplines and memorable experience.
                         </p>
                         <p>
                           Experience worth coming!
                         </p>
                     </div>
                     <div class="divbtn">
-                        <a href="UNIADA 2017 - Application Form.docx" download>APPLY NOW</a>
+                        <a href="UNIADA 2018 - Application Form.docx" download>APPLY NOW</a>
                         <img src="img/STRELICE.png" alt="arrows"  />
                     </div>
                 </div>
@@ -89,12 +90,14 @@
                         <p>WHAT IS UNIADA?</p>
                     </div>
                     <div class="about_txt">
-                      <p>Envisioned by a group of enthusiastic students from Belgrade, Serbia. UNIADA is an international university sports tournament, for the second year in a row – Belgrade will host student athletes from 21st to 24th of October.  </p>
+                      <p>Envisioned by a group of enthusiastic students from Belgrade, Serbia.
+UNIADA is an international university sports tournament, being held for the
+second year in a row – Belgrade will host student athletes from 21st to 24th of October.  </p>
                       <p>While working closely, SSA - UNIADA came up with an idea of a 4-day manifestation gathering students from around the world with a goal far broader than fostering university sport as a relevant and important part of university life. Health care, youth activism, fair play, positive energy and the making of new friendships play an equally vital role in this project. And since UNIADA is situated in Belgrade – participants will get to see what Belgrade and its nightlife are really all about.</p>
                     </div>
                     <div class="countdown_head">
                         <div class="topborder"></div>
-                        <h2>The date is set, <span>see you in</span></h2>
+                        <h2>The date is set, <BR /><span>see you in</span></h2>
                     </div>
                     <div class="timer">
                       <div class="timer-part" id="days"></div>
@@ -151,7 +154,7 @@
                     <div class="esport_head">
                         <h1>UNIADA E-SPORTS</h1>
                         <p>
-                          WHAT IS UNIADA E-SPORT?
+                          What is UNIADA E-SPORTS?
                         </p>
                     </div>
                     <div class="esport_txt">
@@ -163,11 +166,11 @@
                         </p>
                     </div>
                     <div class="esport_icons">
-                        <a href="cs.html"><img src="img/CS_IKONICA.png" alt="cs_ikonica"  /></a>
-                        <a href="dota2.html"><img src="img/DOTA2_IKONICA.png" alt="dota2_ikonica"  /></a>
-                        <a href="lol.html"><img src="img/LOL_IKONICA.png" alt="lol_ikonica"  /></a>
+                        <a href="#"><img src="img/CS_IKONICA.png" alt="cs_ikonica"  /></a>
+                        <a href="#"><img src="img/DOTA2_IKONICA.png" alt="dota2_ikonica"  /></a>
+                        <a href="#"><img src="img/LOL_IKONICA.png" alt="lol_ikonica"  /></a>
                     </div>
-                    <a class="esportbtn" href="UNIADA 2017 - Application Form.docx" download>APPLY NOW</a>
+                    <a class="esportbtn" href="UNIADA 2018 - Application Form.docx" download>APPLY NOW</a>
                 </div>
             </section>
             <section class="page-section" id="section5">
@@ -182,10 +185,12 @@
                                   </div>
                                   <div class="experiencetxt">
                                       <p class="experiencetxtp">
-                                      They asked us if we are interested in going to Belgrade? Who is not interested in going to Belgrade, enjoying a little bit, playing soccer so we were really excited.
+                                        We have been asked if we were interested to come to Belgrade. Who is not interested in coming to
+    Belgrade, enjoying a little bit, playing futsal? We really had a good time, while winning the bronze medal
+    in male futsal tournament.
                                       </p>
                                       <p class="experiencesignature">
-                                        Luka Suton - Ekonomski fakultet Mostar
+                                        Luka Suton – Faculty of economics, Mostar, Bosnia and Herzegovina
                                       </p>
                                   </div>
                             </div>
@@ -197,10 +202,12 @@
                                   </div>
                                   <div class="experiencetxt">
                                       <p class="experiencetxtp">
-                                        I support the idea of organizing something that is unworkable for the profession, allowing all faculties to participate together in this competition.
+                                        I strongly support the idea of organizing something that is not attached to the profession or the field of
+  studies. This allows every faculty to participate together in this competition.
                                       </p>
                                       <p class="experiencesignature">
-                                        Denis Mijolovic - Ekonomski fakultet Rijeka
+                                        Denis Milojović – Tehnical
+  faculty – Rijeka, Croatia
                                       </p>
                                   </div>
                             </div>
@@ -212,16 +219,15 @@
                                   </div>
                                   <div class="experiencetxt">
                                       <p class="experiencetxtp">
-                                        I think that Uniada team did a great job. Starting from organizers to the coordinators and volunteers.
-                                        The tenis courts we played on were really great.
-                                        I am very glad that we had referees on every court.
-                                        Which doesn t happen very often in student tournaments.
-                                        Which just goes to show that Uniada is a sports event that, aside from bringing students together, also does an exellent job
-                                        organizing the compentition itself.
-                                        I m glad I got to participate in this sports event and i hope to take part next year as well.
+                                        I think that UNIADA team did a great job with organization of this event. The tennis courts we played at
+                                      were really great. Personally, I am very glad that we had referees at every court, which doesnt happen
+                                      very often when this type of tournament is considered. That is a proof of an excellent organization of
+                                      the competition aside from bringing students together. I am glad to have participated in this sports
+                                      event and I hope to take part in it next year as well.
                                       </p>
                                       <p class="experiencesignature">
-                                        Aleksandar Pavlicevc, predstavnik fakulteta za sport i vizicko vaspitanje-DIF
+                                        Aleksandar Pavlićević – Faculty of sports, Belgrade,
+Serbia
                                       </p>
                                   </div>
                             </div>
@@ -234,7 +240,7 @@
 
                         </div>
                       </div>
-                    <h1><strong>APPLICATIONS ARE OPEN</strong></h1>
+                    <h1><strong>APPLICATIONS ARE OPEN!</strong></h1>
                     <div class="apply_txt">
                         <h2>WHILE YOU ARE CONSIDERING COMPETING IN UNIADA 2018, CHECK OUT HOW IT WAS LAST YEAR</h2>
 
@@ -248,8 +254,8 @@
             <section class="page-section" id="section6">
               <div class="gallery">
                 <div class="gallery_btns">
-                    <p id="foto_btn">FOTO GALERIJA</p>
-                    <p id="video_btn">VIDEO GALERIJA</p>
+                    <p id="foto_btn">FOTO GALLERY</p>
+                    <p id="video_btn">VIDEO GALLERY</p>
                 </div>
                 <div class="gallery_content" id="images">
                   <div class="container">
@@ -544,21 +550,22 @@
                   <div class="window">
                       <div class="drzac">
                         <div class="biggerw" id="dva">
-                          <img src="img/ATLANTIC.png" alt="slide1" />
-                          <img src="img/ATLANTIC.png" alt="slider1.1" />
-                          <img src="img/ATLANTIC.png" alt="slider1.2" />
+                          <img src="img/BG.png" alt="slide1" />
+                          <img src="img/INFOSTUD.png" alt="slider1.2" />
+                          <img src="img/KSS.png" alt="slider1.1" />
+
 
                         </div>
                         <div class="biggerw" id="tri">
-                          <img src="img/ATLANTIC.png" alt="slide1" />
-                          <img src="img/ATLANTIC.png" alt="slider1.1" />
-                          <img src="img/ATLANTIC.png" alt="slider1.2" />
-                        </div>
+                          <img src="img/PORTALMLADI.png" alt="slide1" />
+                          <img src="img/SIMBOL.png" alt="slider1.1" />
+                          <img src="img/LOLSRBIJA.png" alt="slider1.2" />
+                        </div><!--
                         <div class="biggerw" id="cetiri">
                           <img src="img/ATLANTIC.png" alt="slide1" />
                           <img src="img/ATLANTIC.png" alt="slider1.1" />
                           <img src="img/ATLANTIC.png" alt="slider1.2" />
-                        </div>
+                        </div>-->
                       </div>
                       <div class="fixedcontrols">
                           <span class="bullet one"></span>
@@ -586,7 +593,7 @@
               				</div>
               				<div class="form-item">
               					<p class="formLabel">Email</p>
-              					<input type="email" name="email" id="email" class="form-style" autocomplete="off"/>
+              					<input type="email" name="email" id="email" class="form-style">
                         <p id="email_error"></p>
               				</div>
               				<div class="form-item">
@@ -652,6 +659,8 @@
 				var ime = document.getElementById("ime").value;
 				//var ime_slavljenik = document.getElementById("ime_slavljenik").value;
 				var email =  document.getElementById("email").value;
+
+
 				//var datum = $(".datum:checked").val();
 				var pitanje =  document.getElementById("pitanje").value;
 
@@ -685,6 +694,8 @@
 					var ime = document.getElementById("ime").value;
 					//var ime_slavljenik = document.getElementById("ime_slavljenik").value;
 					var email =  document.getElementById("email").value;
+
+
 					//var datum = $(".datum:checked").val();
 					var pitanje =  document.getElementById("pitanje").value;
 
