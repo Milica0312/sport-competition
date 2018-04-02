@@ -77,15 +77,21 @@
             	width:65px;
             	height:2px;
             	margin-bottom: 10px;
-            	background:#eee;
+            	background:$deeppurple;
             	position:relative;
             	top:0;
             	transition:all ease-in-out 0.4s;
             }
             .sectiondefspan{
-              background:#eee;
+              background:$deeppurple;
             }
+						.whitespan{
+							background:#eee;;
+						}
             .sectionspancol{
+              background:$deeppurple !important;
+            }
+						.howtoapplyspan{
               background:$deeppurple !important;
             }
 
@@ -186,7 +192,8 @@
           }
           @include mQ(768px){
             padding:15px;
-
+						background-color: $contentred;
+						background-image: none;
           }
         }
         #section5{
@@ -387,6 +394,7 @@
     .respopen{
       margin-left:0;
       transition: 1s;
+			z-index: 1000000;
     }
 }
 /**/

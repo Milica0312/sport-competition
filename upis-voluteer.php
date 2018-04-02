@@ -74,7 +74,7 @@ $captcha = $_POST['g-recaptcha-response'];
 		if ($rez) {
 
 			$emailod = "$email";
-			$email_to = 'milicapavlovic0312@gmail.com'; // treba da bude  'milicapavlovic0312@gmail.com';
+			$email_to = 'volonter@uniada.org'; // treba da bude  'milicapavlovic0312@gmail.com';
 			$email_to_v = "$email"; // treba da bude  'milicapavlovic0312@gmail.com';
 			$subject = "Forma za volontere";
 			$subject_v = "UNIADA - volunteer form";

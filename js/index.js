@@ -30,6 +30,7 @@ $(window).scroll(function() {
       if ($(this).position().top <= scrollDistance) {
           if(this.id == "section1"){
               $('.navigation #changinglogo').removeClass().addClass('section1bcg');
+              $('#burger span').removeClass().addClass('whitespan');
               document.getElementById("logo").src = "img/LOGO_BELI.png";
           }
           else if(this.id == "section2"){

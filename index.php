@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-97863180-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-97863180-2');
+    </script>
+
     <meta charset="UTF-8">
     <title>UNIADA 2018 | International Student Sports Competition</title>
     <link rel="shortcut icon" type="image/png" href="img/FAVICON.png"/>
@@ -28,7 +38,7 @@
 
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body>
@@ -59,7 +69,7 @@
             </ul>
             <ul class="socialicons">
               <li><a href="https://www.facebook.com/UNIADAOFFICIAL/" target="_blank"><img src="img/if_06-facebook_104498.png" alt="fb" /></a></li>
-              <li><a href="https://www.instagram.com/explore/locations/1025400249/uniada/" target="_blank"><img src="img/if_38-instagram_1161953.png" alt="instagram" /></a></li>
+              <li><a href="https://www.instagram.com/uniada" target="_blank"><img src="img/if_38-instagram_1161953.png" alt="instagram" /></a></li>
               <li><a href="https://www.youtube.com/channel/UCpx8Jz5rFhHx3GG0hYZI7lQ" target="_blank"><img src="img/if_18-youtube_104482.png" alt="youtube" /></a></li>
             </ul>
           </nav>
@@ -551,7 +561,7 @@ Serbia
                       <div class="drzac">
                         <div class="biggerw" id="dva">
                           <img src="img/BG.png" alt="slide1" />
-                          <img src="img/INFOSTUD.png" alt="slider1.2" />
+
                           <img src="img/KSS.png" alt="slider1.1" />
 
 
@@ -559,13 +569,15 @@ Serbia
                         <div class="biggerw" id="tri">
                           <img src="img/PORTALMLADI.png" alt="slide1" />
                           <img src="img/SIMBOL.png" alt="slider1.1" />
-                          <img src="img/LOLSRBIJA.png" alt="slider1.2" />
-                        </div><!--
+                            <img src="img/INFOSTUD.png" alt="slider1.2" />
+
+                        </div>
                         <div class="biggerw" id="cetiri">
-                          <img src="img/ATLANTIC.png" alt="slide1" />
-                          <img src="img/ATLANTIC.png" alt="slider1.1" />
-                          <img src="img/ATLANTIC.png" alt="slider1.2" />
-                        </div>-->
+                          <img src="img/fortuna.png" alt="slide1" />
+                          <img src="img/LOLSRBIJA.png" alt="slider1.2" />
+                          <!--<img src="img/ATLANTIC.png" alt="slider1.1" />
+                          <img src="img/ATLANTIC.png" alt="slider1.2" />-->
+                        </div>
                       </div>
                       <div class="fixedcontrols">
                           <span class="bullet one"></span>

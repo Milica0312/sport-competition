@@ -22,6 +22,9 @@
           @include mQ(1600px){
             bottom: 22px;
           }
+          @include mQ(768px){
+            bottom: 10px;
+          }
         }
         a{
           width: 100%;
@@ -41,7 +44,7 @@
       border-left: 2px solid $deeppurple;
 
       p{
-        font-size: 25px;
+        font-size: 21px;
         font-weight: 300;
         color:$deeppurple;
         flex:1;
@@ -70,7 +73,7 @@
         text-align: center;
         p{
           color:$deeppurple;
-          font-size: 25px;
+          font-size: 21px;
           font-weight: 300;
           text-align: center;
           padding: 0 15px;

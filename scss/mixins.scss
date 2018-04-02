@@ -74,6 +74,10 @@
      width:260px;
      height: 250px;
    }
+   @include mQ(768px){
+     width:200px;
+     height: 200px;
+   }
  }
  @mixin smallcustomborder{
    border-top:3px solid white;
