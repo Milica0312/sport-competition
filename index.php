@@ -13,23 +13,23 @@
 
     <meta charset="UTF-8">
     <title>UNIADA 2018 | International Student Sports Competition</title>
-    <link rel="shortcut icon" type="image/png" href="img/FAVICON.png"/>
-    <link rel="apple-touch-icon" sizes="76x76" href="img/FAVICON.png">
+    <link rel="shortcut icon" type="image/png" href="http://uniada.org/img/IKONA-05.png"/>
+    <link rel="apple-touch-icon" sizes="76x76" href="http://uniada.org/img/IKONA-05.png">
 
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"  content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 22-25 October. Supported by the City of Belgrade." />
+    <meta name="description"  content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 21-24 October. Supported by the City of Belgrade." />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Uniada" />
-    <meta property="og:description" content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 22-25 October. Supported by the City of Belgrade." />
+    <meta property="og:description" content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 21-24 October. Supported by the City of Belgrade." />
     <meta property="og:url" content="http://uniada.org/" />
-    <meta property="og:site_name" content="UNIADA 2017" />
-    <meta property="og:image" content="http://milica-pavlovic.com//uniada3.0/img/LOGO_BOJA.png" />
+    <meta property="og:site_name" content="UNIADA 2018" />
+    <meta property="og:image" content="http://uniada.org/img/LOGO_BOJA.png" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 22-25 October. Supported by the City of Belgrade." />
+    <meta name="twitter:description" content="International Student Sports Competition - UNIADA 2018 Belgrade Serbia, 21-24 October. Supported by the City of Belgrade." />
     <meta name="twitter:title" content="Uniada" />
-    <meta name="twitter:image" content="http://milica-pavlovic.com//uniada3.0/img/LOGO_BOJA.png" />
+    <meta name="twitter:image" content="http://uniada.org/img/LOGO_BOJA.png" />
 
     <link rel="canonical" href="http://uniada.org/" />
     <link rel="stylesheet" href="css/main.css">
