@@ -879,17 +879,17 @@ img.bringiton {
   padding: 100px 200px;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  min-height: 100vh;
-  height: auto; }
+  height: 100vh;
+  padding: 70px 200px 0 !important; }
   @media screen and (max-width: 1600px) {
     #volunteer {
       padding: 50px 100px; } }
   @media screen and (max-width: 1200px) {
     #volunteer {
       padding: 50px 30px; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1024px) {
     #volunteer {
-      padding: 100px 0; } }
+      padding: 100px 0 !important; } }
 
 .volunteer .about {
   overflow: hidden; }
@@ -947,7 +947,9 @@ img.bringiton {
       margin-top: 10px;
       padding: 10px 50px;
       border: 0;
-      color: #1d234b; }
+      color: #1d234b;
+      float: left;
+      margin-left: 24%; }
       .volunteer .about form button:hover {
         background-color: #1d234b;
         border: 1px solid white;
@@ -956,8 +958,11 @@ img.bringiton {
         transition: 1s;
         color: white; }
   .volunteer .about .volunteerimg {
-    float: right; }
-    @media screen and (max-width: 768px) {
+    float: right;
+    position: absolute;
+    bottom: 10px;
+    right: 10px; }
+    @media screen and (max-width: 1024px) {
       .volunteer .about .volunteerimg {
         width: 80%; } }
 
@@ -1152,7 +1157,7 @@ img.bringiton {
     -o-transition: all 0.8s;
     transition: all 0.8s;
     margin: 0;
-    padding: 13px 0; }
+    /*	padding: 13px 0;*/ }
     .gallery-slider__thumbnails:before, .gallery-slider__thumbnails:after {
       content: '';
       display: block;
@@ -1201,7 +1206,7 @@ img.bringiton {
       position: absolute;
       width: 40px;
       height: 40px;
-      top: 50%;
+      top: 41px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
       transform: translateY(-50%);
@@ -1397,7 +1402,9 @@ img.bringiton {
           .content-holder #burger-container #burger .sectionspancol {
             background: #1d234b !important; }
           .content-holder #burger-container #burger .howtoapplyspan {
-            background: #1d234b !important; } }
+            background: #1d234b !important; }
+        .content-holder #burger-container .volunteer span {
+          background: white !important; } }
   .content-holder #burger-container.open span:nth-child(2),
   .content-holder #burger-container.open span:nth-child(3) {
     width: 0;
@@ -1651,17 +1658,20 @@ img.bringiton {
         z-index: 1;
         margin-left: -40%; } }
     .content-holder .navigation .socialicons {
-      margin-top: 31vh;
+      margin-top: 30vh;
       width: 100%;
       text-align: center; }
       .content-holder .navigation .socialicons li {
         float: left;
-        width: 30%; }
+        width: 33%; }
         .content-holder .navigation .socialicons li img {
           width: 29px;
           height: auto;
-          padding: 13px; }
+          padding: 13px 0; }
+      .content-holder .navigation .socialicons:last-child a {
+        padding: 0; }
     .content-holder .navigation ul li:last-child a {
+      display: block;
       color: #1d234b;
       font-weight: 500;
       text-decoration: none;

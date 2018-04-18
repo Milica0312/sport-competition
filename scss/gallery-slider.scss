@@ -86,7 +86,7 @@ $light-grey: #e6e6e6;
 		z-index: 4;
 		transition: all 0.8s;
 		margin: 0;
-		padding: 13px 0;
+	/*	padding: 13px 0;*/
 		&:before, &:after {
 			content: '';
 			display: block;
@@ -138,7 +138,7 @@ $light-grey: #e6e6e6;
 			position: absolute;
 			width: 40px;
 			height: 40px;
-			top: 50%;
+			top: 41px;
 			transform: translateY(-50%);
 			background: rgba(0, 0, 0, .60);
 			color: #FFF;

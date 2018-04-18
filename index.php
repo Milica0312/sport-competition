@@ -39,7 +39,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
   <!--  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
   </head>
   <body>
     <a href="#content" class="back-to-top"><img src="img/topbottom.png" alt=" top-bottom-button" /></a>
@@ -598,7 +598,7 @@ Serbia
                   </div>
                   <div id="form">
               				<div class="form-item">
-              					<p class="formLabel">Ime</p>
+              					<p class="formLabel">Name</p>
               					<input type="text" name="ime" id="ime" class="form-style" />
                         <p id="ime_error"></p>
               					<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
@@ -609,7 +609,7 @@ Serbia
                         <p id="email_error"></p>
               				</div>
               				<div class="form-item">
-              					<p class="formLabel">Pitanje</p>
+              					<p class="formLabel">Question</p>
               					<textarea name="pitanje" id="pitanje" class="form-style"></textarea>
                         <p id="pitanje_error"></p>
               					<!-- <div class="pw-view"><i class="fa fa-eye"></i></div> -->
@@ -619,7 +619,7 @@ Serbia
               				</div>
               				<div class="form-item">
 
-              					<button onclick="return upis();" class="login pull-right btncontform">Pošalji</button>
+              					<button onclick="return upis();" class="login pull-right btncontform">Send</button>
               					<div class="clear-fix"></div>
               				</div>
               				<div id="placefortable">

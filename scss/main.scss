@@ -96,6 +96,11 @@
             }
 
           }
+					.volunteer{
+						span{
+							background:white !important;
+						}
+					}
       }
     }
     #burger-container.open span:nth-child(2),
@@ -270,21 +275,25 @@
 
       }
       .socialicons{
-        margin-top: 31vh;
+        margin-top: 30vh;
         width: 100%;
         text-align: center;
         li {
           float: left;
-          width: 30%;
+          width: 33%;
           img {
             width: 29px;
             height: auto;
-            padding: 13px;
+            padding: 13px 0;
           }
         }
+				&:last-child a{
+					padding:0;
+				}
       }
       ul li:last-child a
       {
+				display: block;
         color:$deeppurple;
         font-weight: 500;
         text-decoration: none;

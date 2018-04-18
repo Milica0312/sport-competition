@@ -35,13 +35,13 @@
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,600,700,800,900" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src='https://www.google.com/recaptcha/api.js?hl=hr'></script>
+    <script src='https://www.google.com/recaptcha/api.js?hl=en'></script>
   </head>
   <body>
       <div class="counter"></div>
       <div class="content-holder">
           <div id="burger-container">
-            <div id="burger">
+            <div id="burger" class="volunteer">
               <span>&nbsp;</span>
               <span>&nbsp;</span>
               <span>&nbsp;</span>
@@ -63,6 +63,11 @@
               <li><a class="navigation__link" href="index.php#section6">GALLERY</a></li>
               <li><a class="navigation__link" href="index.php#section7">CONTACT</a></li>
               <li><a class="volunteer sportact" href="volunteer.php">VOLUNTEER</a></li>
+            </ul>
+            <ul class="socialicons">
+              <li><a href="https://www.facebook.com/UNIADAOFFICIAL/" target="_blank"><img src="img/if_06-facebook_104498.png" alt="fb" /></a></li>
+              <li><a href="https://www.instagram.com/uniada" target="_blank"><img src="img/if_38-instagram_1161953.png" alt="instagram" /></a></li>
+              <li><a href="https://www.youtube.com/channel/UCpx8Jz5rFhHx3GG0hYZI7lQ" target="_blank"><img src="img/if_18-youtube_104482.png" alt="youtube" /></a></li>
             </ul>
           </nav>
           <div class="section">
@@ -90,9 +95,9 @@
                           </select>
                           <p id="volunteer_sector_error"></p>
                           <select id="engleski" required>
-                            <option value="osnovni">Osnovni</option>
-                            <option value="srednji">Srednji</option>
-                            <option value="napredni">Napredni</option>
+                            <option value="osnovni">Znanje engleskog - Osnovni nivo</option>
+                            <option value="srednji">Znanje engleskog - Srednji nivo</option>
+                            <option value="napredni">Znanje engleskog - Napredni nivo</option>
                           </select>
                           <p id="volunteer_eng_error"></p>
                           <textarea rows="4" cols="50" placeholder="Describe yourself here..." id="cv" required onfocus="this.placeholder = ''"></textarea>
